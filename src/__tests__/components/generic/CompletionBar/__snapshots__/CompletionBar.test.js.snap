@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CompletionBar component with a hidden text 1`] = `
+<div
+  className="completionBar"
+>
+  <div
+    className="inner"
+    style={
+      Object {
+        "width": "75%",
+      }
+    }
+  />
+  <div
+    className="completion"
+  >
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={150}
+    />
+    <Translate
+      tag="span"
+      value="generic.completionProgressDivider"
+    />
+    <Translate
+      tag="span"
+      value="generic.dashboard.hiddenValue"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the CompletionBar component with the total value shown 1`] = `
+<div
+  className="completionBar"
+>
+  <div
+    className="inner"
+    style={
+      Object {
+        "width": "75%",
+      }
+    }
+  />
+  <div
+    className="completion"
+  >
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={150}
+    />
+    <Translate
+      tag="span"
+      value="generic.completionProgressDivider"
+    />
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={200}
+    />
+  </div>
+</div>
+`;

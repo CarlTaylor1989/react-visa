@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Rating component 1`] = `
+<div
+  className="rating"
+>
+  <span
+    className="wrapper"
+    onMouseLeave={[Function]}
+  >
+    <StarButton
+      active={false}
+      className="star"
+      handleClick={[Function]}
+      handleFocus={[Function]}
+      handleHover={[Function]}
+      hovered={false}
+      index={0}
+      key="1"
+    />
+    <StarButton
+      active={false}
+      className="star"
+      handleClick={[Function]}
+      handleFocus={[Function]}
+      handleHover={[Function]}
+      hovered={false}
+      index={1}
+      key="2"
+    />
+    <StarButton
+      active={false}
+      className="star"
+      handleClick={[Function]}
+      handleFocus={[Function]}
+      handleHover={[Function]}
+      hovered={false}
+      index={2}
+      key="3"
+    />
+    <StarButton
+      active={false}
+      className="star"
+      handleClick={[Function]}
+      handleFocus={[Function]}
+      handleHover={[Function]}
+      hovered={false}
+      index={3}
+      key="4"
+    />
+    <StarButton
+      active={false}
+      className="star"
+      handleClick={[Function]}
+      handleFocus={[Function]}
+      handleHover={[Function]}
+      hovered={false}
+      index={4}
+      key="5"
+    />
+  </span>
+</div>
+`;

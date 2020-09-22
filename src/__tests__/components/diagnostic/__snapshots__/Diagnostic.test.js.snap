@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Diagnostic component with a disabled button 1`] = `
+<div
+  className="diagnostic"
+>
+  <div
+    className="circleLinesLeft"
+  />
+  <div
+    className="logo"
+  />
+  <div
+    className="circleLinesRight"
+  />
+  <div
+    className="woman"
+  />
+  <Translate
+    className="pageTitle"
+    tag="span"
+    value="diagnostic.pageTitle"
+  />
+  <Translate
+    className="bodyText"
+    tag="span"
+    value="diagnostic.bodyText"
+  />
+  <Translate
+    className="questionText"
+    tag="span"
+    value="diagnostic.questionText"
+  />
+  <div
+    className="regionsMap"
+  >
+    <InlineSVG
+      className="regionsSelector"
+      element="i"
+      raw={false}
+      src=""
+    />
+    <Translate
+      className="regionName na"
+      tag="span"
+      value="diagnostic.regions.na.name"
+    />
+    <Translate
+      className="regionName lac"
+      tag="span"
+      value="diagnostic.regions.lac.name"
+    />
+    <Translate
+      className="regionName eu"
+      tag="span"
+      value="diagnostic.regions.eu.name"
+    />
+    <Translate
+      className="regionName cemea"
+      tag="span"
+      value="diagnostic.regions.cemea.name"
+    />
+    <Translate
+      className="regionName ap"
+      tag="span"
+      value="diagnostic.regions.ap.name"
+    />
+    <Translate
+      className="regionName global"
+      tag="span"
+      value="diagnostic.regions.global.name"
+    />
+  </div>
+  <button
+    className="okBtn disabled"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="diagnostic.okBtn"
+    />
+  </button>
+  <Connect(FooterBar)
+    changeRegion={[Function]}
+  />
+</div>
+`;
+
+exports[`renders the Diagnostic component with an enabled button 1`] = `
+<div
+  className="diagnostic"
+>
+  <div
+    className="circleLinesLeft"
+  />
+  <div
+    className="logo"
+  />
+  <div
+    className="circleLinesRight"
+  />
+  <div
+    className="woman"
+  />
+  <Translate
+    className="pageTitle"
+    tag="span"
+    value="diagnostic.pageTitle"
+  />
+  <Translate
+    className="bodyText"
+    tag="span"
+    value="diagnostic.bodyText"
+  />
+  <Translate
+    className="questionText"
+    tag="span"
+    value="diagnostic.questionText"
+  />
+  <div
+    className="regionsMap"
+  >
+    <InlineSVG
+      className="regionsSelector"
+      element="i"
+      raw={false}
+      src=""
+    />
+    <Translate
+      className="regionName na"
+      tag="span"
+      value="diagnostic.regions.na.name"
+    />
+    <Translate
+      className="regionName lac"
+      tag="span"
+      value="diagnostic.regions.lac.name"
+    />
+    <Translate
+      className="regionName eu"
+      tag="span"
+      value="diagnostic.regions.eu.name"
+    />
+    <Translate
+      className="regionName cemea"
+      tag="span"
+      value="diagnostic.regions.cemea.name"
+    />
+    <Translate
+      className="regionName ap"
+      tag="span"
+      value="diagnostic.regions.ap.name"
+    />
+    <Translate
+      className="regionName global"
+      tag="span"
+      value="diagnostic.regions.global.name"
+    />
+  </div>
+  <button
+    className="okBtn "
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="diagnostic.okBtn"
+    />
+  </button>
+  <Connect(FooterBar)
+    changeRegion={[Function]}
+  />
+</div>
+`;

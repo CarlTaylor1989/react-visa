@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Hints component 1`] = `
+<div
+  className="hints"
+>
+  <div
+    className="hint"
+  >
+    <span
+      className="icon"
+    />
+    <Translate
+      tag="span"
+      value="generic.hint"
+    />
+  </div>
+  <div
+    className="hintText"
+  >
+    <span
+      className="icon"
+    />
+  </div>
+</div>
+`;

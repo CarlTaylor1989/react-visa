@@ -1,0 +1,33 @@
+$generic-popup-height: 800px;
+$generic-popup-width: 1600px;
+
+@import '../../../styles/popup';
+
+$settings-bg: '../../../styles/icons/settings/bars.svg';
+$cog-icon: '../../../styles/icons/settings/cog.svg';
+
+.settingsPopupOverlay {
+  @extend %popup-overlay;
+}
+
+.settingsPopup {
+  @extend %popup;
+
+  .popupWrapper {
+    background-image: url($cog-icon);
+    background-position: 125px 55px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    padding: 55px 235px 0;
+  }
+
+  .popupTitle {
+    color: $colour-gold;
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+
+  .settings {
+    margin-top: 15px;
+  }
+}

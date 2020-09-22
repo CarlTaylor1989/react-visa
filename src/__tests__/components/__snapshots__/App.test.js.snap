@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the App component 1`] = `
+<div
+  className="app"
+  id="app"
+  style={
+    Object {
+      "transform": "scale(1)",
+    }
+  }
+>
+  <audio
+    id="gameAudioPlayer"
+  />
+  <button
+    className="exitBtn"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchEnd={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="generic.gameExit"
+    />
+    <span
+      className="icon"
+    />
+  </button>
+  <Switch>
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(LoadingNav)",
+          "type": [Function],
+        }
+      }
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(Splash)",
+          "type": [Function],
+        }
+      }
+      path="/splash"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(Diagnostic)",
+          "type": [Function],
+        }
+      }
+      path="/diagnostic"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(IntroSequence)",
+          "type": [Function],
+        }
+      }
+      path="/introseq"
+    />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(Game)",
+          "type": [Function],
+        }
+      }
+      path="/game"
+    />
+    <Redirect
+      to="/"
+    />
+  </Switch>
+  <Connect(ExitGame)
+    closePopup={[Function]}
+    exitGame={[Function]}
+    showPopup={false}
+  />
+</div>
+`;

@@ -1,0 +1,60 @@
+@import '../../../styles/buttons';
+
+.clientInfoButtons {
+  display: flex;
+  justify-content: center;
+
+  .startClient,
+  .restartClient,
+  .resumeClient {
+    @include align-items(center);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .startBtn,
+  .resumeBtn,
+  .reviewBtn {
+    @extend %generic-btn;
+    @extend %route-btn;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0;
+    width: 148px;
+
+    &:not(.disabled) {
+      &:hover {
+        background: $colour-blue;
+        color: $colour-white;
+      }
+    }
+  }
+
+  .startBtn {
+    background: $colour-light-blue;
+    color: $colour-blue;
+  }
+
+  .resumeBtn {
+    background: $colour-violet;
+    color: $colour-white;
+  }
+
+  .reviewBtn {
+    background: $colour-orange;
+    color: $colour-white;
+  }
+
+  .buttonIcon {
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 15px;
+  }
+
+  .startClient,
+  .resumeClient,
+  .reviewBtn {
+    margin-bottom: 14px;
+  }
+}

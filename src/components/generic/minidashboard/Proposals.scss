@@ -1,0 +1,33 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.proposals {
+  color: $colour-transparent-semi;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 0 0;
+  position: relative;
+
+  .winLossContainer {
+    @include align-items(center);
+    color: $colour-white;
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 5px 0 15px;
+
+    .winsLosses {
+      color: $colour-yellow;
+      padding: 0 8px;
+    }
+  }
+
+  &::after {
+    @include border-radius(1px);
+    border: .75px solid $colour-transparent-semi;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+  }
+}

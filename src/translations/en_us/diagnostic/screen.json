@@ -1,0 +1,10 @@
+{
+  "pageTitle": "Before you start...",
+  "bodyText": "...tell us a bit about yourself so we can personalize your game",
+  "questionText": "In what region are the majority of your clients?",
+
+  "instructions": {
+    "hint": "HELPFUL HINTS WILL BE SHOWN HERE."
+  },
+  "okBtn": "OK"
+}

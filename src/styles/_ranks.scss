@@ -1,0 +1,28 @@
+$ranks: (
+  'r1': 'enlightened',
+  'r2': 'mad_genius',
+  'r3': 'genius',
+  'r4': 'supreme_champion',
+  'r5': 'grand_champion',
+  'r6': 'champion',
+  'r7': 'grandmaster',
+  'r8': 'master',
+  'r9': 'elite',
+  'r10': 'specialist',
+  'r11': 'professional',
+  'r12': 'expert',
+  'r13': 'veteran',
+  'r14': 'advanced',
+  'r15': 'intermediate',
+  'r16': 'apprentice',
+  'r17': 'beginner',
+  'r18': 'trainee',
+  'r19': 'newbie',
+  'r20': 'new_joiner'
+);
+
+@each $rank, $icon in $ranks {
+  .#{$rank} {
+    background-image: url('../../../styles/icons/rank/#{$icon}_icon.svg');
+  }
+}

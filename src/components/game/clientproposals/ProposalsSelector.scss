@@ -1,0 +1,49 @@
+@import '../../../styles/generic';
+
+$client-icon-wrapper-width: 1260px;
+
+$divider-icon: '../../../styles/icons/clients/dividing_line.svg';
+$divider-icon-width: 502px;
+$divider-icon-height: 13px;
+
+.proposalsSelector {
+  bottom: 0;
+  left: 310px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+
+  .divider {
+    background-image: url($divider-icon);
+    height: $divider-icon-height;
+    left: 335px;
+    position: absolute;
+    top: 277px;
+    width: $divider-icon-width;
+  }
+
+  .scrollingArea {
+    @extend %scrollbar;
+    bottom: 80px;
+    height: 330px;
+    left: 15px;
+    position: absolute;
+    width: 1275px;
+
+    .ScrollbarsCustom {
+      .ScrollbarsCustom-TrackY {
+        bottom: 10px;
+        height: auto;
+        top: 10px;
+      }
+    }
+  }
+
+  .clientIconWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 310px;
+    padding: 10px 0;
+    width: $client-icon-wrapper-width;
+  }
+}

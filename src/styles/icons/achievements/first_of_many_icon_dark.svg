@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-first_of_many_icon_dark">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="first_of_many_icon_dark" clip-path="url(#clip-first_of_many_icon_dark)">
+    <path id="ICO_1k" d="M8.643,21.867H5.064V14.985q0-1.254.054-2.294a7.64,7.64,0,0,1-.821.836L2.814,14.745.984,12.5,5.465,8.867H8.643Zm5.744-4.248a13.6,13.6,0,0,1,.81-1.174l1.7-2.134h2.919l-2.631,3.214,2.8,4.341H16.992l-1.66-2.708-.85.647v2.061H11.85V11.49h2.631v4.081a14.038,14.038,0,0,1-.147,2.047Z" transform="translate(8.016 3.133)" fill="#00043e"/>
+  </g>
+</svg>

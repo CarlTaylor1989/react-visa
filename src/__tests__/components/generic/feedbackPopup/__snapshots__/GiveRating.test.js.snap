@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the GiveRating component 1`] = `
+<Fragment>
+  <div
+    className="popupTitle"
+  >
+    <Translate
+      tag="span"
+      value="generic.feedback.popupTitle"
+    />
+  </div>
+  <div
+    className="popupText"
+  >
+    <Translate
+      tag="span"
+      value="generic.feedback.popupGiveRatingText"
+    />
+  </div>
+  <Rating
+    currentRating={0}
+    numberOfStars={5}
+    setCurrentRating={[MockFunction]}
+  />
+  <div
+    className="buttons"
+  >
+    <button
+      className="submitBtn disabled"
+      disabled={true}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        className="text"
+        tag="span"
+        value="generic.feedback.submitBtn"
+      />
+    </button>
+    <CancelButton
+      onClick={[MockFunction]}
+    />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StarButton component 1`] = `
+<button
+  className="starButton"
+  data-value={1}
+  key="1"
+  onClick={[MockFunction]}
+  onFocus={[MockFunction]}
+  onKeyPress={[MockFunction]}
+  onMouseOver={[MockFunction]}
+  tabIndex={0}
+  type="button"
+/>
+`;

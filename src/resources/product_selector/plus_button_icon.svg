@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-3 {
+        clip-path: url(#clip-plus_button_icon);
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+    <clipPath id="clip-plus_button_icon">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="plus_button_icon" class="cls-3">
+    <g id="Group_5919" data-name="Group 5919" transform="translate(5 5)">
+      <line id="Line_240" data-name="Line 240" class="cls-4" y2="10.687" transform="translate(5.344)"/>
+      <line id="Line_241" data-name="Line 241" class="cls-4" x1="10.687" transform="translate(0 5.344)"/>
+    </g>
+  </g>
+</svg>

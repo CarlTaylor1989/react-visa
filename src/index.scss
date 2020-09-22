@@ -1,0 +1,24 @@
+@import './styles/fonts';
+@import './styles/variables';
+
+html {
+  overflow: initial !important; // sass-lint:disable-line no-important
+  width: 100% !important; // sass-lint:disable-line no-important
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
+  -webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
+  background-color: $bg-colour;
+  color: $font-colour;
+  font-family: $font-family;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+#loader { // sass-lint:disable-line no-ids
+  &.hidden {
+    display: none;
+  }
+}

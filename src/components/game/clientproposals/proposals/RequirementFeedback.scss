@@ -1,0 +1,97 @@
+@import '../../../../styles/generic';
+@import '../../../../styles/popup';
+
+$feedback-panel-width: 450px;
+$feedback-correct-icon: '../../../../styles/icons/clients/client_needs_feedback/correct_feedback_character_small.svg';
+$feedback-incorrect-icon: '../../../../styles/icons/clients/client_needs_feedback/incorrect_feedback_character_small.svg';
+$feedback-icon-width: 100px;
+$feedback-icon-height: 100px;
+
+
+.requirementFeedback {
+  @extend %gradient-popup;
+  @include border-radius(27px);
+  @include box-shadow(21px, 21px, 11px, 0, rgba(0, 0, 0, .3));
+  @include opacity(0);
+  border: 2px solid $colour-white;
+  bottom: 108px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  transition: opacity .5s ease-in-out;
+  width: $feedback-panel-width;
+  z-index: -1;
+
+  &.available {
+    @include opacity(1);
+    z-index: 10;
+  }
+
+  .popupWrapper {
+    padding: 20px 25px 40px 50px;
+  }
+
+  .feedbackIcon {
+    display: block;
+    height: $feedback-icon-height;
+    margin-left: auto;
+    width: $feedback-icon-width;
+  }
+
+  .scrollingArea {
+    @extend %scrollbar;
+    margin-top: 15px;
+
+    .scrollingContent {
+      padding-right: 25px;
+    }
+  }
+
+  .popupTitle,
+  .feedbackTitle,
+  .feedbackText {
+    display: block;
+    text-align: left;
+  }
+
+  .feedbackTitle {
+    color: $colour-gold;
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  .feedbackText {
+    font-size: 18px;
+  }
+
+  .feedbackBtn {
+    @extend %blue-btn;
+    margin-top: 20px;
+  }
+
+  .attempts {
+    color: $colour-yellow;
+    font-weight: bold;
+  }
+
+  &.correct {
+    .feedbackIcon {
+      background-image: url($feedback-correct-icon);
+    }
+
+    .scrollingArea {
+      height: 110px;
+    }
+  }
+
+  &.incorrect {
+    .feedbackIcon {
+      background-image: url($feedback-incorrect-icon);
+    }
+
+    .scrollingArea {
+      height: 250px;
+    }
+  }
+}

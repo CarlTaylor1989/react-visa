@@ -1,0 +1,10 @@
+{
+  "popupTitle": "Feedback",
+  "popupSubmittedTitle": "Feedback sent successfully!",
+  "popupGiveRatingText": "You've been playing the game for three days now. Would you mind giving us a rating?",
+  "popupSuccesText": "Thank you for providing feedback.",
+  "popupLowRatingGiven": "Thank you for providing feedback. So that we can improve the game, would you mind letting us know why you gave a low rating?",
+  "submitBtn": "SUBMIT",
+  "cancelBtn": "NOT NOW",
+  "closeBtn": "CLOSE"
+}

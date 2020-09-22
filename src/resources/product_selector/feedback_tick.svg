@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-feedback_tick);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.999px;
+      }
+    </style>
+    <clipPath id="clip-feedback_tick">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="feedback_tick" class="cls-1">
+    <g id="Group_5922" data-name="Group 5922" transform="translate(-671 -275)">
+      <path id="Path_1682" data-name="Path 1682" class="cls-2" d="M705.416,281.753l-22.319,22.3-10.57-10.57"/>
+    </g>
+  </g>
+</svg>

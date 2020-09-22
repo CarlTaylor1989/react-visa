@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the PerfectChallenges component 1`] = `
+<div
+  className="perfectChallenges"
+>
+  <Translate
+    className="title"
+    tag="span"
+    value="network.perfectChallenges"
+  />
+  <div
+    className="completedContainer"
+  >
+    <span
+      className="icon"
+    />
+    <div
+      className="completed"
+    >
+      22
+      <Translate
+        tag="span"
+        value="network.perfectChallengesDivider"
+      />
+      40
+    </div>
+  </div>
+</div>
+`;

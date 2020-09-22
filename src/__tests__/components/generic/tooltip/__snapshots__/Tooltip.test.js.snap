@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cannot render a Tooltip 1`] = `
+<Fragment>
+  <ForwardRef(TippyWrapper)
+    arrow={true}
+    content={
+      <Translate
+        dangerousHTML={true}
+        score={3}
+        tag="span"
+        value="generic.tooltips.settings.audio"
+      />
+    }
+    delay={
+      Array [
+        500,
+        null,
+      ]
+    }
+    enabled={false}
+    theme="visa"
+    touch={false}
+    trigger="mouseenter"
+  >
+    irrelevant
+  </ForwardRef(TippyWrapper)>
+</Fragment>
+`;
+
+exports[`renders a disabled Tooltip 1`] = `
+<Fragment>
+  <ForwardRef(TippyWrapper)
+    arrow={true}
+    content={
+      <Translate
+        dangerousHTML={true}
+        score={3}
+        tag="span"
+        value="generic.tooltips.settings.audio"
+      />
+    }
+    delay={
+      Array [
+        500,
+        null,
+      ]
+    }
+    enabled={false}
+    theme="visa"
+    touch={false}
+    trigger="mouseenter"
+  >
+    irrelevant
+  </ForwardRef(TippyWrapper)>
+</Fragment>
+`;
+
+exports[`renders an enabled Tooltip 1`] = `
+<Fragment>
+  <ForwardRef(TippyWrapper)
+    arrow={true}
+    content={
+      <Translate
+        dangerousHTML={true}
+        score={3}
+        tag="span"
+        value="generic.tooltips.settings.audio"
+      />
+    }
+    delay={
+      Array [
+        500,
+        null,
+      ]
+    }
+    enabled={true}
+    theme="visa"
+    touch={false}
+    trigger="mouseenter"
+  >
+    irrelevant
+  </ForwardRef(TippyWrapper)>
+</Fragment>
+`;

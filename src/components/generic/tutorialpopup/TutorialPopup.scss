@@ -1,0 +1,38 @@
+$generic-popup-height: 800px;
+$generic-popup-width: 1600px;
+
+@import '../../../styles/buttons';
+@import '../../../styles/popup';
+
+$tutorial-icon: '../../../styles/icons/tutorials/tutorial_icon.svg';
+$tutorial-icon-width: 102px;
+$tutorial-icon-height: 82px;
+
+.tutorialPopupOverlay {
+  @extend %popup-overlay;
+}
+
+.tutorialPopup {
+  @extend %popup;
+
+  .popupWrapper {
+    background-image: url($tutorial-icon);
+    background-position: 85px 65px;
+    background-repeat: no-repeat;
+    background-size: $tutorial-icon-width $tutorial-icon-height;
+    padding: 75px 40px 25px 85px;
+  }
+
+  .popupTitle {
+    color: $colour-gold;
+    font-size: 48px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+  }
+
+  .tabsCarouselContainer {
+    @include align-items(flex-start);
+    display: flex;
+    justify-content: space-between;
+  }
+}

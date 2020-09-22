@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AchievementsView component 1`] = `
+<div
+  className="achievementsView"
+>
+  <Scrollbar
+    contentProps={Object {}}
+    fallbackScrollbarWidth={20}
+    maximalThumbYSize={83}
+    minimalThumbSize={30}
+    minimalThumbYSize={83}
+    momentum={true}
+    noDefaultStyles={true}
+    scrollDetectionThreshold={100}
+    scrollerProps={Object {}}
+    thumbXProps={Object {}}
+    thumbYProps={Object {}}
+    trackClickBehavior="jump"
+    trackXProps={Object {}}
+    trackYProps={Object {}}
+    wrapperProps={Object {}}
+  >
+    <div
+      className="contentWrapper"
+    >
+      <AchievementRow
+        achievementId="irrelevant"
+        complete={false}
+        completion={
+          Object {
+            "amount": 1,
+            "percent": 0,
+            "total": 10,
+          }
+        }
+        hidden={false}
+        key="irrelevant"
+        score={5000}
+      />
+    </div>
+  </Scrollbar>
+</div>
+`;

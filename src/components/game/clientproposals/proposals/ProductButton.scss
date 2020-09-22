@@ -1,0 +1,157 @@
+@import '../../../../styles/buttons';
+@import '../../../../styles/generic';
+
+$arrow-right: '../../../../styles/icons/clients/arrow_right.svg';
+$arrow-right-width: 8px;
+$arrow-right-height: 14px;
+
+.productButton {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-right: 15px;
+
+  &:last-child,
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+
+    &:nth-child(odd) {
+      margin-bottom: 0;
+    }
+  }
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .productButtonWrap {
+    @extend %button-reset;
+    @include align-items(center);
+    @include border-radius(16px);
+    background-color: $colour-blue;
+    border: 2px solid $colour-white;
+    box-sizing: border-box;
+    color: $colour-white;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    transition: background-color .25s ease-in-out;
+    width: 170px;
+
+    &:hover {
+      &.family1 {
+        background-color: $colour-family-1-sol-btn-hover;
+      }
+
+      &.family2 {
+        background-color: $colour-family-2-sol-btn-hover;
+      }
+
+      &.family3 {
+        background-color: $colour-family-3-sol-btn-hover;
+      }
+
+      &.family4 {
+        background-color: $colour-family-4-sol-btn-hover;
+      }
+
+      &.family5 {
+        background-color: $colour-family-5-sol-btn-hover;
+      }
+    }
+
+    .productInfo {
+      height: 150px;
+      padding: 10px 15px;
+
+      .productFamily,
+      .productName {
+        display: block;
+        font-weight: 700;
+        text-align: left;
+      }
+
+      .productFamily {
+        font-size: 14px;
+      }
+
+      .productName {
+        font-size: 16px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .productLearnCta {
+    @extend %button-reset;
+    @include align-items(center);
+    color: $colour-white;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 0 0 40px;
+
+    .text {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .arrowRight {
+      background-image: url($arrow-right);
+      display: block;
+      height: $arrow-right-height;
+      margin-left: 10px;
+      width: $arrow-right-width;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.selected {
+    .productButtonWrap {
+      &.family1 {
+        @include box-shadow(0, 0, 14px, 0, $colour-family-1-sol-btn);
+        background-color: $colour-family-1-sol-btn;
+      }
+
+      &.family2 {
+        @include box-shadow(0, 0, 14px, 0, $colour-family-2-sol-btn);
+        background-color: $colour-family-2-sol-btn;
+      }
+
+      &.family3 {
+        @include box-shadow(0, 0, 14px, 0, $colour-family-3-sol-btn);
+        background-color: $colour-family-3-sol-btn;
+      }
+
+      &.family4 {
+        @include box-shadow(0, 0, 14px, 0, $colour-family-4-sol-btn);
+        background-color: $colour-family-4-sol-btn;
+      }
+
+      &.family5 {
+        @include box-shadow(0, 0, 14px, 0, $colour-family-5-sol-btn);
+        background-color: $colour-family-5-sol-btn;
+      }
+    }
+  }
+
+  &.disabled {
+    .productButtonWrap,
+    .productLearnCta {
+      cursor: not-allowed;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:not(.selected) {
+      .productButtonWrap {
+        &:hover {
+          background-color: $colour-blue;
+        }
+      }
+    }
+  }
+}

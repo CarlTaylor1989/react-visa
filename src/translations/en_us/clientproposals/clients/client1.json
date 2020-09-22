@@ -1,0 +1,180 @@
+{
+  "id": "client1",
+  "name": "ORION BANK",
+  "clientType": "issuer",
+  "problemType": "fraud",
+  "info": {
+    "account": "Orion Bank",
+    "segment": "Issuer",
+    "region": "North America",
+    "bid": "123XX45",
+    "fiscal": "FY 2020",
+    "avatarName": "Jane Doe",
+    "title": "Client Information",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet, ante sed elementum mattis, purus libero imperdiet leo, luctus ultrices magna magna sed odio. Nunc est lacus, dapibus vitae tellus non, volutpat feugiat augue. Maecenas lorem ex, mattis ac leo ut, rutrum efficitur enim. Vestibulum vestibulum finibus nisl, maximus pretium libero tincidunt a. Cras aliquam, quam et molestie venenatis, odio massa ultrices lectus, at aliquam mi est condimentum neque. Donec ac gravida massa. Vivamus sed mollis justo, sit amet viverra augue.<br>Vestibulum dapibus mauris quam, sed luctus justo gravida nec. Aliquam congue augue ex, in imperdiet ante ultricies eu. Donec fringilla libero porttitor, accumsan nisl vel, ultrices felis. Aliquam pretium nibh at viverra dictum. Vivamus dapibus mattis sem, ut feugiat risus blandit sed. Donec consectetur est in dui suscipit, sit amet ultrices urna dapibus. Proin mollis lectus ac dolor posuere, in cursus libero venenatis. Suspendisse ut dui eu ipsum placerat ullamcorper. Sed auctor odio non ex convallis gravida. Maecenas vehicula sit amet nunc ac rhoncus. Etiam dapibus a felis sed tempor. Aliquam bibendum tincidunt metus, in consequat dui pulvinar nec. Fusce accumsan consectetur nisl eget auctor. Donec porttitor magna ac dolor elementum, quis tincidunt velit feugiat. Donec accumsan, neque a sagittis vehicula, dolor odio maximus dolor, eget posuere neque mauris sit amet massa."
+  },
+  "instructionTextInitial": "Learn about the client’s challenges and goals.",
+  "instructionTextFinal": "You've now defined this client's needs, you can review them below.",
+  "statements": [{
+    "id": "st1",
+    "text": "Correct - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin. Vivamus vitae gravida nibh, id aliquet.",
+    "type": "opportunities"
+  }, {
+    "id": "st2",
+    "text": "Correct - Etiam semper blandit est, vestibulum vulputate eros eleifend blandit.",
+    "type": "opportunities"
+  }, {
+    "id": "st3",
+    "text": "Proin in augue sed ligula iaculis blandit quis suscipit purus. Morbi imperdiet, lectus in accumsan feugiat, nibh ligula tristique mi, venenatis finibus enim arcu et ante.",
+    "type": "opportunities"
+  }, {
+    "id": "st4",
+    "text": "Vivamus sit amet ultricies nisl, non vehicula mi. Sed fermentum, erat non sollicitudin suscipit, mi nisl accumsan ligula, sed imperdiet lacus ipsum ac nibh. Duis a nulla tortor.",
+    "type": "opportunities"
+  }, {
+    "id": "st5",
+    "text": "Correct - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat purus tortor, et aliquet mi sodales nec. Morbi vitae malesuada nibh.",
+    "type": "challenges"
+  }, {
+    "id": "st6",
+    "text": "Maecenas quis condimentum quam, vel placerat nisi. Pellentesque interdum leo eleifend dui pharetra placerat.",
+    "type": "challenges"
+  }, {
+    "id": "st7",
+    "text": "Vivamus sit amet ultricies nisl, non vehicula mi. Sed fermentum, erat non sollicitudin suscipit, mi nisl accumsan ligula, sed imperdiet lacus ipsum ac nibh. Duis a nulla tortor.",
+    "type": "challenges"
+  }, {
+    "id": "st8",
+    "text": "Suspendisse elementum convallis aliquam. Vivamus sed odio suscipit, gravida ex nec, dignissim nibh. Curabitur egestas varius massa, tincidunt hendrerit lacus porttitor ut.",
+    "type": "challenges"
+  }, {
+    "id": "st9",
+    "text": "Correct - Praesent nec erat semper, ultrices nibh a, maximus neque. Donec lobortis massa at eros fermentum, in porta purus viverra. In hac habitasse platea dictumst.",
+    "type": "goals"
+  }, {
+    "id": "st10",
+    "text": "Integer tempus arcu velit, et posuere ipsum tincidunt eu. Maecenas nec hendrerit est. Nulla facilisi.",
+    "type": "goals"
+  }, {
+    "id": "st11",
+    "text": "Proin iaculis ante at massa fermentum interdum. Etiam tempor malesuada nunc, vitae blandit orci varius a. Sed rhoncus sollicitudin blandit.",
+    "type": "goals"
+  }, {
+    "id": "st12",
+    "text": "Nam tristique lacus sed magna tristique pulvinar. Praesent iaculis suscipit quam, sit amet gravida nisl vestibulum at. Sed sed lacus mattis, volutpat metus sed, faucibus odio.",
+    "type": "goals"
+  }],
+  "strategy": {
+    "videoUrl": "https://visatv.trusted.visa.com/viewerportal/webcast/embed.vp?programId=esc_program%3A73101&contentAssocId=association%3A294405",
+    "transcript": "Jane Vandemar: Cards Marketing Director. Pleased to meet you.<br /><br />You’ll know, no doubt, that our bank is one of the largest in the UK with over 15 million customers across all segments. And you’ll also appreciate we’re a longstanding client of Visa’s, so we’re relying on you to fix this current problem of ours.<br /><br />As it stands, we’re losing cross-border revenue to challenger banks when our customers go abroad. We believe this could be addressed by identifying potential travelers for targeted marketing campaigns, but we’re currently struggling to do this.<br /><br />We believe that our customers often forget about our cards travel benefits and reminding them of these could help us improve spend. What we need is an automated marketing solution that identifies customers <b>before</b> they travel and messages them to remind them of the perks of using our cards abroad. It must be both accurate and cost-efficient, mind. We want to avoid adversely affecting our customer experience by bombarding them with marketing that’s irrelevant to their situation – that’s just irritating.<br /><br />Now, we have a slight issue: the Head of Scheme, Marcus Croup, has expressed concerns about automation being the way we proceed in terms of our marketing. He worries about ‘relying on machines’, long development queues, and so forth. But, from where I stand, it has to be this way because we simply don’t have the capacity within our communications team. I trust you’ll do what you can to win him over?<br /><br />I hope you can help us to get this cross-border revenue issue sorted as best we can. I’ll leave it to you to come up with a viable solution."
+  },
+  "correctFeedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin.<br>Attempts: %{attempts}",
+  "incorrectFeedback": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin.</p><p>ATTEMPTS REMAINING: <span class='attempts'>%{remaining}</span></p>",
+  "resources": [{
+    "id": "res1",
+    "type": "call",
+    "name": "CLIENT CALL",
+    "title": "Client call",
+    "imageName": "client1_resource_avatar_1.svg",
+    "audioName": "dummy.mp3",
+    "caller": "Jane Vandermar, Orion Bank: 06/07, 15:17pm",
+    "instruction": "Select the play button to listen to the call recording.",
+    "transcript": "Lorem ipsum dolor amet franzen taiyaki farm-to-table ramps gentrify small batch copper mug vegan Crucifix kitsch craft beer retro artisan man braid palo santo freegan butcher wayfarers tumeric adaptogen taiyaki. Shoreditch raw denim chartreuse ethical polaroid neutra Street art tousled vexillologist DIY, pour-over banh mi semiotics vaporware hell of narwhal chartreuse put a bird on it Messenger bag synth fixie copper mug, selvage try-hard dreamcatcher portland umami schlitz church-key locavore tumblr Kogi quinoa vexillologist wayfarers flannel hexagon trust fund Wayfarers asymmetrical normcore, yuccie live-edge yr hashtag direct trade deep v neutra vexillologist four loko Kickstarter actually poke cliche tousled echo park Tofu fixie copper mug heirloom man bun gluten-free freegan yr Try-hard roof party synth, pork belly tumeric enamel pin cliche 3 wolf moon seitan microdosing Authentic literally kale chips, truffaut lo-fi air plant post-ironic tousled Gochujang marfa heirloom neutra banh mi pork belly Sustainable marfa pinterest, sriracha ugh gastropub viral Vape cornhole crucifix keffiyeh actually quinoa tattooed blog intelligentsia chia retro Try-hard ugh vegan distillery narwhal, meggings gentrify cronut Authentic tumblr truffaut trust fund church-key put a bird on it knausgaard slow-carb vexillologist skateboard brunch mlkshk deep v fixie Literally deep v put a bird on it DIY, schlitz 8-bit biodiesel church-key letterpress art party lumbersexual cray hot chicken messenger bag Microdosing four loko bespoke, pok pok migas banh mi pickled ramps salvia retro put a bird on it gluten-free Mumblecore whatever quinoa, disrupt brunch knausgaard live-edge cliche Chambray tattooed kale chips actually kombucha hammock subway tile truffaut narwhal Drinking vinegar bespoke brooklyn glossier wolf coloring book ennui thundercats, XOXO hell of meditation Bespoke locavore normcore selfies bitters kickstarter coloring book lyft Gentrify crucifix lo-fi hoodie 3 wolf moon ramps cornhole jianbing kogi ethical bicycle rights master cleanse shaman sriracha Food truck ugh hella poutine tumblr migas stumptown Oh You need a little dummy text for your mockup? How quaint"
+  }, {
+    "id": "res2",
+    "type": "email",
+    "name": "CLIENT EMAIL",
+    "imageName": "client1_resource_avatar_1.svg",
+    "sender": "Jane Vandermar, Orion Bank: 06/07, 15:17pm",
+    "subject": "RE: Reduce Fraud Expense and Maximise Authorizations",
+    "body": "Lorem ipsum dolor amet franzen taiyaki farm-to-table ramps gentrify small batch copper mug vegan Crucifix kitsch craft beer retro artisan man braid palo santo freegan butcher wayfarers tumeric adaptogen taiyaki Shoreditch raw denim chartreuse ethical polaroid neutra Street art tousled vexillologist DIY, pour-over banh mi semiotics vaporware hell of narwhal chartreuse put a bird on it Messenger bag synth fixie copper mug, selvage try-hard dreamcatcher portland umami schlitz church-key locavore tumblr Kogi quinoa vexillologist wayfarers flannel hexagon trust fund Wayfarers asymmetrical normcore, yuccie live-edge yr hashtag direct trade deep v neutra vexillologist four loko Kickstarter actually poke cliche tousled echo park Tofu fixie copper mug heirloom man bun gluten-free freegan yr Try-hard roof party synth, pork belly tumeric enamel pin cliche 3 wolf moon seitan microdosing Authentic literally kale chips, truffaut lo-fi air plant post-ironic tousled Gochujang marfa heirloom neutra banh mi pork belly Sustainable marfa pinterest, sriracha ugh gastropub viral Vape cornhole crucifix keffiyeh actually quinoa tattooed blog intelligentsia chia retro Try-hard ugh vegan distillery narwhal, meggings gentrify cronut Authentic tumblr truffaut trust fund church-key put a bird on it knausgaard slow-carb vexillologist skateboard brunch mlkshk deep v fixie Literally deep v put a bird on it DIY, schlitz 8-bit biodiesel church-key letterpress art party lumbersexual cray hot chicken messenger bag Microdosing four loko bespoke, pok pok migas banh mi pickled ramps salvia retro put a bird on it gluten-free Mumblecore whatever quinoa, disrupt brunch knausgaard live-edge cliche Chambray tattooed kale chips actually kombucha hammock subway tile truffaut narwhal Drinking vinegar bespoke brooklyn glossier wolf coloring book ennui thundercats, XOXO hell of meditation Bespoke locavore normcore selfies bitters kickstarter coloring book lyft Gentrify crucifix lo-fi hoodie 3 wolf moon ramps cornhole jianbing kogi ethical bicycle rights master cleanse shaman sriracha Food truck ugh hella poutine tumblr migas stumptown Oh You need a little dummy text for your mockup? How quaint I bet you’re still using Bootstrap too"
+  }, {
+    "id": "res3",
+    "type": "report",
+    "name": "CLIENT REPORT",
+    "title": "Client report",
+    "subtitle": "Here is some text about the following statistics",
+    "graphs": [{
+      "imageName": "report_1.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }, {
+      "imageName": "report_2.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "imageName": "report_3.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }, {
+      "imageName": "report_4.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }]
+    }, {
+      "id": "res4",
+      "type": "category",
+      "name": "RESOURCE NAME",
+      "title": "Product category",
+      "subtitle": "Lorem ipsum.",
+      "products": [{
+        "id": "one",
+        "categoryText": "<b>Visa Spend Insights.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }, {
+        "id": "two",
+        "categoryText": "<b>B2B Virtual Travel Product.</b> Lorem ipsum dolor sit amet"
+      }, {
+        "id": "three",
+        "categoryText": "<b>Visa Risk Manager.</b> Lorem ipsum dolor sit amet"
+      }, {
+        "id": "four",
+        "categoryText": "<b>Visa Token Service.</b> Lorem ipsum dolor sit amet"
+      }]
+    }, {
+      "id": "res5",
+      "type": "meeting",
+      "name": "MEETING MINUTES",
+      "title": "Meeting minutes",
+      "content": "<p><b>Date/Time:</b> 02/29/2020 / 14.33</p><p><b>Client:</b> Lorem ipsum dolor</p><p><b>Attendees:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p><p><b>Agenda:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisi orci, congue id quam in, tristique facilisis erat.</p><p><b>Notes:</b> Nunc vulputate enim iaculis sagittis condimentum. Proin at luctus eros. Nunc egestas, risus non mattis congue, nibh odio semper tortor, non luctus ex ex aliquam libero.</p>"
+    }, {
+      "id": "res6",
+      "type": "quote",
+      "name": "CUSTOMER QUOTE",
+      "title": "Vivaan Anand, Finance Manager",
+      "imageName": "client1_resource_avatar_1.svg",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ],
+  "products": [{
+    "id": "prod1",
+    "familyId": "family1",
+    "familyName": "FAMILY NAME ONE",
+    "productName": "Correct - PRODUCT",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod2",
+    "familyId": "family2",
+    "familyName": "FAMILY NAME TWO",
+    "productName": "Correct - PRODUCT",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod3",
+    "familyId": "family3",
+    "familyName": "FAMILY NAME THREE",
+    "productName": "PRODUCT NAME",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod4",
+    "familyId": "family4",
+    "familyName": "FAMILY NAME FOUR",
+    "productName": "PRODUCT NAME",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }],
+  "correctSolutionFeedback": "You won this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:",
+  "incorrectSolutionFeedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "givenUpSolutionFeedback": "You didn’t win this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:"
+}

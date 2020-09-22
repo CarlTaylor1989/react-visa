@@ -1,0 +1,18 @@
+{
+  "startBtn": "START",
+  "continueBtn": "CONTINUE",
+  "motivationalTexts": [{
+    "id": "one",
+    "text": "The way we sell to our clients<br />is changing…"
+    }, {
+      "id": "two",
+      "text": "We must provide solutions,<br />not just products…"
+    }, {
+      "id": "three",
+      "text": "How you sell will shape the<br />future of our business…"
+    }, {
+      "id": "four",
+      "text": "Are you ready for<br />the challenge?"
+    }
+  ]
+}

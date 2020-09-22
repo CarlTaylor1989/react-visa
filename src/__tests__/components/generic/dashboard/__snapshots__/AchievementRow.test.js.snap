@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AchievementRow component with a hidden achievement 1`] = `
+<div
+  className="achievementRow"
+>
+  <div
+    className="achievementRowIdentifier "
+  >
+    <div
+      className="achievementRowIcon ac1 "
+    />
+    <div
+      className="achievementRowInformation"
+    >
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.title"
+      >
+        <div
+          className="achievementRowName"
+        >
+          <Translate
+            tag="span"
+            value="generic.achievements.ac1.title"
+          />
+        </div>
+      </Connect(Tooltip)>
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.hidden"
+      >
+        <div
+          className="achievementRowDescription"
+        >
+          <Translate
+            tag="span"
+            value="generic.dashboard.hidden"
+          />
+        </div>
+      </Connect(Tooltip)>
+    </div>
+  </div>
+  <div
+    className="achievementRowProgress"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.progress"
+    >
+      <div
+        className="achievementRowCompletion"
+      >
+        <CompletionBar
+          amount={5000}
+          displayValue={false}
+          hiddenTextField="generic.dashboard.hiddenValue"
+          percent={50}
+          total={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.points"
+    >
+      <div
+        className="achievementRowScore "
+      >
+        <Translate
+          tag="span"
+          value="generic.dashboard.achievementPlus"
+        />
+        <NumberFormat
+          allowEmptyFormatting={false}
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          fixedDecimalScale={false}
+          getInputRef={[Function]}
+          isAllowed={[Function]}
+          isNumericString={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          onValueChange={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator=","
+          thousandsGroupStyle="thousand"
+          type="text"
+          value={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+  </div>
+</div>
+`;
+
+exports[`renders the AchievementRow component with a incomplete achievement 1`] = `
+<div
+  className="achievementRow"
+>
+  <div
+    className="achievementRowIdentifier complete"
+  >
+    <div
+      className="achievementRowIcon ac1 dark"
+    />
+    <div
+      className="achievementRowInformation"
+    >
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.title"
+      >
+        <div
+          className="achievementRowName"
+        >
+          <Translate
+            tag="span"
+            value="generic.achievements.ac1.title"
+          />
+        </div>
+      </Connect(Tooltip)>
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.description"
+      >
+        <div
+          className="achievementRowDescription"
+        >
+          <Translate
+            tag="span"
+            value="generic.achievements.ac1.description"
+          />
+        </div>
+      </Connect(Tooltip)>
+    </div>
+  </div>
+  <div
+    className="achievementRowProgress"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.progress"
+    >
+      <div
+        className="achievementRowCompletion"
+      >
+        <CompletionBar
+          amount={5000}
+          displayValue={true}
+          hiddenTextField="generic.dashboard.hiddenValue"
+          percent={50}
+          total={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.points"
+    >
+      <div
+        className="achievementRowScore complete"
+      >
+        <Translate
+          tag="span"
+          value="generic.dashboard.achievementPlus"
+        />
+        <NumberFormat
+          allowEmptyFormatting={false}
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          fixedDecimalScale={false}
+          getInputRef={[Function]}
+          isAllowed={[Function]}
+          isNumericString={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          onValueChange={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator=","
+          thousandsGroupStyle="thousand"
+          type="text"
+          value={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+  </div>
+</div>
+`;
+
+exports[`renders the AchievementRow component with an incomplete achievement 1`] = `
+<div
+  className="achievementRow"
+>
+  <div
+    className="achievementRowIdentifier "
+  >
+    <div
+      className="achievementRowIcon ac1 "
+    />
+    <div
+      className="achievementRowInformation"
+    >
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.title"
+      >
+        <div
+          className="achievementRowName"
+        >
+          <Translate
+            tag="span"
+            value="generic.achievements.ac1.title"
+          />
+        </div>
+      </Connect(Tooltip)>
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.dashboard.achievements.description"
+      >
+        <div
+          className="achievementRowDescription"
+        >
+          <Translate
+            tag="span"
+            value="generic.achievements.ac1.description"
+          />
+        </div>
+      </Connect(Tooltip)>
+    </div>
+  </div>
+  <div
+    className="achievementRowProgress"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.progress"
+    >
+      <div
+        className="achievementRowCompletion"
+      >
+        <CompletionBar
+          amount={5000}
+          displayValue={true}
+          hiddenTextField="generic.dashboard.hiddenValue"
+          percent={50}
+          total={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.dashboard.achievements.points"
+    >
+      <div
+        className="achievementRowScore "
+      >
+        <Translate
+          tag="span"
+          value="generic.dashboard.achievementPlus"
+        />
+        <NumberFormat
+          allowEmptyFormatting={false}
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          fixedDecimalScale={false}
+          getInputRef={[Function]}
+          isAllowed={[Function]}
+          isNumericString={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          onValueChange={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator=","
+          thousandsGroupStyle="thousand"
+          type="text"
+          value={10000}
+        />
+      </div>
+    </Connect(Tooltip)>
+  </div>
+</div>
+`;

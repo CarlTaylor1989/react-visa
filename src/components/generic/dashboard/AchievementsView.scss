@@ -1,0 +1,13 @@
+@import '../../../styles/generic';
+
+.achievementsView {
+  @extend %scrollbar;
+  height: 550px;
+  margin-right: 45px;
+
+  .contentWrapper {
+    height: 530px;
+    padding: 10px 0;
+    width: 1283px;
+  }
+}

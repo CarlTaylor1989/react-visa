@@ -1,0 +1,82 @@
+@import '../../../../styles/buttons';
+
+$incomplete-row: rgba($colour-white, .3);
+$product-icon-height: 36px;
+$product-icon-width: 36px;
+
+.productRow {
+  @extend %route-btn;
+  @include align-items(center);
+  border-top: 1px solid $incomplete-row;
+  display: flex;
+  padding: 10px 0;
+
+  .productName {
+    color: $colour-white;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .productRowIcon {
+    @include border-radius($product-icon-height / 2);
+    border: 0;
+    height: $product-icon-height;
+    width: $product-icon-width;
+  }
+
+  .productCompletion {
+    margin-left: auto;
+    width: 50%;
+  }
+
+  &.completed {
+    @include multi-left-right-gradient(
+      rgba($colour-white, 0) 0%,
+      rgba($colour-white, .2) 23%,
+      rgba($colour-white, .1) 93.65%,
+      rgba($colour-white, .11) 100%
+    );
+    border-color: $colour-white;
+
+    .productName {
+      font-weight: 800;
+    }
+
+    .productCompletion {
+      .progress {
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+
+    &.type1 {
+      .productRowIcon {
+        background-color: $colour-family-1;
+      }
+    }
+
+    &.type2 {
+      .productRowIcon {
+        background-color: $colour-family-2;
+      }
+    }
+
+    &.type3 {
+      .productRowIcon {
+        background-color: $colour-family-3;
+      }
+    }
+
+    &.type4 {
+      .productRowIcon {
+        background-color: $colour-family-4;
+      }
+    }
+
+    &.type5 {
+      .productRowIcon {
+        background-color: $colour-family-5;
+      }
+    }
+  }
+}

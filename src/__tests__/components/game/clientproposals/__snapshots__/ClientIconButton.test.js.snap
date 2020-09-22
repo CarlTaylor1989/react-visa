@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientIconButton component with the completed state 1`] = `
+<button
+  className="clientIconButton completed"
+  onClick={[Function]}
+  type="button"
+>
+  <ClientIcon
+    client="lv1cl1"
+    proposal={false}
+  />
+  <div
+    className="infoBlock"
+  >
+    <div
+      className="nameType"
+    >
+      <Translate
+        className="clientName"
+        tag="span"
+        value="clientprops.clients.lv1cl1.name"
+      />
+      <Translate
+        className="clientType"
+        tag="span"
+        value="clientprops.problems.problemType.cpBtn"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`renders the ClientIconButton component with the disabled state 1`] = `
+<button
+  className="clientIconButton"
+  disabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <ClientIcon
+    client="lv1cl1"
+    proposal={false}
+  />
+  <div
+    className="infoBlock"
+  >
+    <div
+      className="nameType"
+    >
+      <Translate
+        className="clientName"
+        tag="span"
+        value="clientprops.clients.lv1cl1.name"
+      />
+      <Translate
+        className="clientType"
+        tag="span"
+        value="clientprops.problems.problemType.cpBtn"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`renders the ClientIconButton component with the locked state 1`] = `
+<button
+  className="clientIconButton locked"
+  disabled="irrelevant"
+  onClick={[Function]}
+  type="button"
+>
+  <ClientIcon
+    client="lv1cl1"
+    proposal={false}
+  />
+  <Connect(ClientLocked)
+    client="lv1cl1"
+    locked={
+      Object {
+        "id": "irrelevant",
+      }
+    }
+  />
+  <div
+    className="infoBlock"
+  >
+    <div
+      className="nameType"
+    >
+      <Translate
+        className="clientName"
+        tag="span"
+        value="clientprops.clients.lv1cl1.name"
+      />
+      <Translate
+        className="clientType"
+        tag="span"
+        value="clientprops.problems.problemType.cpBtn"
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`renders the ClientIconButton component with the selected state 1`] = `
+<button
+  className="clientIconButton selected"
+  onClick={[Function]}
+  type="button"
+>
+  <ClientIcon
+    client="lv1cl1"
+    proposal={false}
+  />
+  <div
+    className="infoBlock"
+  >
+    <div
+      className="nameType"
+    >
+      <Translate
+        className="clientName"
+        tag="span"
+        value="clientprops.clients.lv1cl1.name"
+      />
+      <Translate
+        className="clientType"
+        tag="span"
+        value="clientprops.problems.problemType.cpBtn"
+      />
+    </div>
+  </div>
+</button>
+`;

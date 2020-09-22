@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ResourceInlineSVG component 1`] = `
+<InlineSVG
+  className="irrelevant"
+  element="i"
+  raw={false}
+  src=""
+/>
+`;

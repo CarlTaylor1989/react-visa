@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientLocked component with less than a minute left 1`] = `
+<div
+  className="clientLocked"
+>
+  <span
+    className="padlock"
+  />
+  <CircularProgressBar
+    percentage={27}
+    size={134}
+    strokeWidth={8}
+  />
+  <div
+    className="lockTimer"
+  >
+    <span
+      className="clock"
+    />
+    <Translate
+      className="text"
+      tag="span"
+      value="clientprops.lockedSingle"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the ClientLocked component with more than 1 minute left 1`] = `
+<div
+  className="clientLocked"
+>
+  <span
+    className="padlock"
+  />
+  <CircularProgressBar
+    percentage={83}
+    size={134}
+    strokeWidth={8}
+  />
+  <div
+    className="lockTimer"
+  >
+    <span
+      className="clock"
+    />
+    <Translate
+      className="text"
+      number={3}
+      tag="span"
+      value="clientprops.lockedSeveral"
+    />
+  </div>
+</div>
+`;

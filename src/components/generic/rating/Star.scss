@@ -1,0 +1,18 @@
+@import '../../../styles/mixins';
+
+$star-icon: '../../../styles/icons/feedback/star_filled.svg';
+$star-width: 18px;
+$star-height: 17px;
+
+.star {
+  @include opacity(.3);
+  background-image: url($star-icon);
+  background-size: $star-width $star-height;
+  display: block;
+  height: $star-height;
+  width: $star-width;
+
+  &.active {
+    @include opacity(1);
+  }
+}

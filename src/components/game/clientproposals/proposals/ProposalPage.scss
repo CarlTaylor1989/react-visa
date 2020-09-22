@@ -1,0 +1,52 @@
+@import '../../../../styles/buttons';
+
+$back-arrow: '../../../../styles/icons/product_page/back_arrow.svg';
+$back-arrow-over: '../../../../styles/icons/product_page/back_arrow_over.svg';
+$back-arrow-width: 22px;
+$back-arrow-height: 17px;
+
+.proposalPage {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  left: 310px;
+  position: absolute;
+  right: 140px;
+  top: 34px;
+
+  .header {
+    @include align-items(center);
+    display: flex;
+    padding-left: 24px;
+    position: relative;
+    z-index: 5;
+
+    .backBtn {
+      @extend %route-btn;
+      @extend %solid-yellow-colour-btn;
+      @include align-items(center);
+      display: flex;
+      margin-right: 30px;
+      padding-left: 20px;
+
+      .icon {
+        background: url($back-arrow);
+        display: block;
+        height: $back-arrow-height;
+        margin-right: 15px;
+        transition: background .5s ease-in-out;
+        width: $back-arrow-width;
+      }
+
+      &:hover {
+        .icon {
+          background: url($back-arrow-over);
+        }
+      }
+    }
+
+    .clientAvatar {
+      margin-right: 30px;
+    }
+  }
+}

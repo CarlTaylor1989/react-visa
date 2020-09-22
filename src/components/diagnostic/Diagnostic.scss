@@ -1,0 +1,173 @@
+@import '../../styles/buttons';
+@import '../../styles/generic';
+
+$diagnostic-bg: '../../styles/backgrounds/region_select_bg.jpg';
+$circle-lines-icon: '../../styles/icons/circles_lines.svg';
+$circle-lines-height: 36px;
+$circle-lines-width: 550px;
+$woman-icon: '../../styles/icons/intro_seq/intro_woman.png';
+$woman-icon-retina: '../../styles/icons/intro_seq/intro_woman@2x.png';
+$woman-icon-height: 840px;
+$woman-icon-width: 480px;
+$logo-icon: '../../styles/icons/logo_strapline.svg';
+$logo-icon-height: 250px * .6;
+$logo-icon-width: 520px * .6;
+
+.diagnostic {
+  @extend %screen-size;
+  @extend %bg-size;
+  background-image: url($diagnostic-bg);
+  position: relative;
+
+  .circleLinesLeft,
+  .circleLinesRight {
+    background: url($circle-lines-icon);
+    height: $circle-lines-height;
+    position: absolute;
+    top: 116px;
+    width: $circle-lines-width;
+    z-index: 1;
+  }
+
+  .circleLinesLeft {
+    left: 56px;
+    transform: rotate(180deg);
+  }
+
+  .circleLinesRight {
+    right: 56px;
+  }
+
+  .logo {
+    background-image: url($logo-icon);
+    background-size: $logo-icon-width $logo-icon-height;
+    height: $logo-icon-height;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 54px;
+    width: $logo-icon-width;
+  }
+
+  .woman {
+    @include retina-image($woman-icon-retina, $woman-icon-width, $woman-icon-height);
+    background-image: url($woman-icon);
+    bottom: 0;
+    display: block;
+    height: $woman-icon-height;
+    left: 90px;
+    position: absolute;
+    width: $woman-icon-width;
+    z-index: 2;
+  }
+
+  .pageTitle,
+  .bodyText,
+  .questionText {
+    left: 500px;
+    position: absolute;
+    width: 260px;
+  }
+
+  .pageTitle {
+    color: $colour-gold;
+    font-size: 48px;
+    line-height: 1.1;
+    top: 250px;
+  }
+
+  .bodyText {
+    color: $colour-white;
+    font-size: 24px;
+    top: 384px;
+  }
+
+  .questionText {
+    color: $colour-white;
+    font-size: 24px;
+    font-weight: 700;
+    top: 510px;
+  }
+
+  .regionsMap {
+    height: 625px;
+    left: 790px;
+    position: absolute;
+    top: 215px;
+    width: 838px;
+  }
+
+  .regionsSelector {
+    .region {
+      cursor: pointer;
+
+      .selectedLayer {
+        @include opacity(0);
+        transition: opacity .5s ease-in-out;
+      }
+
+      &:hover {
+        .selectedLayer {
+          @include opacity(.3);
+        }
+      }
+
+      &.selected {
+        .selectedLayer {
+          @include opacity(.7);
+        }
+      }
+    }
+  }
+
+  .regionName {
+    color: $colour-white;
+    font-size: 18px;
+    font-weight: 700;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 12px $colour-black;
+
+    &.na {
+      left: 110px;
+      top: 190px;
+    }
+
+    &.lac {
+      left: 190px;
+      top: 372px;
+      width: 170px;
+    }
+
+    &.eu {
+      left: 336px;
+      top: 222px;
+    }
+
+    &.cemea {
+      left: 490px;
+      top: 154px;
+      width: 200px;
+    }
+
+    &.ap {
+      left: 638px;
+      top: 383px;
+    }
+
+    &.global {
+      left: 405px;
+      top: 540px;
+    }
+  }
+
+  .okBtn {
+    @extend %blue-btn;
+    bottom: 70px;
+    position: absolute;
+    right: 80px;
+    z-index: 3;
+  }
+}

@@ -1,0 +1,54 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$client-icon-path: '../../../styles/icons/clients/client_icons' !default;
+$no-of-clients: 10;
+$client-icon-height: 88px;
+$client-icon-width: 88px;
+$client-icon-image-height: 126px;
+$client-icon-image-width: 126px;
+$client-icon-small-height: 52px;
+$client-icon-small-width: 52px;
+$client-icon-image-small-height: 75px;
+$client-icon-image-small-width: 75px;
+
+.clientIcon {
+  @include border-radius(50%);
+  @include align-items(center);
+  border: 2px solid $colour-white;
+  box-sizing: border-box;
+  display: flex;
+  height: $client-icon-image-height;
+  justify-content: center;
+  padding: 8px;
+  width: $client-icon-image-height;
+
+  .iconImage {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: $client-icon-width;
+    width: $client-icon-height;
+  }
+
+  &.proposal {
+    background-size: $client-icon-small-width $client-icon-small-height;
+    flex: 0 0 auto;
+    height: $client-icon-image-small-height;
+    padding: 10px;
+    width: $client-icon-image-small-width;
+  }
+
+  @for $index from 1 through $no-of-clients {
+    &.client#{$index} {
+      span {
+        background-image: url('#{$client-icon-path}/client#{$index}/client#{$index}_n.svg');
+
+        .completed & {
+          background-image: url('#{$client-icon-path}/client#{$index}/client#{$index}_h.svg');
+        }
+
+      }
+    }
+  }
+}

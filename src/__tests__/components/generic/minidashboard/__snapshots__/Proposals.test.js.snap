@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Proposals component 1`] = `
+<div
+  className="proposals"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.proposals"
+  />
+  <div
+    className="winLossContainer"
+  >
+    <Translate
+      tag="span"
+      value="generic.miniDashboard.wins"
+    />
+    <div
+      className="winsLosses"
+    >
+      2
+      <Translate
+        tag="span"
+        value="generic.miniDashboard.proposalsDivider"
+      />
+      26
+    </div>
+    <Translate
+      tag="span"
+      value="generic.miniDashboard.losses"
+    />
+  </div>
+</div>
+`;

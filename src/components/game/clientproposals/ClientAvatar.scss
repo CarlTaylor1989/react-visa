@@ -1,0 +1,54 @@
+@import '../../../styles/mixins';
+
+$avatar-name-icon: '../../../styles/icons/clients/avatar_name.svg';
+$avatar-name-icon-width: 112px;
+$avatar-name-icon-height: 25px;
+
+.clientAvatar {
+  &.info {
+    margin-bottom: 30px;
+    width: 200px;
+
+    .avatarName {
+      display: flex;
+      font-size: 16px;
+      font-weight: 700;
+      justify-content: center;
+      margin: 0 0 0 58px;
+      position: relative;
+
+      span {
+        &:last-of-type {
+          margin-top: -6px;
+        }
+      }
+
+      &::before {
+        background-image: url($avatar-name-icon);
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+        height: $avatar-name-icon-height;
+        position: absolute;
+        right: 7px;
+        top: -#{$avatar-name-icon-height};
+        width: $avatar-name-icon-width;
+      }
+    }
+  }
+
+  &.proposal {
+    @include align-items(center);
+    display: flex;
+
+    .icon {
+      margin-right: 15px;
+    }
+
+    .avatarName {
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}

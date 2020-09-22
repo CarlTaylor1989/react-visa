@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <clipPath id="clip-lv2_client2_h">
+      <rect width="88" height="88"/>
+    </clipPath>
+  </defs>
+  <g id="lv2_client2_h" clip-path="url(#clip-lv2_client2_h)">
+    <g id="Group_555" data-name="Group 555" transform="translate(-920.134 -460.831)">
+      <path id="Path_519" data-name="Path 519" d="M945.39,513.289l22.249-22.25-3.505-26.208-44,44,25.256,4.458Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_520" data-name="Path 520" d="M989.209,513.289l-18.743-18.745V464.831l44,44-25.256,4.458Z" transform="translate(-6.331 0)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_521" data-name="Path 521" d="M956.4,515.164H920.134L956.4,551.431V515.164Z" transform="translate(0 -6.332)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_522" data-name="Path 522" d="M949.847,513.869l1.658-1.658-22.371-7.343-9,9Z" transform="translate(0 -5.037)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_523" data-name="Path 523" d="M979.312,515.164h36.266l-36.266,36.266V515.164Z" transform="translate(-7.444 -6.332)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_524" data-name="Path 524" d="M986.572,513.869l-1.659-1.658,22.37-7.343,9,9Z" transform="translate(-8.149 -5.037)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

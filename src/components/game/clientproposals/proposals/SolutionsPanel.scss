@@ -1,0 +1,86 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/generic';
+@import '../../../../styles/buttons';
+
+$faded-border-colour: rgba($colour-white, .5);
+
+.solutionsPanel {
+  .group {
+    @include border-radius(27px);
+    @include box-shadow(0, 0, 20px, 0, $faded-border-colour);
+    background-color: $colour-blue;
+    border: 2px solid $faded-border-colour;
+    box-sizing: border-box;
+    height: 665px;
+    margin-top: 10px;
+    padding-right: 25px;
+    width: 450px;
+
+    .info {
+      @include align-items(center);
+      display: flex;
+      flex-direction: column;
+      padding: 15px 0 0 40px;
+
+      > .title {
+        color: $colour-gold;
+        display: block;
+        font-size: 30px;
+      }
+
+      > .text {
+        display: block;
+        font-size: 18px;
+        text-align: left;
+        width: 100%;
+      }
+
+      .arrows {
+        margin-bottom: 10px;
+        margin-top: 15px;
+      }
+    }
+
+    .productsTitle {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .solutionCount {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      margin-left: 5px;
+    }
+
+    .scrollingArea {
+      @extend %scrollbar;
+      height: 425px;
+      width: 100%;
+
+      .solutionsWrapper {
+        padding-left: 40px;
+        padding-right: 25px;
+        text-align: left;
+
+        .productsList {
+          display: flex;
+          flex-flow: row wrap;
+        }
+      }
+    }
+  }
+
+  .submitBtn {
+    @extend %blue-btn;
+    margin-top: 15px;
+
+    &:disabled {
+      @extend %disabled-btn;
+    }
+  }
+}

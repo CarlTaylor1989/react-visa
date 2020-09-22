@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProposalClientIcon component 1`] = `
+<div
+  className="proposalClientIcon"
+>
+  <ClientIcon
+    client="client1"
+    proposal={true}
+  />
+  <div
+    className="nameType"
+  >
+    <Translate
+      className="clientName"
+      tag="span"
+      value="clientprops.clients.client1.name"
+    />
+    <Translate
+      className="clientType"
+      tag="span"
+      value="clientprops.problems.problemType.cpBtn"
+    />
+  </div>
+</div>
+`;

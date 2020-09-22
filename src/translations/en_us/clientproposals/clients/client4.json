@@ -1,0 +1,130 @@
+{
+  "id": "client4",
+  "name": "ACME BANK",
+  "clientType": "issuer",
+  "problemType": "fraud",
+  "info": {
+    "account": "Acme Bank",
+    "segment": "issuer",
+    "region": "Global",
+    "bid": "134XX48",
+    "fiscal": "FY20",
+    "avatarName": "Erlingur Brynjarsson",
+    "title": "Client Information",
+    "text": "Erlingur Brynjarsson, Head of Global Card Solutions at Acme Bank has made contact with you. His client, Garen Teed a team of global investors, are looking for a solution that can offer their employees more control against fraudulent transactions, in both preemptive and damage control contexts, especially while they’re on the go. They hope to find a solution that slots perfectly into their employees’ workflow, thus minimalizing time spent wasted resolving issues.<br>Are you ready to discuss their needs in more detail?"
+  },
+  "instructionTextInitial": "Learn about the client’s challenges and goals.",
+  "instructionTextFinal": "You've now defined this client's needs, you can review them below.",
+  "statements": [{
+    "id": "st1",
+    "text": "The client is struggling to include cardholder-reported travel itineraries in real-time authorization strategies",
+    "type": "challenges"
+  }, {
+    "id": "st2",
+    "text": "The cardholder cannot currently prohibit an account from making new purchases if their card is misplaced",
+    "type": "challenges"
+  }, {
+    "id": "st3",
+    "text": "The client is experiencing disruption between cardholder and recurring and card-on-file payments when account information changes",
+    "type": "challenges"
+  }, {
+    "id": "st4",
+    "text": "The client is struggling to monitor and evaluate authorizations in real time to better identify and respond to emerging fraud patterns",
+    "type": "challenges"
+  }, {
+    "id": "st5",
+    "text": "The client is struggling to provide issuers with a self-service model for their cardholders to review transaction specifics sent by participating merchants",
+    "type": "challenges"
+  }, {
+    "id": "st6",
+    "text": "To block cards to avoid fraudulent transactions",
+    "type": "goals"
+  }, {
+    "id": "st7",
+    "text": "To review merchant and transaction details for unrecognized transactions",
+    "type": "goals"
+  }, {
+    "id": "st8",
+    "text": "To gain greater insights into Visa card or merchant fraud using personalized interactive dashboards that provide risk adjusted and relevant peer benchmarks",
+    "type": "goals"
+  }, {
+    "id": "st9",
+    "text": "To be able to issue new cards instantly",
+    "type": "goals"
+  }, {
+    "id": "st10",
+    "text": "To leverage geo-location intelligence to inform if a cardholder’s mobile phone is near a merchant at the time of a purchase",
+    "type": "goals"
+  }, {
+    "id": "st11",
+    "text": "To secure transactions and consumer data with unique digital identifier",
+    "type": "goals"
+  }, {
+    "id": "st12",
+    "text": "To be able to proactively show cardholders where their card has already been stored on file and where their card has been updated (in case of reissuance)",
+    "type": "goals"
+  }],
+  "correctFeedback": "You’re ready to submit a solution!<br>Nice work! You’ve identified all of the correct client challenges and goals.<br>Next, you’ll be presented with a solution set. It’s your job to customize the solution set by selecting products and/or services relevant for this client. Don’t worry – you’ll have your client needs list to help you.<br>Ready to get started?",
+  "incorrectFeedback": "You’re not ready yet!<br>In order to submit your proposal, you’ve got to fully understand the client’s needs.<br>Based on the challenges and goals you missed, you should review the following resources<ul><li>[Email]</li><li>[Client report]</li><li>[Client call]</li><li>[Meeting minutes]</li><li>[Client quotes]</li></ul><br><br><span class='attempts'>%{remaining}</span> ATTEMPTS REMAINING",
+  "resources": [{
+    "id": "res1",
+    "type": "email",
+    "name": "CLIENT EMAIL",
+    "imageName": "client4_resource_avatar_1.svg",
+    "sender": "Jane Vandermar, Orion Bank: 06/01, 11:52am",
+    "subject": "RE: Consolidated Global Reporting Solution–Request for Proposal",
+    "body": "<p>Hi,</p><p>My name is Jane and I am Head of Global Card Programs at Orion Bank.</p><p>I am emailing on behalf of my client, Atlas(CC'd), who are looking for a consolidated global reporting solution for their multi-national e-commerce and cloud reporting business.</p><p>For your reference, Atlas has an average present value of $200M and would like better global oversight on this spend, as well as an expense reconciliation platform.</p>It would be good to get on a call to discuss this further.</p><p>Kind regards,</p><p>Jane Vandermar | Head of Global Card Programs | Orion Bank</p>"
+  }, {
+    "id": "res2",
+    "type": "call",
+    "name": "CLIENT CALL",
+    "title": "Client call",
+    "imageName": "client4_resource_avatar_1.svg",
+    "caller": "Jane Vandermar, Orion Bank: 06/07, 15:17pm",
+    "instruction": "Select the play button to listen to the call recording.",
+    "transcript": "As an issuing financial institution, we want to be able to offer a leading-edge transaction management platform to our customers. Customers like Atlas. We want to help them strengthen their competitive advantage. Perhaps it’s a good idea to set up a call with Atlas to discuss their challenges and needs in more detail?"
+  }, {
+    "id": "res3",
+    "type": "quote",
+    "name": "CUSTOMER QUOTE",
+    "title": "Vivaan Anand, Finance Manager (excerpt from call notes)",
+    "imageName": "client4_resource_avatar_1.svg",
+    "quote": "We’re struggling with data integration and customization and want to identify areas of potential cost-saving across our business, including non-financial transactions, such as travel and accommodation. There is also a lack of global oversight on program spend. The current methods of data reporting are inconsistent and don’t report a true reflection of this spend."
+  }],
+  "products": [{
+    "id": "prod1",
+    "familyId": "family1",
+    "familyName": "FAMILY NAME ONE",
+    "productName": "PRODUCT NAME ONE",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod2",
+    "familyId": "family2",
+    "familyName": "FAMILY NAME TWO",
+    "productName": "PRODUCT NAME TWO",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod3",
+    "familyId": "family3",
+    "familyName": "FAMILY NAME THREE",
+    "productName": "PRODUCT NAME THREE",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod4",
+    "familyId": "family4",
+    "familyName": "FAMILY NAME FOUR",
+    "productName": "PRODUCT NAME FOUR",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }],
+  "correctSolutionFeedback": "You won this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:",
+  "incorrectSolutionFeedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "givenUpSolutionFeedback": "You didn’t win this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:"
+}

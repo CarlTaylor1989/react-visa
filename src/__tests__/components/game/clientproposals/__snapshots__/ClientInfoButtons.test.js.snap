@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientInfoButtons component 1`] = `
+<div
+  className="clientInfoButtons"
+>
+  <div
+    className="startClient"
+  >
+    <NavLink
+      className="startBtn"
+      onClick={[Function]}
+      to="/game/clientproposals/proposal"
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="clientprops.info.startBtn"
+      />
+    </NavLink>
+  </div>
+</div>
+`;

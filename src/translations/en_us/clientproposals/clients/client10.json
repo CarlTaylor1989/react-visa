@@ -1,0 +1,112 @@
+{
+  "id": "client10",
+  "name": "SHIELD SOLUTIONS",
+  "clientType": "b2b",
+  "problemType": "fraud",
+  "info": {
+    "account": "Shield Solutions",
+    "segment": "Merchant",
+    "region": "Asia Pacific",
+    "bid": "123XX45",
+    "fiscal": "FY 2020",
+    "avatarName": "Jane Doe",
+    "title": "Client Information",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie, ligula fermentum bibendum molestie, tellus nisi varius tellus, in porta sapien ante eget dolor. Proin tincidunt cursus nisl vitae malesuada. In congue libero ac justo tincidunt dapibus quis et mauris. Cras tempus rhoncus sem. Integer augue leo, suscipit elementum est id, maximus dignissim nisl. Cras non viverra tellus. Quisque efficitur fermentum ex id consequat. Nulla facilisi."
+  },
+  "instructionTextInitial": "Learn about the client’s challenges and goals.",
+  "instructionTextFinal": "You've now defined this client's needs, you can review them below.",
+  "statements": [{
+    "id": "st1",
+    "text": "Correct - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin. Vivamus vitae gravida nibh, id aliquet.",
+    "type": "opportunities"
+  }, {
+    "id": "st2",
+    "text": "Correct - Etiam semper blandit est, vestibulum vulputate eros eleifend blandit.",
+    "type": "opportunities"
+  }, {
+    "id": "st3",
+    "text": "Proin in augue sed ligula iaculis blandit quis suscipit purus. Morbi imperdiet, lectus in accumsan feugiat, nibh ligula tristique mi, venenatis finibus enim arcu et ante.",
+    "type": "opportunities"
+  }, {
+    "id": "st4",
+    "text": "Vivamus sit amet ultricies nisl, non vehicula mi. Sed fermentum, erat non sollicitudin suscipit, mi nisl accumsan ligula, sed imperdiet lacus ipsum ac nibh. Duis a nulla tortor.",
+    "type": "opportunities"
+  }, {
+    "id": "st5",
+    "text": "Correct - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat purus tortor, et aliquet mi sodales nec. Morbi vitae malesuada nibh.",
+    "type": "challenges"
+  }, {
+    "id": "st6",
+    "text": "Maecenas quis condimentum quam, vel placerat nisi. Pellentesque interdum leo eleifend dui pharetra placerat.",
+    "type": "challenges"
+  }, {
+    "id": "st7",
+    "text": "Vivamus sit amet ultricies nisl, non vehicula mi. Sed fermentum, erat non sollicitudin suscipit, mi nisl accumsan ligula, sed imperdiet lacus ipsum ac nibh. Duis a nulla tortor.",
+    "type": "challenges"
+  }, {
+    "id": "st8",
+    "text": "Suspendisse elementum convallis aliquam. Vivamus sed odio suscipit, gravida ex nec, dignissim nibh. Curabitur egestas varius massa, tincidunt hendrerit lacus porttitor ut.",
+    "type": "challenges"
+  }, {
+    "id": "st9",
+    "text": "Correct - Praesent nec erat semper, ultrices nibh a, maximus neque. Donec lobortis massa at eros fermentum, in porta purus viverra. In hac habitasse platea dictumst.",
+    "type": "goals"
+  }, {
+    "id": "st10",
+    "text": "Integer tempus arcu velit, et posuere ipsum tincidunt eu. Maecenas nec hendrerit est. Nulla facilisi.",
+    "type": "goals"
+  }, {
+    "id": "st11",
+    "text": "Proin iaculis ante at massa fermentum interdum. Etiam tempor malesuada nunc, vitae blandit orci varius a. Sed rhoncus sollicitudin blandit.",
+    "type": "goals"
+  }, {
+    "id": "st12",
+    "text": "Nam tristique lacus sed magna tristique pulvinar. Praesent iaculis suscipit quam, sit amet gravida nisl vestibulum at. Sed sed lacus mattis, volutpat metus sed, faucibus odio.",
+    "type": "goals"
+  }],
+  "correctFeedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin. Vivamus vitae gravida nibh, id aliquet odio. Etiam semper blandit est, vestibulum vulputate eros eleifend blandit. Vivamus vel risus pharetra, maximus turpis eu, lacinia purus. Proin in augue sed ligula iaculis blandit quis suscipit purus.<br>Attempts: %{attempts}",
+  "incorrectFeedback": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas placerat sollicitudin.</p><p>ATTEMPTS REMAINING: <span class='attempts'>%{remaining}</span></p>",
+  "resources": [{
+    "id": "res1",
+    "type": "meeting",
+    "name": "MEETING MINUTES",
+    "title": "Meeting minutes",
+    "content": "<p><b>Date/Time:</b> 02/29/2020 / 14.33</p><p><b>Client:</b> Lorem ipsum dolor</p><p><b>Attendees:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p><p><b>Agenda:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nisi orci, congue id quam in, tristique facilisis erat.</p><p><b>Notes:</b> Nunc vulputate enim iaculis sagittis condimentum. Proin at luctus eros. Nunc egestas, risus non mattis congue, nibh odio semper tortor, non luctus ex ex aliquam libero.</p>"
+  }],
+  "products": [{
+    "id": "prod1",
+    "familyId": "family1",
+    "familyName": "FAMILY NAME ONE",
+    "productName": "PRODUCT NAME ONE",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod2",
+    "familyId": "family2",
+    "familyName": "FAMILY NAME TWO",
+    "productName": "PRODUCT NAME TWO",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod3",
+    "familyId": "family13",
+    "familyName": "FAMILY NAME THREE",
+    "productName": "PRODUCT NAME THREE",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }, {
+    "id": "prod4",
+    "familyId": "family4",
+    "familyName": "FAMILY NAME FOUR",
+    "productName": "PRODUCT NAME FOUR",
+    "popupTitle": "Title",
+    "popupSubtitle": "Subtitle text",
+    "popupText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }],
+  "correctSolutionFeedback": "You won this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:",
+  "incorrectSolutionFeedback": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "givenUpSolutionFeedback": "You didn’t win this client proposal.<br /><br />In addition to the following solution set, there are a number of consulting and analytics services you could offer as value in kind to your clients. These are:"
+}

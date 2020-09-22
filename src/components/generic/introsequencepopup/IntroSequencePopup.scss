@@ -1,0 +1,203 @@
+$generic-popup-height: 608px;
+$generic-popup-width: 670px;
+
+$woman-icon: '../../../styles/icons/intro_seq/intro_woman.png';
+$woman-icon-retina: '../../../styles/icons/intro_seq/intro_woman@2x.png';
+$woman-icon-height: 840px;
+$woman-icon-width: 480px;
+
+$quotes-icon: '../../../styles/icons/intro_seq/quote_icon.png';
+$quotes-icon-retina: '../../../styles/icons/intro_seq/quote_icon@2x.png';
+$quotes-icon-height: 200px;
+$quotes-icon-width: 200px;
+
+$next-back-icon: '../../../styles/icons/intro_seq/next_n.svg';
+$next-back-over-icon: '../../../styles/icons/intro_seq/next_h.svg';
+$next-back-icon-height: 46px;
+$next-back-icon-width: 46px;
+
+$next-back-icon-small: '../../../styles/icons/intro_seq/next_small.svg';
+$next-back-icon-small-height: 19px;
+$next-back-icon-small-width: 12px;
+
+@import '../../../styles/popup';
+@import '../../../styles/generic';
+@import '~slick-carousel/slick/slick.css';
+
+.introSequenceOverlay {
+  @extend %popup-overlay;
+
+  &::before {
+    @include retina-image($woman-icon-retina, $woman-icon-width, $woman-icon-height);
+    background-image: url($woman-icon);
+    bottom: 0;
+    content: ' ';
+    display: block;
+    height: $woman-icon-height;
+    left: 310px;
+    position: absolute;
+    width: $woman-icon-width;
+  }
+}
+
+.introSequenceModal {
+  @extend %popup;
+  @include linear-gradient($intro-seq-colour-top, $intro-seq-colour-bottom);
+  border: 1.5px solid $colour-white;
+  height: $generic-popup-height;
+  left: 785px;
+  position: absolute;
+  top: 121px;
+  width: $generic-popup-width;
+
+  &::after,
+  &::before {
+    @include retina-image($quotes-icon-retina, $quotes-icon-width, $quotes-icon-height*2);
+    background-image: url($quotes-icon);
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    height: $quotes-icon-height;
+    position: absolute;
+    width: $quotes-icon-width;
+    z-index: 1;
+  }
+
+  &::after {
+    background-position: 0 0;
+    left: -$quotes-icon-height / 2;
+    top: -$quotes-icon-width / 2;
+  }
+
+  &::before {
+    background-position: 0 -200px;
+    bottom: -$quotes-icon-width / 2;
+    right: -$quotes-icon-height / 2;
+  }
+}
+
+.introSequenceContents {
+  height: $generic-popup-height;
+  position: relative;
+  width: 100%;
+
+  .navButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    button {
+      @include align-items(center);
+      background: none;
+      border: 0;
+      color: $colour-white;
+      cursor: pointer;
+      display: flex;
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0 10px;
+      outline: 0;
+
+      .icon {
+        background: url($next-back-icon);
+        display: block;
+        height: $next-back-icon-height;
+        transition: background .5s ease-in-out;
+        width: $next-back-icon-width;
+      }
+
+      &:hover {
+        .icon {
+          background: url($next-back-over-icon);
+        }
+      }
+
+      &:disabled {
+        @extend %disabled-btn;
+
+        &:hover {
+          .icon {
+            background: url($next-back-icon);
+          }
+        }
+      }
+
+      &.backBtn {
+        .icon {
+          margin-right: 10px;
+          transform: rotate(180deg);
+        }
+      }
+
+      &.nextBtn {
+        .icon {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .continueBtn {
+    display: flex;
+    justify-content: center;
+
+    &.hidden {
+      display: none;
+    }
+
+    button {
+      @extend %blue-btn-shadow;
+      @extend %route-btn;
+      border: 1.5px solid $colour-white;
+      font-size: 28px;
+      margin-top: 50px;
+    }
+  }
+
+  .skipBtn {
+    &.hidden {
+      display: none;
+    }
+
+    button {
+      @include align-items(center);
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      bottom: 65px;
+      color: $colour-white;
+      cursor: pointer;
+      display: flex;
+      font-size: 18px;
+      font-weight: 600;
+      left: 172px;
+      line-height: 18px;
+      margin: 0;
+      outline: 0;
+      padding: 0 0 10px;
+      position: absolute;
+      transition: border .5s ease-in-out;
+
+      &:hover {
+        border-color: $colour-white;
+      }
+
+      .icon {
+        background: url($next-back-icon-small);
+        background-size: $next-back-icon-small-width $next-back-icon-small-height;
+        display: block;
+        height: $next-back-icon-small-height;
+        margin-left: 15px;
+        transition: background .5s ease-in-out;
+        width: $next-back-icon-small-width;
+      }
+    }
+  }
+
+  .title {
+    color: $colour-gold;
+    font-size: 48px;
+    margin: 25px 30px 15px;
+    text-align: center;
+  }
+}

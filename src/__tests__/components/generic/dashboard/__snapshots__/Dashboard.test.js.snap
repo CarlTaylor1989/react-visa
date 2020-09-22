@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`method getContent() AchievementsView component 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "dashboard",
+      "overlay": "dashboardOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <button
+    className="exitPopup"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="popupTitle"
+    >
+      <Translate
+        tag="span"
+        value="generic.dashboard.title"
+      />
+    </div>
+    <div
+      className="main"
+    >
+      <div
+        className="topBar"
+      >
+        <div
+          className="navigation"
+        >
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.achievements.button"
+          >
+            <button
+              className="achievementsBtn selected"
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.achievementsBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.rank.button"
+          >
+            <button
+              className="rankBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.rankBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.products.button"
+          >
+            <button
+              className="productsCompletedBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.productsCompletedBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+        </div>
+        <div
+          className="pointsContainer"
+        >
+          <Connect(Points) />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <Connect(AchievementsView) />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`method getContent() ProductsCompleteView component 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "dashboard",
+      "overlay": "dashboardOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <button
+    className="exitPopup"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="popupTitle"
+    >
+      <Translate
+        tag="span"
+        value="generic.dashboard.title"
+      />
+    </div>
+    <div
+      className="main"
+    >
+      <div
+        className="topBar"
+      >
+        <div
+          className="navigation"
+        >
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.achievements.button"
+          >
+            <button
+              className="achievementsBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.achievementsBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.rank.button"
+          >
+            <button
+              className="rankBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.rankBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.products.button"
+          >
+            <button
+              className="productsCompletedBtn selected"
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.productsCompletedBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+        </div>
+        <div
+          className="pointsContainer"
+        >
+          <Connect(Points) />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <ProductsCompleteView
+          closePopup={[MockFunction]}
+        />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`method getContent() RankView component 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "dashboard",
+      "overlay": "dashboardOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <button
+    className="exitPopup"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="popupTitle"
+    >
+      <Translate
+        tag="span"
+        value="generic.dashboard.title"
+      />
+    </div>
+    <div
+      className="main"
+    >
+      <div
+        className="topBar"
+      >
+        <div
+          className="navigation"
+        >
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.achievements.button"
+          >
+            <button
+              className="achievementsBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.achievementsBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.rank.button"
+          >
+            <button
+              className="rankBtn selected"
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.rankBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.products.button"
+          >
+            <button
+              className="productsCompletedBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.productsCompletedBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+        </div>
+        <div
+          className="pointsContainer"
+        >
+          <Connect(Points) />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <Connect(RankView) />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`renders a closed Dashboard popup 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "dashboard",
+      "overlay": "dashboardOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[MockFunction]}
+  open={false}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <button
+    className="exitPopup"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="popupTitle"
+    >
+      <Translate
+        tag="span"
+        value="generic.dashboard.title"
+      />
+    </div>
+    <div
+      className="main"
+    >
+      <div
+        className="topBar"
+      >
+        <div
+          className="navigation"
+        >
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.achievements.button"
+          >
+            <button
+              className="achievementsBtn selected"
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.achievementsBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.rank.button"
+          >
+            <button
+              className="rankBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.rankBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.products.button"
+          >
+            <button
+              className="productsCompletedBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.productsCompletedBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+        </div>
+        <div
+          className="pointsContainer"
+        >
+          <Connect(Points) />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <Connect(AchievementsView) />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open Dashboard popup 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "dashboard",
+      "overlay": "dashboardOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <button
+    className="exitPopup"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="popupTitle"
+    >
+      <Translate
+        tag="span"
+        value="generic.dashboard.title"
+      />
+    </div>
+    <div
+      className="main"
+    >
+      <div
+        className="topBar"
+      >
+        <div
+          className="navigation"
+        >
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.achievements.button"
+          >
+            <button
+              className="achievementsBtn selected"
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.achievementsBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.rank.button"
+          >
+            <button
+              className="rankBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.rankBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+          <Connect(Tooltip)
+            fieldName="generic.tooltips.dashboard.products.button"
+          >
+            <button
+              className="productsCompletedBtn "
+              onClick={[Function]}
+              type="button"
+            >
+              <Translate
+                tag="span"
+                value="generic.dashboard.productsCompletedBtn"
+              />
+            </button>
+          </Connect(Tooltip)>
+        </div>
+        <div
+          className="pointsContainer"
+        >
+          <Connect(Points) />
+        </div>
+      </div>
+      <div
+        className="content"
+      >
+        <Connect(AchievementsView) />
+      </div>
+    </div>
+  </div>
+</Modal>
+`;

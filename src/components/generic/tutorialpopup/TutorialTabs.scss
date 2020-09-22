@@ -1,0 +1,9 @@
+.tutorialTabs {
+  width: 230px;
+
+  .tutorialTab {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

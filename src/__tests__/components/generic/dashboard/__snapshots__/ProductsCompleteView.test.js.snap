@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render ProductsCompleteView component 1`] = `
+<div
+  className="productsCompleteView"
+>
+  <Scrollbar
+    contentProps={Object {}}
+    fallbackScrollbarWidth={20}
+    maximalThumbYSize={83}
+    minimalThumbSize={30}
+    minimalThumbYSize={83}
+    momentum={true}
+    noDefaultStyles={true}
+    scrollDetectionThreshold={100}
+    scrollerProps={Object {}}
+    thumbXProps={Object {}}
+    thumbYProps={Object {}}
+    trackClickBehavior="jump"
+    trackXProps={Object {}}
+    trackYProps={Object {}}
+    wrapperProps={Object {}}
+  >
+    <div
+      className="contentWrapper"
+    >
+      <FamilyProducts
+        closePopup={[MockFunction]}
+        familyId="m1f1"
+        familyName="DATA SOLUTIONS"
+        key="m1f10"
+        mapId="m1"
+        type="type1"
+      />
+      <FamilyProducts
+        closePopup={[MockFunction]}
+        familyId="m1f2"
+        familyName="SECURITY & IDENTITY"
+        key="m1f21"
+        mapId="m1"
+        type="type2"
+      />
+      <FamilyProducts
+        closePopup={[MockFunction]}
+        familyId="m1f3"
+        familyName="ISSUER PROCESSING & PLATFORM SOLUTIONS"
+        key="m1f32"
+        mapId="m1"
+        type="type3"
+      />
+      <FamilyProducts
+        closePopup={[MockFunction]}
+        familyId="m1f4"
+        familyName="CYBERSOURCE"
+        key="m1f43"
+        mapId="m1"
+        type="type4"
+      />
+      <FamilyProducts
+        closePopup={[MockFunction]}
+        familyId="m1f5"
+        familyName="COMMERCIAL SOLUTIONS"
+        key="m1f54"
+        mapId="m1"
+        type="type5"
+      />
+    </div>
+  </Scrollbar>
+</div>
+`;

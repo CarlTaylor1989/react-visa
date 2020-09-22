@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductPrompt 1`] = `
+<div
+  className="productPrompt type2"
+>
+  <Translate
+    className="popupTitle"
+    tag="span"
+    value="generic.prompts.productTitle"
+  />
+  <div
+    className="productPromptFamilyContainer"
+  >
+    <div
+      className="productPromptFamily"
+    >
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "SECURITY & IDENTITY",
+          }
+        }
+      />
+    </div>
+    <InlineSVG
+      className="icon productPromptIcon"
+      element="i"
+      raw={false}
+      src=""
+    />
+    <div
+      className="productPromptTitle"
+    >
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Visa Consumer Authentication Service",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="productPromptScore"
+  >
+    <Translate
+      tag="span"
+      value="generic.prompts.pointsPrefix"
+    />
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={50000}
+    />
+  </div>
+</div>
+`;

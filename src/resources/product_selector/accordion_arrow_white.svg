@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="14" viewBox="0 0 24 14">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-accordion_arrow_white);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-accordion_arrow_white">
+      <rect width="24" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="accordion_arrow_white" class="cls-1">
+    <path id="Path_13041" data-name="Path 13041" class="cls-2" d="M1370.148,555.531l-9.642,9.363-9.642-9.363" transform="translate(-1348.364 -553.031)"/>
+  </g>
+</svg>

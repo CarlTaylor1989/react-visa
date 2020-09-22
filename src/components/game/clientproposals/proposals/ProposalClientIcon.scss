@@ -1,0 +1,33 @@
+$client-icon-path: '../../../../styles/icons/clients/client_icons';
+$client-avatar-icon-path: '../../../../styles/icons/clients/client_icons';
+
+@import '../../../../styles/clients';
+@import '../../../../styles/mixins';
+
+$client-icon-height: 75px;
+$client-icon-width: 260px;
+
+.proposalClientIcon {
+  @include align-items(center);
+  color: $colour-white;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  height: $client-icon-height;
+  position: relative;
+  width: $client-icon-width;
+
+  .nameType {
+    margin-left: 15px;
+  }
+
+  .clientName,
+  .clientType {
+    display: block;
+  }
+
+  .clientName {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

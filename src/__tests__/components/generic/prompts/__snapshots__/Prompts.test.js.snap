@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a closed popup 1`] = `
+<div
+  className="prompts"
+>
+  <PromptsPopup
+    closePopup={[Function]}
+    exitPopup={[Function]}
+    index={0}
+    prompts={Array []}
+    setPlayAudio={[MockFunction]}
+    showPopup={false}
+  />
+</div>
+`;

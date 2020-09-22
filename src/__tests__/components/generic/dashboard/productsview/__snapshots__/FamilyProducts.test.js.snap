@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FamilyProducts component 1`] = `
+<div
+  className="familyProducts"
+>
+  <div
+    className="familyName type2"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "irrelevant",
+      }
+    }
+  />
+  <div
+    className="productsContainer type2"
+  >
+    <Connect(ProductRow)
+      closePopup={[MockFunction]}
+      familyId="m1f2"
+      key="m1f2p1"
+      mapId="m1"
+      productId="p1"
+      productName="Visa Advanced Authorization"
+      type="type2"
+    />
+    <Connect(ProductRow)
+      closePopup={[MockFunction]}
+      familyId="m1f2"
+      key="m1f2p2"
+      mapId="m1"
+      productId="p2"
+      productName="Visa Risk Manager"
+      type="type2"
+    />
+    <Connect(ProductRow)
+      closePopup={[MockFunction]}
+      familyId="m1f2"
+      key="m1f2p3"
+      mapId="m1"
+      productId="p3"
+      productName="EMV 3-D Secure"
+      type="type2"
+    />
+    <Connect(ProductRow)
+      closePopup={[MockFunction]}
+      familyId="m1f2"
+      key="m1f2p4"
+      mapId="m1"
+      productId="p4"
+      productName="Visa Consumer Authentication Service"
+      type="type2"
+    />
+  </div>
+</div>
+`;

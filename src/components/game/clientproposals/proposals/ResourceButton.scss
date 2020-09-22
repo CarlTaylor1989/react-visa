@@ -1,0 +1,82 @@
+@import '../../../../styles/buttons';
+@import '../../../../styles/generic';
+
+$button-height: 120px;
+$button-width: 160px;
+$button-icon-height: 40px;
+$button-icon-width: 56px;
+$audio-icon: '../../../../styles/icons/clients/resource_icons/audio_icon.svg';
+$pdf-icon: '../../../../styles/icons/clients/resource_icons/pdf_icon.svg';
+$video-icon: '../../../../styles/icons/clients/resource_icons/video_icon.svg';
+
+.resourceButton {
+  @extend %button-reset;
+  @include border-radius(16px);
+  @include align-items(center);
+  box-sizing: border-box;
+  color: $colour-white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: $button-height;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  position: relative;
+  width: $button-width;
+
+  &::before {
+    @include border-radius(16px);
+    @include multi-angle-gradient(
+      152deg,
+      rgba($colour-white, .05) 0%,
+      rgba($colour-white, .1) 38.49%,
+      rgba($colour-white, .18) 79.27%,
+      rgba($colour-white, .27) 100%
+    );
+    @include opacity(0);
+    border: 1.5px solid $colour-white;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .5s ease-in-out;
+    z-index: 1;
+  }
+
+  &:hover {
+    &::before {
+      @include opacity(1);
+    }
+  }
+
+  &:last-child,
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+
+    &:nth-child(odd) {
+      margin-bottom: 0;
+    }
+  }
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .resourceName,
+  .resourceText {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .resourceIcon {
+    @include align-items(center);
+    height: $button-icon-height;
+    margin: 0 auto 10px;
+    width: $button-icon-width;
+  }
+}

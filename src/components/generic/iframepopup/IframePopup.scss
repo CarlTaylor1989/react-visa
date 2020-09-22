@@ -1,0 +1,47 @@
+@import '../../../styles/popup';
+@import '../../../styles/mixins';
+
+$loading-challenges: '../../../resources/loaders/loading-circular.gif';
+$loading-learning: '../../../resources/loaders/loading-flat.gif';
+
+.iframePopupOverlay {
+  @extend %popup-overlay;
+}
+
+.iframePopup {
+  @extend %iframe-popup;
+
+  .iframePopupLoad {
+    @include align-items(center);
+    @include border-radius(14px);
+    background-color: $colour-popupb-bg-3;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+
+    &.hidden {
+      display: none;
+    }
+
+    &.challenges,
+    &.learning {
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    &.challenges {
+      background-color: $colour-popupb-bg-3;
+      background-image: url($loading-challenges);
+    }
+
+    &.learning {
+      background-color: $colour-blue;
+      background-image: url($loading-learning);
+    }
+  }
+}

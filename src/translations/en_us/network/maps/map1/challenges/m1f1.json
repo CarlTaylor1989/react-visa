@@ -1,0 +1,127 @@
+{
+  "m1f1": [{
+    "id": "c1",
+    "productId": "p1",
+    "coordinates": [179, 63],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=ed8679a4-e25c-4a00-8445-3043ed8a3ea6",
+    "children": ["c2"],
+    "productCoordinates": [211, 281],
+    "productType": "type3",
+    "gomoId": "p87970",
+    "isFirst": true
+  }, {
+    "id": "c2",
+    "productId": "p1",
+    "coordinates": [205, 37],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=0095c5f9-d982-4cc1-a46d-1ef630de9f88",
+    "children": ["c3"],
+    "productCoordinates": [298, 195],
+    "productType": "type3",
+    "gomoId": "p87971"
+  }, {
+    "id": "c3",
+    "productId": "p1",
+    "coordinates": [243, 37],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=732ea46a-4663-4a7f-8959-14ec59575135",
+    "children": [],
+    "productCoordinates": [361, 154],
+    "productType": "type1",
+    "gomoId": "p87972"
+  }, {
+    "id": "c4",
+    "productId": "p2",
+    "coordinates": [164, 159],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=d216c9c8-9eec-4020-8592-5bffff84143e",
+    "children": ["c5"],
+    "productCoordinates": [251, 452],
+    "productType": "type1",
+    "gomoId": "p87945",
+    "isFirst": true
+  }, {
+    "id": "c5",
+    "productId": "p2",
+    "coordinates": [193, 159],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=0a6dbd04-bfa7-4d8d-adb0-ada80719449b",
+    "children": ["c6"],
+    "typeId": "type4",
+    "productCoordinates": [407, 452],
+    "productType": "type1",
+    "gomoId": "p87946"
+  }, {
+    "id": "c6",
+    "productId": "p2",
+    "coordinates": [225, 159],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=b61c408d-7143-4a7a-a674-2f5ee772b5ff",
+    "children": ["c7"],
+    "productCoordinates": [569, 452],
+    "productType": "type1",
+    "gomoId": "p87947"
+  }, {
+    "id": "c7",
+    "productId": "p2",
+    "coordinates": [256, 159],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=d949d510-6567-4632-a2b5-f7f156078415",
+    "children": [],
+    "productCoordinates": [723, 452],
+    "productType": "type1",
+    "gomoId": "p87927"
+  }, {
+    "id": "c8",
+    "productId": "p3",
+    "coordinates": [218, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=2e55617f-6d67-41a8-a6b4-6f90a0681b40",
+    "children": ["c9"],
+    "productCoordinates": [247, 280],
+    "productType": "type1",
+    "gomoId": "p87922",
+    "isFirst": true
+  }, {
+    "id": "c9",
+    "productId": "p3",
+    "coordinates": [261, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=e39575a5-cc16-4722-a053-04815e0ffb08",
+    "children": ["c10"],
+    "typeId": "type4",
+    "productCoordinates": [404, 280],
+    "productType": "type1",
+    "gomoId": "p87925"
+  }, {
+    "id": "c10",
+    "productId": "p3",
+    "coordinates": [305, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=c98569d8-e15f-4927-bec7-e92a0a414a5e",
+    "children": [],
+    "productCoordinates": [556, 280],
+    "productType": "type1",
+    "gomoId": "p87926"
+  } , {
+    "id": "c11",
+    "productId": "p4",
+    "coordinates": [414, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=6157f450-7f06-4603-8220-ed5193dae835",
+    "children": ["c12"],
+    "productCoordinates": [242, 133],
+    "productType": "type1",
+    "gomoId": "p87939",
+    "isFirst": true
+  }, {
+    "id": "c12",
+    "productId": "p4",
+    "coordinates": [456, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=947ee85d-3ec3-4653-817c-da0fdf20fbcb",
+    "children": ["c13"],
+    "typeId": "type4",
+    "productCoordinates": [400, 133],
+    "productType": "type1",
+    "gomoId": "p87940"
+  }, {
+    "id": "c13",
+    "productId": "p4",
+    "coordinates": [502, 84],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=4ffb669b-e178-42ba-b256-3b31e792a1ea",
+    "children": [],
+    "productCoordinates": [557, 133],
+    "productType": "type1",
+    "gomoId": "p87941"
+  }]
+}

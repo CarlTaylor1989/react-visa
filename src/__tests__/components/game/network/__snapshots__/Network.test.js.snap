@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Network component 1`] = `
+<TransitionGroup
+  childFactory={[Function]}
+  className="network-transition-group"
+  component="div"
+>
+  <CSSTransition
+    classNames="pageFade"
+    key=""
+    timeout={
+      Object {
+        "enter": 1000,
+        "exit": 1000,
+      }
+    }
+  >
+    <div
+      className="network"
+    >
+      <Switch
+        location={
+          Object {
+            "hash": "",
+            "key": "",
+            "pathname": "",
+            "search": "",
+          }
+        }
+      >
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(NetworkMap)",
+              "type": [Function],
+            }
+          }
+          path="/game/network/map"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(ProductPage)",
+              "type": [Function],
+            }
+          }
+          path="/game/network/product"
+        />
+        <Redirect
+          to="/game/network/map"
+        />
+      </Switch>
+    </div>
+  </CSSTransition>
+</TransitionGroup>
+`;

@@ -1,0 +1,78 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/mixins';
+
+.familyProducts {
+  .familyName {
+    @include border-radius(20px);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 35px;
+    padding: 0 12px;
+
+    &.type1 {
+      background-color: $colour-family-1-dashboard;
+    }
+
+    &.type2 {
+      background-color: $colour-family-2-dashboard;
+    }
+
+    &.type3 {
+      background-color: $colour-family-3-dashboard;
+    }
+
+    &.type4 {
+      background-color: $colour-family-4-dashboard;
+    }
+
+    &.type5 {
+      background-color: $colour-family-5-dashboard;
+    }
+  }
+
+  .productsContainer {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 40px;
+    position: relative;
+
+    &::before {
+      bottom: 0;
+      content: '';
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 20px;
+    }
+
+    &.type1 {
+      &::before {
+        background-color: $colour-family-1;
+      }
+    }
+
+    &.type2 {
+      &::before {
+        background-color: $colour-family-2;
+      }
+    }
+
+    &.type3 {
+      &::before {
+        background-color: $colour-family-3;
+      }
+    }
+
+    &.type4 {
+      &::before {
+        background-color: $colour-family-4;
+      }
+    }
+
+    &.type5 {
+      &::before {
+        background-color: $colour-family-5;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders an open popup with multiple achievements content 1`] = `
+<div
+  className="multipleAchievementsPrompt"
+>
+  <Translate
+    className="popupTitle multipleAchievementsTitle"
+    tag="span"
+    value="generic.prompts.multipleAchievementsTitle"
+  />
+  <div
+    className="multipleAchievements"
+  >
+    <AchievementPrompt
+      achievementId="ac1"
+      key="ac1"
+      multipleAchievements={true}
+      setPlayAudio={[MockFunction]}
+    />
+    <AchievementPrompt
+      achievementId="ac21"
+      key="ac21"
+      multipleAchievements={true}
+      setPlayAudio={[MockFunction]}
+    />
+  </div>
+</div>
+`;

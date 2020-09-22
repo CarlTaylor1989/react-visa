@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the GetStarted component 1`] = `
+<div
+  className="getStarted"
+>
+  <span
+    className="guide"
+  />
+  <Translate
+    className="instructionText"
+    tag="span"
+    value="clientprops.getStarted"
+  />
+  <Arrows
+    direction="bottom"
+  />
+</div>
+`;

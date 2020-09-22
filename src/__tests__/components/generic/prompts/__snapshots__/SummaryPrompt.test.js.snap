@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SummaryPrompt component 1`] = `
+<div
+  className="summaryPrompt"
+>
+  <div
+    className="runningPoints"
+  >
+    <Translate
+      tag="span"
+      value="generic.prompts.pointsPrefix"
+    />
+    <CountUp$$1
+      decimal="."
+      decimals={0}
+      delay={0}
+      duration={4}
+      easingFn={null}
+      end={0}
+      formattingFn={null}
+      onEnd={[Function]}
+      onPauseResume={[Function]}
+      onReset={[Function]}
+      onStart={[Function]}
+      onUpdate={[Function]}
+      prefix=""
+      preserveValue={false}
+      redraw={false}
+      separator=","
+      start={0}
+      suffix=""
+      useEasing={true}
+    />
+  </div>
+  <ul
+    className="categories"
+  >
+    <SummaryPromptCategory
+      category="products"
+      counter={1}
+      key="products1"
+    />
+  </ul>
+</div>
+`;

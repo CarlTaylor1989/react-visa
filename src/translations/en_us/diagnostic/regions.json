@@ -1,0 +1,26 @@
+{
+  "ap": {
+    "name": "Asia Pacific",
+    "code": "AP"
+  },
+  "cemea": {
+    "name": "Central and Eastern Europe, Middle East and Africa",
+    "code": "CEMEA"
+  },
+  "eu": {
+    "name": "Europe",
+    "code": "EU"
+  },
+  "lac": {
+    "name": "Latin America and the Caribbean",
+    "code": "LAC"
+  },
+  "na": {
+    "name": "North America",
+    "code": "NA"
+  },
+  "global": {
+    "name": "Global",
+    "code": "GLOBAL"
+  }
+}

@@ -1,0 +1,56 @@
+@import '../../../styles/mixins';
+
+$padlock-icon: '../../../styles/icons/clients/padlock_icon.svg';
+$padlock-icon-width: 50px;
+$padlock-icon-height: 50px;
+$clock-icon: '../../../styles/icons/clients/clock_icon.svg';
+$clock-icon-width: 34px;
+$clock-icon-height: 34px;
+
+$container-size: 134px;
+
+.clientLocked {
+  @include align-items(center);
+  display: flex;
+  height: $container-size;
+  justify-content: center;
+  position: relative;
+  width: $container-size;
+
+  .circularProgressBar {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .padlock {
+    background-image: url($padlock-icon);
+    background-repeat: no-repeat;
+    display: block;
+    height: $padlock-icon-height;
+    left: -8px;
+    position: absolute;
+    top: -9px;
+    width: $padlock-icon-width;
+    z-index: 2;
+  }
+
+  .lockTimer {
+    text-align: center;
+  }
+
+  .clock {
+    background-image: url($clock-icon);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: $clock-icon-height;
+    width: $clock-icon-width;
+  }
+
+  .text {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

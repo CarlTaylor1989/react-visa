@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a settings row with a button 1`] = `
+<div
+  className="settingsRow tutorial"
+>
+  <span
+    className="icon"
+  />
+  <div
+    className="settingName"
+  >
+    <Translate
+      tag="span"
+      value="generic.settings.tutorial"
+    />
+  </div>
+  <div
+    className="control"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.settings.tutorialBtn"
+    >
+      <button
+        className="settingBtn"
+        onClick={[Function]}
+        type="button"
+      >
+        <Translate
+          className="settingName"
+          tag="span"
+          value="generic.settings."
+        />
+      </button>
+    </Connect(Tooltip)>
+  </div>
+</div>
+`;
+
+exports[`renders a settings row with a toggle 1`] = `
+<div
+  className="settingsRow tutorial"
+>
+  <span
+    className="icon"
+  />
+  <div
+    className="settingName"
+  >
+    <Translate
+      tag="span"
+      value="generic.settings.tutorial"
+    />
+  </div>
+  <div
+    className="control"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.settings.tutorial"
+    >
+      <span>
+        <Toggle
+          checked={false}
+          handleChange={[Function]}
+        />
+      </span>
+    </Connect(Tooltip)>
+  </div>
+</div>
+`;

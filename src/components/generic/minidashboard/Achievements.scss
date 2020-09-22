@@ -1,0 +1,32 @@
+@import '../../../styles/mixins';
+@import '../../../styles/achievements';
+@import '../../../styles/variables';
+
+.achievement {
+  color: $colour-transparent-semi;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 0;
+  position: relative;
+
+  &::after {
+    @include border-radius(1px);
+    border: .75px solid $colour-transparent-semi;
+    content: '';
+    position: absolute;
+    width: 100%;
+  }
+
+  .achievementContainer {
+    @include align-items(center);
+    color: $colour-yellow;
+    display: flex;
+    margin-bottom: 14px;
+    margin-top: 4px;
+    min-height: 36px;
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+}

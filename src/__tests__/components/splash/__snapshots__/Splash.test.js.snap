@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Splash component with a continue button 1`] = `
+<div
+  className="splash"
+>
+  <div
+    className="logo-container"
+  >
+    <span
+      className="small-logo"
+    />
+  </div>
+  <div
+    className="splash-content"
+  >
+    <AnimatedText
+      handleAnimationEnded={[Function]}
+      playAnimation={true}
+      texts={
+        Array [
+          Object {
+            "id": "one",
+            "text": "The way we sell to our clients<br />is changing…",
+          },
+          Object {
+            "id": "two",
+            "text": "We must provide solutions,<br />not just products…",
+          },
+          Object {
+            "id": "three",
+            "text": "How you sell will shape the<br />future of our business…",
+          },
+          Object {
+            "id": "four",
+            "text": "Are you ready for<br />the challenge?",
+          },
+        ]
+      }
+    />
+    <button
+      className="nextBtn hide"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="splash.continueBtn"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders the Splash component with a start button 1`] = `
+<div
+  className="splash"
+>
+  <div
+    className="logo-container"
+  >
+    <span
+      className="small-logo"
+    />
+  </div>
+  <div
+    className="splash-content"
+  >
+    <AnimatedText
+      handleAnimationEnded={[Function]}
+      playAnimation={true}
+      texts={
+        Array [
+          Object {
+            "id": "one",
+            "text": "The way we sell to our clients<br />is changing…",
+          },
+          Object {
+            "id": "two",
+            "text": "We must provide solutions,<br />not just products…",
+          },
+          Object {
+            "id": "three",
+            "text": "How you sell will shape the<br />future of our business…",
+          },
+          Object {
+            "id": "four",
+            "text": "Are you ready for<br />the challenge?",
+          },
+        ]
+      }
+    />
+    <button
+      className="nextBtn hide"
+      disabled={true}
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="splash.startBtn"
+      />
+    </button>
+  </div>
+</div>
+`;

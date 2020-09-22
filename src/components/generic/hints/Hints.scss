@@ -1,0 +1,85 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$hint-bulb-icon: '../../../styles/icons/footer/hint_bulb_icon.svg';
+$hint-bulb-icon-width: 32px;
+$hint-bulb-icon-height: 38px;
+$hint-location-arrow-icon: '../../../styles/icons/footer/hint_location_arrow_icon.svg';
+$hint-location-arrow-width: 25px;
+$hint-location-arrow-height: 25px;
+$hint-arrow-height: 20px;
+$hint-arrow-width: 12px;
+
+.hints {
+  display: flex;
+
+  .hint {
+    background-color: $colour-hint-box;
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 0 20px 0 14px;
+    position: relative;
+
+    &::after {
+      border-color: transparent transparent transparent $colour-hint-box;
+      border-style: solid;
+      border-width: ($hint-arrow-height / 2) 0 ($hint-arrow-height / 2) $hint-arrow-width;
+      content: '';
+      height: 0;
+      margin-top: -$hint-arrow-height / 2;
+      position: absolute;
+      right: -$hint-arrow-width;
+      top: 50%;
+      width: 0;
+    }
+
+    span {
+      float: left;
+    }
+
+    .icon {
+      background-image: url($hint-bulb-icon);
+      background-repeat: no-repeat;
+      display: block;
+      height: $hint-bulb-icon-height;
+      margin-right: 14px;
+      margin-top: 13px;
+      width: $hint-bulb-icon-width;
+    }
+  }
+
+  .hintText {
+    @include align-items(center);
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .06em;
+
+    .page-enter,
+    .page-leave {
+      position: absolute;
+      transition: opacity 250ms ease-in-out;
+    }
+
+    .page-enter {
+      .page-enter-active {
+        opacity: 1;
+      }
+    }
+
+    .page-leave {
+      .page-leave-active {
+        opacity: 0;
+      }
+    }
+
+    .icon {
+      background-image: url($hint-location-arrow-icon);
+      display: block;
+      height: $hint-location-arrow-height;
+      margin-right: 10px;
+      width: $hint-location-arrow-width;
+    }
+  }
+}

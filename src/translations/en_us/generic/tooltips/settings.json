@@ -1,0 +1,7 @@
+{
+  "audio": "Turn audio on/off.",
+  "tooltips": "Turn tooltips (like this) on/off.",
+  "regionBtn": "Change your region.",
+  "tutorial": "Turn tutorial messages on/off.",
+  "tutorialBtn": "Unhide tutorial messages<br />you've previously dismissed."
+}

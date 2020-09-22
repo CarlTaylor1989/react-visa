@@ -1,0 +1,73 @@
+{
+  "p87969": {
+    "title": "DAPI-LEARN",
+    "description": "DAPI-LEARN - Visa Data APIs Learn"
+  },
+  "p87970": {
+    "title": "DAPI-CHAL1",
+    "description": "DAPI-CHAL1 - Visa Data APIs Challenge 1"
+  },
+  "p87971": {
+    "title": "DAPI-CHAL2",
+    "description": "DAPI-CHAL2 - Visa Data APIs Challenge 2"
+  },
+  "p87972": {
+    "title": "DAPI-CHAL3",
+    "description": "DAPI-CHAL3 - Visa Data APIs Challenge 3"
+  },
+
+  "p87944": {
+    "title": "ADS-LEARN",
+    "description": "ADS-LEARN - Visa Ad Solutions Learn"
+  },
+  "p87945": {
+    "title": "ADS-CHAL1",
+    "description": "ADS-CHAL1 - Visa Ad Solutions Challenge 1"
+  },
+  "p87946": {
+    "title": "ADS-CHAL2",
+    "description": "ADS-CHAL2 - Visa Ad Solutions Challenge 2"
+  },
+  "p87947": {
+    "title": "ADS-CHAL3",
+    "description": "ADS-CHAL3 - Visa Ad Solutions Challenge 3"
+  },
+  "p87927": {
+    "title": "ADS-CHAL4",
+    "description": "ADS-CHAL4 - Visa Ad Solutions Challenge 4"
+  },
+
+  "p87812": {
+    "title": "VAP-LEARN",
+    "description": "VAP-LEARN - Visa Analytics Platform Learn"
+  },
+  "p87922": {
+    "title": "VAP-CHAL1",
+    "description": "VAP-CHAL1 - Visa Analytics Platform Challenge 1"
+  },
+  "p87925": {
+    "title": "VAP-CHAL2",
+    "description": "VAP-CHAL2 - Visa Analytics Platform Challenge 2"
+  },
+  "p87926": {
+    "title": "VAP-CHAL3",
+    "description": "VAP-CHAL3 - Visa Analytics Platform Challenge 3"
+  },
+
+  "p87901": {
+    "title": "TRVP-LEARN",
+    "description": "TRVP-LEARN - Visa Travel Predict Learn"
+  },
+  "p87939": {
+    "title": "TRVP-CHAL1",
+    "description": "TRVP-CHAL1 - Visa Travel Predict Challenge 1"
+  },
+  "p87940": {
+    "title": "TRVP-CHAL2",
+    "description": "TRVP-CHAL2 - Visa Travel Predict Challenge 2"
+  },
+  "p87941": {
+    "title": "TRVP-CHAL3",
+    "description": "TRVP-CHAL3 - Visa Travel Predict Challenge 3"
+  }
+}

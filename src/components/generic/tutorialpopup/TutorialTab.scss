@@ -1,0 +1,14 @@
+@import '../../../styles/buttons';
+
+.tutorialTab {
+  @extend %solid-blue-colour-btn;
+  background-color: transparent;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+
+  &.selected {
+    background-color: $colour-button;
+  }
+}

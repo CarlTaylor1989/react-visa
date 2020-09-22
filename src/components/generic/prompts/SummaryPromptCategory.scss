@@ -1,0 +1,8 @@
+.summaryPromptCategory {
+  font-size: 18px;
+  text-align: left;
+
+  &:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}

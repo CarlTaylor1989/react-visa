@@ -1,0 +1,66 @@
+@import '../../../../styles/variables';
+@import '../../../../styles/generic';
+
+$border-color: rgba(255, 255, 255, .3);
+
+.resourcesPanel {
+  @include multi-angle-gradient(
+    180deg,
+    rgba($colour-blue-dark, .4) 0%,
+    rgba($colour-blue-dark, 0) 6.9%,
+    rgba($colour-blue-dark, 0) 94.9%,
+    rgba($colour-blue-dark, .4) 100%,
+  );
+  @include border-radius(27px);
+  border: 2px solid $border-color;
+  box-sizing: border-box;
+  height: 570px;
+  margin-top: 100px;
+  padding: 15px 25px 20px;
+  position: relative;
+  width: 450px;
+
+  .title {
+    color: $colour-gold;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    display: block;
+    font-size: 18px;
+    padding: 0 60px 15px;
+    position: relative;
+
+    &::after {
+      background-color: $colour-white;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, 0);
+      width: 230px;
+    }
+  }
+
+  > .scrollingArea {
+    @extend %scrollbar;
+    height: 385px;
+    margin-top: 20px;
+
+    .resourcesWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 30px;
+    }
+  }
+
+  .resourcePopupOverlay {
+    @include border-radius(27px);
+    border-radius: 27px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientInfoSummaryItem component 1`] = `
+<div
+  className="clientInfoSummaryItem "
+>
+  <Translate
+    className="infoSummaryTitle"
+    tag="span"
+    value="clientprops.info.account"
+  />
+  <span
+    className="infoSummaryText"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "account",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`renders the ClientInfoSummaryItem component with the difficulty type 1`] = `
+<div
+  className="clientInfoSummaryItem difficulty"
+>
+  <Translate
+    className="infoSummaryTitle"
+    tag="span"
+    value="clientprops.info.account"
+  />
+  <DifficultyRating
+    currentRating={1}
+    numberOfStars={3}
+  />
+</div>
+`;

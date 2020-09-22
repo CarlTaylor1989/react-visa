@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TutorialTab component with a selected button 1`] = `
+<button
+  className="tutorialTab selected"
+  onClick={[Function]}
+  type="button"
+>
+  irrelevant
+</button>
+`;
+
+exports[`renders the TutorialTab component with an unselected button 1`] = `
+<button
+  className="tutorialTab "
+  onClick={[Function]}
+  type="button"
+>
+  irrelevant
+</button>
+`;

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="550" height="36" viewBox="0 0 550 36">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-circles_lines);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-circles_lines">
+      <rect width="550" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="circles_lines" class="cls-1">
+    <g id="Group_5913" data-name="Group 5913" transform="translate(-1088.642 -149.762)">
+      <line id="Line_297" data-name="Line 297" class="cls-2" x1="145.5" transform="translate(1124.142 168.102)"/>
+      <g id="Ellipse_621" data-name="Ellipse 621" class="cls-2" transform="translate(1088.641 149.762)">
+        <circle class="cls-3" cx="17.619" cy="17.619" r="17.619"/>
+        <circle class="cls-4" cx="17.619" cy="17.619" r="16.619"/>
+      </g>
+      <g id="Ellipse_622" data-name="Ellipse 622" class="cls-2" transform="translate(1269.641 149.762)">
+        <circle class="cls-3" cx="17.619" cy="17.619" r="17.619"/>
+        <circle class="cls-4" cx="17.619" cy="17.619" r="16.619"/>
+      </g>
+      <line id="Line_298" data-name="Line 298" class="cls-2" x1="147" transform="translate(1305.142 168.102)"/>
+      <line id="Line_299" data-name="Line 299" class="cls-2" x1="146.703" transform="translate(1488.142 168.102)"/>
+      <g id="Ellipse_623" data-name="Ellipse 623" class="cls-2" transform="translate(1452.243 149.762)">
+        <circle class="cls-3" cx="17.619" cy="17.619" r="17.619"/>
+        <circle class="cls-4" cx="17.619" cy="17.619" r="16.619"/>
+      </g>
+    </g>
+  </g>
+</svg>

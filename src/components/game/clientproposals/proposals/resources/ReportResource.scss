@@ -1,0 +1,61 @@
+@import '../../../../../styles/mixins';
+@import '../../../../../styles/variables';
+
+$graph-icon-width: 66px;
+$graph-icon-height: 70px;
+
+.reportResource {
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+
+  .reportResourceTitle,
+  .reportResourceSubtitle {
+    color: $colour-gold;
+    display: block;
+    text-align: left;
+  }
+
+  .reportResourceTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .reportResourceSubtitle {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .graphsWrapper {
+    .graphWrapper {
+      display: flex;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+
+      .graphIcon {
+        flex: 0 0 $graph-icon-width;
+        height: $graph-icon-height;
+        margin-right: 30px;
+        width: $graph-icon-width;
+      }
+
+      .graphText {
+        display: flex;
+        flex: 1 1 auto;
+        font-size: 18px;
+        text-align: left;
+
+        span {
+          @include align-items(center);
+          display: flex;
+        }
+      }
+
+      & + .graph-wrapper {
+        margin-top: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../styles/buttons';
+@import '../../styles/generic';
+
+$vu-logo-icon: '../../styles/icons/splash/vu_logo.svg';
+$vu-logo-icon-height: 50px;
+$vu-logo-icon-width: 290px;
+
+.splash {
+  @extend %screen-size;
+  @extend %bg-size;
+  background-image: url('../../styles/backgrounds/splash_bg.jpg');
+  position: relative;
+  text-align: center;
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0 0 80px;
+
+    .small-logo {
+      align-self: start;
+      background-image: url($vu-logo-icon);
+      height: $vu-logo-icon-height;
+      width: $vu-logo-icon-width;
+    }
+  }
+
+  .nextBtn {
+    @extend %blue-btn;
+    @include opacity(1);
+    align-self: center;
+    border: 3px solid $colour-white;
+    font-size: 46px;
+    line-height: 50px;
+    margin: 0 auto;
+    min-width: 240px;
+    padding: 15px 40px;
+    transition: background .3s ease-in-out, opacity .3s ease-in-out;
+
+    &.hide {
+      @include opacity(0);
+      visibility: hidden;
+    }
+  }
+
+  .splash-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+}
+

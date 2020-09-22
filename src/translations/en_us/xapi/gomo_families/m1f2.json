@@ -1,0 +1,69 @@
+{
+  "p87973": {
+    "title": "VAA-LEARN",
+    "description": "VAA-LEARN - Visa Advanced Authorization Learn"
+  },
+  "p87974": {
+    "title": "VAA-CHAL1",
+    "description": "VAA-CHAL1 - Visa Advanced Authorization Challenge 1"
+  },
+  "p87975": {
+    "title": "VAA-CHAL2",
+    "description": "VAA-CHAL2 - Visa Advanced Authorization Challenge 2"
+  },
+  "p87976": {
+    "title": "VAA-CHAL3",
+    "description": "VAA-CHAL3 - Visa Advanced Authorization Challenge 3"
+  },
+
+  "p87980": {
+    "title": "VRM-LEARN",
+    "description": "VRM-LEARN - Visa Risk Manager Learn"
+  },
+  "p87981": {
+    "title": "VRM-CHAL1",
+    "description": "VRM-CHAL1 - Visa Risk Manager Challenge 1"
+  },
+  "p87982": {
+    "title": "VRM-CHAL2",
+    "description": "VRM-CHAL2 Visa Risk Manager Challenge 2"
+  },
+  "p87983": {
+    "title": "VRM-CHAL3",
+    "description": "VRM-CHAL3 Visa Risk Manager Challenge 3"
+  },
+
+  "p87961": {
+    "title": "3DS-LEARN",
+    "description": "3DS-LEARN - EMV 3DS Learn"
+  },
+  "p87962": {
+    "title": "3DS-CHAL1",
+    "description": "3DS-CHAL1 - EMV 3DS Challenge 1"
+  },
+  "p87963": {
+    "title": "3DS-CHAL2",
+    "description": "3DS-CHAL2 - EMV 3DS Challenge 2"
+  },
+  "p87964": {
+    "title": "3DS-CHAL3",
+    "description": "3DS-CHAL3 - EMV 3DS Challenge 3"
+  },
+
+  "p87977": {
+    "title": "VCAS-LEARN",
+    "description": "VCAS-LEARN - Visa Consumer Authentication Service Learn"
+  },
+  "p87894": {
+    "title": "VCAS-CHAL1",
+    "description": "VCAS-CHAL1 - Visa Consumer Authentication Service Challenge 1"
+  },
+  "p87978": {
+    "title": "VCAS-CHAL2",
+    "description": "VCAS-CHAL2 - Visa Consumer Authentication Service Challenge 2"
+  },
+  "p87979": {
+    "title": "VCAS-CHAL3",
+    "description": "VCAS-CHAL3 - Visa Consumer Authentication Service Challenge 3"
+  }
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Star component with only the default class 1`] = `
+<span
+  className="star"
+/>
+`;
+
+exports[`renders the Star component with the active class 1`] = `
+<span
+  className="star active"
+/>
+`;

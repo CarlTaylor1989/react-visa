@@ -1,0 +1,29 @@
+{
+  "popupTitle": "TUTORIAL",
+  "backBtn": "PREVIOUS",
+  "nextBtn": "NEXT",
+  "progressSeparator": " / ",
+
+  "tabs": [{
+    "label": "OBJECTIVES",
+    "section": "t1"
+  }, {
+    "label": "NAVIGATION",
+    "section": "t2"
+  }, {
+    "label": "CLIENT PROPOSALS",
+    "section": "t3"
+  }, {
+    "label": "NETWORK MAP",
+    "section": "t4"
+  }, {
+    "label": "DASHBOARD",
+    "section": "t5"
+  }, {
+    "label": "SETTINGS",
+    "section": "t6"
+  }, {
+    "label": "HINTS",
+    "section": "t7"
+  }]
+}

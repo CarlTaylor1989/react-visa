@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FooterBar component with a disabled settings button 1`] = `
+<div
+  className="footerBar"
+>
+  <Connect(Hints) />
+  <button
+    className="settingsBtn disabled"
+    disabled={true}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchEnd={[Function]}
+    type="button"
+  >
+    <span
+      className="icon"
+    />
+    <Translate
+      tag="span"
+      value="generic.settingsBtn"
+    />
+  </button>
+  <Connect(SettingsPopup)
+    changeRegion={[Function]}
+    closePopup={[Function]}
+    exitPopup={[MockFunction]}
+    showPopup={false}
+  />
+</div>
+`;
+
+exports[`renders the FooterBar component with an enabled settings button 1`] = `
+<div
+  className="footerBar"
+>
+  <Connect(Hints) />
+  <button
+    className="settingsBtn "
+    disabled={false}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchEnd={[Function]}
+    type="button"
+  >
+    <span
+      className="icon"
+    />
+    <Translate
+      tag="span"
+      value="generic.settingsBtn"
+    />
+  </button>
+  <Connect(SettingsPopup)
+    changeRegion={[Function]}
+    closePopup={[Function]}
+    exitPopup={[MockFunction]}
+    showPopup={false}
+  />
+</div>
+`;

@@ -1,0 +1,77 @@
+@import '../../../styles/buttons';
+@import '../../../styles/generic';
+@import '~slick-carousel/slick/slick.css';
+
+$next-back-icon: '../../../styles/icons/intro_seq/next_n.svg';
+$next-back-over-icon: '../../../styles/icons/intro_seq/next_h.svg';
+$next-back-icon-height: 46px;
+$next-back-icon-width: 46px;
+
+.tutorialCarousel {
+  width: 1205px;
+
+  .navButtons {
+    @include align-items(center);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 890px;
+
+    .progress {
+      font-size: 28px;
+      font-weight: 800;
+      text-align: center;
+      width: 150px;
+    }
+
+    button {
+      @include align-items(center);
+      background: none;
+      border: 0;
+      color: $colour-white;
+      cursor: pointer;
+      display: flex;
+      font-size: 28px;
+      font-weight: 800;
+      outline: 0;
+      padding: 0;
+
+      .icon {
+        background: url($next-back-icon);
+        display: block;
+        height: $next-back-icon-height;
+        transition: background .5s ease-in-out;
+        width: $next-back-icon-width;
+      }
+
+      &:hover {
+        .icon {
+          background: url($next-back-over-icon);
+        }
+      }
+
+      &:disabled {
+        @extend %disabled-btn;
+
+        &:hover {
+          .icon {
+            background: url($next-back-icon);
+          }
+        }
+      }
+
+      &.backBtn {
+        .icon {
+          margin-right: 10px;
+          transform: rotate(180deg);
+        }
+      }
+
+      &.nextBtn {
+        .icon {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

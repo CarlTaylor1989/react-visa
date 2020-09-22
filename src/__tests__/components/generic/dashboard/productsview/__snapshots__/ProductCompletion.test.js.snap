@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductCompletion component 1`] = `
+<div
+  className="productCompletion"
+>
+  <div
+    className="progress"
+  >
+    2
+    <Translate
+      tag="span"
+      value="generic.dashboard.productProgressDivider"
+    />
+    2
+  </div>
+  <ProgressBar
+    colour="dark"
+    percent={100}
+  />
+</div>
+`;

@@ -1,0 +1,25 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$dot-diameter: 6px;
+
+.accordionItem {
+  padding-bottom: 10px;
+
+  .selectedNumberIndicatorWrapper {
+    @include align-items(center);
+    display: flex;
+    position: absolute;
+    right: 45px;
+    top: 14px;
+
+    .selectedNumberIndicator {
+      background-color: $colour-white;
+      border-radius: ($dot-diameter / 2);
+      display: block;
+      height: $dot-diameter;
+      margin-left: 6px;
+      width: $dot-diameter;
+    }
+  }
+}

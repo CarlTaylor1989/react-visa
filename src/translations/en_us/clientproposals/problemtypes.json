@@ -1,0 +1,18 @@
+{
+  "b2b": {
+    "cpBtn": "- B2B PAYMENTS  -",
+    "name": "B2B Payments"
+  },
+  "fraud": {
+    "cpBtn": "- FRAUD  -",
+    "name": "Fraud"
+  },
+  "icommerce": {
+    "cpBtn": "- INTEGRATED COMMERCE  -",
+    "name": "Integrated Commerce"
+  },
+  "travel": {
+    "cpBtn": "- TRAVEL  -",
+    "name": "Travel"
+  }
+}

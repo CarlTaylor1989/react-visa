@@ -1,0 +1,89 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.animatedText {
+  height: 100px;
+  position: relative;
+
+  .text-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    .text {
+      @include opacity(0);
+      color: $colour-yellow;
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 45px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+  }
+
+  &.play {
+    .text-container {
+      &:first-child {
+        .text {
+          @include animation(intro 4s 3s);
+        }
+      }
+
+      &:nth-child(2) {
+        .text {
+          @include animation(intro 2s 7s);
+        }
+      }
+
+      &:nth-child(3) {
+        .text {
+          @include animation(intro 3s 9s);
+        }
+      }
+
+      &:last-child {
+        .text {
+          @include animation(introEnd 1s ease-out 12s normal forwards);
+        }
+      }
+    }
+  }
+
+  @keyframes intro {
+    0% {
+      @include animation-timing-function(cubic-bezier(.2, .655, .4, .885));
+      @include opacity(0);
+      @include transform(perspective(2000px) translate3d(0, -50%, -1300px));
+    }
+
+    50% {
+      @include animation-timing-function(cubic-bezier(.4, .015, .595, .99));
+      @include opacity(1);
+      @include transform(perspective(2000px) translate3d(0, -50%, 0));
+    }
+
+    100% {
+      @include animation-timing-function(cubic-bezier(.735, .045, .95, .5));
+      @include opacity(0);
+      @include transform(perspective(2000px) translate3d(0, -50%, 1300px));
+    }
+  }
+
+  @keyframes introEnd {
+    0% {
+      @include opacity(0);
+      @include transform(perspective(2000px) translate3d(0, -50%, -100px));
+    }
+
+    100% {
+      @include opacity(1);
+      @include transform(perspective(2000px) translate3d(0, -50%, 0));
+    }
+  }
+}

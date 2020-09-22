@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a checked Toggle 1`] = `
+<div
+  className="toggleWrapper"
+>
+  <Translate
+    className="toggleText"
+    tag="span"
+    value="generic.switchOn"
+  />
+  <button
+    className="toggleSwitch checked"
+    onClick={[Function]}
+    type="button"
+  />
+  <Translate
+    className="toggleText"
+    tag="span"
+    value="generic.switchOff"
+  />
+</div>
+`;
+
+exports[`renders an unchecked Toggle 1`] = `
+<div
+  className="toggleWrapper"
+>
+  <Translate
+    className="toggleText"
+    tag="span"
+    value="generic.switchOn"
+  />
+  <button
+    className="toggleSwitch"
+    onClick={[Function]}
+    type="button"
+  />
+  <Translate
+    className="toggleText"
+    tag="span"
+    value="generic.switchOff"
+  />
+</div>
+`;

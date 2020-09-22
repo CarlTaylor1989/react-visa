@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Requirements component with the submit button 1`] = `
+<div
+  className="requirements"
+>
+  <div
+    className="group"
+  >
+    <StatementsInstruction
+      client="client1"
+      completed={false}
+    />
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <div
+          className="statementsWrapper"
+        >
+          <StatementsGroup
+            client="client1"
+            group="opportunities"
+            key="opportunities"
+          />
+          <CheckboxLabel
+            disabled={false}
+            elementId="stm1"
+            isSelected={false}
+            key="opportunitiesstm10"
+            label="irrelevant"
+            onCheckboxChange={[Function]}
+          />
+        </div>
+      </Scrollbar>
+    </div>
+  </div>
+  <button
+    className="submitBtn"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="clientprops.submitBtn"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders the Requirements component without the submit button 1`] = `
+<div
+  className="requirements completed"
+>
+  <div
+    className="group"
+  >
+    <StatementsInstruction
+      client="client1"
+      completed={true}
+    />
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <div
+          className="statementsWrapper"
+        >
+          <StatementsGroup
+            client="client1"
+            group="opportunities"
+            key="opportunities"
+          />
+          <CheckboxLabel
+            disabled={false}
+            elementId="stm1"
+            isSelected={false}
+            key="opportunitiesstm10"
+            label="irrelevant"
+            onCheckboxChange={[Function]}
+          />
+        </div>
+      </Scrollbar>
+    </div>
+  </div>
+</div>
+`;

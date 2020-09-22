@@ -1,0 +1,16 @@
+{
+  "backBtn": "BACK",
+  "or": "OR",
+  "openLearningBtn": "OPEN LEARNING",
+  "openChallengesBtn": "OPEN CHALLENGES",
+  "points": "POINTS",
+  "noBtn": "NO",
+  "notStarted": "NOT STARTED",
+  "available": "INCOMPLETE",
+  "completed": "PASSED",
+  "perfect": "PERFECT!",
+  "challengeBtn": "CHALLENGE %{count}",
+  "warning": "Warning",
+  "warningDescription": "Leaving the current challenge will count as a fail and reset your challenge streak. Are you sure you want to continue?",
+  "yesBtn": "YES" 
+}

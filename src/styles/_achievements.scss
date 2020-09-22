@@ -1,0 +1,44 @@
+@import 'mixins';
+@import 'variables';
+
+$achievements: (
+  'ac1': 'off_the_mark',
+  'ac2': 'one_down',
+  'ac3': 'flying_start',
+  'ac4': 'take_5',
+  'ac5': 'smarty_pants',
+  'ac6': 'clever_cloggs',
+  'ac7': 'hooked',
+  'ac8': 'epic_fail',
+  'ac9': 'millionaire',
+  'ac10': 'mmmillionaire',
+  'ac11': 'you_might_be',
+  'ac12': 'this_shouldnt_be',
+  'ac13': 'first_of_many',
+  'ac14': 'clients_love_1',
+  'ac15': 'clients_love_2',
+  'ac16': 'clients_love_3',
+  'ac17': 'epic_win',
+  'ac18': 'fist_time_charm',
+  'ac19': 'fell_last_hurdle',
+  'ac20': 'perfectionist',
+  'ac21': 'fine_tuna'
+);
+
+$achievement-height: 36px !default;
+$achievement-width: 36px !default;
+
+@each $achievement, $icon in $achievements {
+  .#{$achievement} {
+    background-image: url('../../../styles/icons/achievements/#{$icon}_icon.svg');
+    background-size: $achievement-width $achievement-height;
+    height: $achievement-height;
+    width: $achievement-width;
+
+    &.dark {
+      @include border-radius(20px);
+      background-color: $colour-yellow;
+      background-image: url('../../../styles/icons/achievements/#{$icon}_icon_dark.svg');
+    }
+  }
+}

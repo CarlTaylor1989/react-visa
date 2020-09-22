@@ -1,0 +1,128 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$dotted-product-icon: '../../../styles/icons/product_bg_icon.svg';
+$product-height: 100px;
+$product-width: 100px;
+$border-size: 3px;
+
+.productPrompt {
+  text-align: center;
+
+  .productPromptFamilyContainer {
+    @include align-items(center);
+    display: flex;
+    flex-direction: column;
+
+    .productPromptFamily {
+      @include border-radius(17px);
+      display: inline-block;
+      font-size: 20px;
+      font-weight: 800;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 15px;
+    }
+  }
+
+  .productPromptIcon {
+    display: block;
+    margin-top: 25px;
+    padding: $border-size;
+    position: relative;
+
+    &::before {
+      @include border-radius(60px);
+      background-color: transparent;
+      background-image: url($dotted-product-icon);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      bottom: -$border-size;
+      content: '';
+      left: -$border-size;
+      position: absolute;
+      right: -$border-size;
+      top: -$border-size;
+    }
+
+    svg {
+      @include border-radius(60px);
+      height: $product-height - ($border-size * 2);
+      width: $product-width - ($border-size * 2);
+    }
+  }
+
+  &.type1 {
+    .productPromptFamily {
+      background-color: $colour-family-1-dashboard;
+    }
+
+    .productPromptIcon {
+      svg {
+        background-color: $colour-family-1-dashboard;
+      }
+    }
+  }
+
+  &.type2 {
+    .productPromptFamily {
+      background-color: $colour-family-2-dashboard;
+    }
+
+    .productPromptIcon {
+      svg {
+        background-color: $colour-family-2-dashboard;
+      }
+    }
+  }
+
+  &.type3 {
+    .productPromptFamily {
+      background-color: $colour-family-3-dashboard;
+    }
+
+    .productPromptIcon {
+      svg {
+        background-color: $colour-family-3-dashboard;
+      }
+    }
+  }
+
+  &.type4 {
+    .productPromptFamily {
+      background-color: $colour-family-4-dashboard;
+    }
+
+    .productPromptIcon {
+      svg {
+        background-color: $colour-family-4-dashboard;
+      }
+    }
+  }
+
+  &.type5 {
+    .productPromptFamily {
+      background-color: $colour-family-5-dashboard;
+      color: $colour-blue;
+    }
+
+    .productPromptIcon {
+      svg {
+        background-color: $colour-family-5-dashboard;
+      }
+    }
+  }
+
+  .productPromptTitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 5px;
+  }
+
+  .productPromptScore {
+    color: $colour-yellow;
+    font-size: 43px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+}

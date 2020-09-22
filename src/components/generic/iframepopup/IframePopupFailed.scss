@@ -1,0 +1,45 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+$error-icon: '../../../styles/icons/iframepopup/error_icon.svg';
+$error-icon-width: 125px;
+$error-icon-height: 125px;
+
+.iframePopupFailed {
+  @include border-radius(24px);
+  border: 2px solid $colour-white;
+  display: flex;
+  flex-direction: row;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  .icon {
+    background-image: url($error-icon);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: $error-icon-width $error-icon-height;
+    display: block;
+    height: $error-icon-height;
+    width: $error-icon-width;
+  }
+
+  .errorBody {
+    margin: 30px 0 30px 40px;
+
+    .errorTitle {
+      color: $colour-gold;
+      display: block;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .errorText {
+      color: $colour-white;
+      font-size: 36px;
+    }
+  }
+}

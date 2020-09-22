@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the LowRatingGiven component 1`] = `
+<Fragment>
+  <div
+    className="popupText"
+  >
+    <Translate
+      tag="span"
+      value="generic.feedback.popupLowRatingGiven"
+    />
+  </div>
+  <textarea
+    onChange={[MockFunction]}
+    value="Lorem ipsum"
+  />
+  <div
+    className="buttons"
+  >
+    <button
+      className="submitBtn"
+      disabled={false}
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        className="text"
+        tag="span"
+        value="generic.feedback.submitBtn"
+      />
+    </button>
+    <CancelButton
+      onClick={[MockFunction]}
+    />
+  </div>
+</Fragment>
+`;

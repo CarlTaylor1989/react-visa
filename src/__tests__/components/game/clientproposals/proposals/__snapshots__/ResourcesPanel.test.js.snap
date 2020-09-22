@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ResourcesPanel component 1`] = `
+<div
+  className="resourcesPanel"
+>
+  <Translate
+    className="title"
+    tag="span"
+    value="clientprops.resourcesTitle"
+  />
+  <Translate
+    className="text"
+    tag="span"
+    value="clientprops.resourcesText"
+  />
+  <div
+    className="scrollingArea"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="resourcesWrapper"
+      >
+        <ResourceButton
+          client="client1"
+          handleClick={[MockFunction]}
+          id="0"
+          key="0"
+        />
+        <ResourceButton
+          client="client1"
+          handleClick={[MockFunction]}
+          id="1"
+          key="1"
+        />
+        <ResourceButton
+          client="client1"
+          handleClick={[MockFunction]}
+          id="2"
+          key="2"
+        />
+      </div>
+    </Scrollbar>
+  </div>
+  <ResourcePopup
+    client="client1"
+    closePopup={[MockFunction]}
+    resourceId="id"
+    resources={
+      Object {
+        "0": Object {
+          "id": "res1",
+          "name": "RESOURCE NAME",
+          "text": "TEXT",
+          "type": "pdf",
+          "url": "url",
+        },
+        "1": Object {
+          "id": "res2",
+          "name": "RESOURCE NAME",
+          "text": "TEXT",
+          "type": "video",
+          "url": "url",
+        },
+        "2": Object {
+          "id": "res3",
+          "name": "RESOURCE NAME",
+          "text": "TEXT",
+          "type": "audio",
+          "url": "url",
+        },
+      }
+    }
+    showPopup={false}
+    type="type"
+  />
+</div>
+`;

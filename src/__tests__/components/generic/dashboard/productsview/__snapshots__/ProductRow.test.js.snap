@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductRow component with the complete styles 1`] = `
+<NavLink
+  className="productRow type2 completed"
+  onClick={[Function]}
+  to="/game/network/product"
+>
+  <InlineSVG
+    className="productRowIcon"
+    element="i"
+    raw={false}
+    src=""
+  />
+  <div
+    className="productName"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "irrelevant",
+      }
+    }
+  />
+  <Connect(ProductCompletion)
+    familyId="m1f2"
+    productId="p3"
+  />
+</NavLink>
+`;
+
+exports[`renders the ProductRow component with the incomplete styles 1`] = `
+<NavLink
+  className="productRow type2 "
+  onClick={[Function]}
+  to="/game/network/product"
+>
+  <InlineSVG
+    className="productRowIcon"
+    element="i"
+    raw={false}
+    src=""
+  />
+  <div
+    className="productName"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "irrelevant",
+      }
+    }
+  />
+  <Connect(ProductCompletion)
+    familyId="m1f2"
+    productId="p3"
+  />
+</NavLink>
+`;

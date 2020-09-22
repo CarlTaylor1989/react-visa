@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientAvatar component 1`] = `
+<div
+  className="clientAvatar info"
+>
+  <span
+    className="icon irrelevant"
+  />
+  <div
+    className="avatarName"
+  >
+    <Translate
+      tag="span"
+      value="clientprops.clients.irrelevant.info.avatarName"
+    />
+  </div>
+</div>
+`;

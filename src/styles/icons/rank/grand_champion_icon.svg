@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="94" viewBox="0 0 94 94">
+  <defs>
+    <clipPath id="clip-grand_champion_icon">
+      <rect width="94" height="94"/>
+    </clipPath>
+  </defs>
+  <g id="grand_champion_icon" clip-path="url(#clip-grand_champion_icon)">
+    <g id="Group_1260" data-name="Group 1260" transform="translate(-192.529 -334.72)">
+      <g id="Group_1143" data-name="Group 1143" transform="translate(211.529 355.72)">
+        <g id="Group_1142" data-name="Group 1142">
+          <g id="Group_1141" data-name="Group 1141">
+            <rect id="Rectangle_599" data-name="Rectangle 599" width="24.932" height="6.819" transform="translate(15.534 45.181)" fill="#fff"/>
+            <path id="Path_1882" data-name="Path 1882" d="M-39.109-251.352a3.43,3.43,0,0,0-3.407,3.445,3.454,3.454,0,0,0,.978,2.408l-16.614,17.6-4.272-19.646a5.775,5.775,0,0,0,4.447-5.639,5.758,5.758,0,0,0-5.726-5.789,5.758,5.758,0,0,0-5.726,5.789,5.774,5.774,0,0,0,4.439,5.637L-69.262-227.9l-16.6-17.6a3.455,3.455,0,0,0,.975-2.408,3.429,3.429,0,0,0-3.406-3.444,3.43,3.43,0,0,0-3.406,3.445,3.429,3.429,0,0,0,3.406,3.444,3.33,3.33,0,0,0,1.09-.2L-76.174-216.1H-51.24L-40.2-244.66a3.323,3.323,0,0,0,1.089.2,3.429,3.429,0,0,0,3.406-3.444A3.43,3.43,0,0,0-39.109-251.352Z" transform="translate(91.703 258.973)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

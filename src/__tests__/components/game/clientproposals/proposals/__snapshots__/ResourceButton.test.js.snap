@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ResourceButton component 1`] = `
+<button
+  className="resourceButton"
+  onClick={[Function]}
+  type="button"
+>
+  <ResourceIcon
+    type="type"
+  />
+  <div
+    className="resourceInfo"
+  >
+    <Translate
+      className="resourceName"
+      tag="span"
+      value="clientprops.clients.client1.resources.0.name"
+    />
+  </div>
+</button>
+`;

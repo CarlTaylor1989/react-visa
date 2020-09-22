@@ -1,0 +1,44 @@
+@import '../../../styles/mixins';
+
+$guide-icon: '../../../styles/icons/clients/guide_client_proposals.svg';
+$guide-icon-width: 246px;
+$guide-icon-height: 287px;
+
+$arrows-down-icon: '../../../styles/icons/clients/arrows_down.svg';
+$arrows-down-icon-width: 33px;
+$arrows-down-icon-height: 31px;
+
+.getStarted {
+  @include align-items(center);
+  display: flex;
+  flex-direction: column;
+  height: $guide-icon-height;
+  justify-content: center;
+  position: absolute;
+  width: 1250px;
+
+  .instructionText {
+    font-size: 24px;
+  }
+
+  .guide,
+  .arrowsDown,
+  .divider {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+  }
+
+  .guide {
+    background-image: url($guide-icon);
+    bottom: 0;
+    height: $guide-icon-height;
+    left: 100px;
+    position: absolute;
+    width: $guide-icon-width;
+  }
+
+  .arrows {
+    margin-top: 25px;
+  }
+}

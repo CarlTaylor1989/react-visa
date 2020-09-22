@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MultipleAchievementsPrompt when there are multiple achievements 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <MultipleAchievements
+      prompts={
+        Array [
+          Object {
+            "id": "ac1",
+            "type": "achievement",
+          },
+          Object {
+            "id": "ac21",
+            "type": "achievement",
+          },
+        ]
+      }
+      setPlayAudio={[MockFunction]}
+    />
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders a closed popup 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={false}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open popup with the achievement content 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <AchievementPrompt
+      achievementId="ac1"
+      multipleAchievements={false}
+      setPlayAudio={[MockFunction]}
+    />
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open popup with the bonus streak content 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <BonusStreakPrompt
+      setPlayAudio={[MockFunction]}
+    />
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open popup with the product content 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <ProductPrompt
+      familyId="m1f2"
+      mapId="m1"
+      productId="p4"
+      setPlayAudio={[MockFunction]}
+    />
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open popup with the rank content 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <RankPrompt
+      rankId="r1"
+      setPlayAudio={[MockFunction]}
+    />
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;
+
+exports[`renders an open popup without prompt content 1`] = `
+<Modal
+  animationDuration={500}
+  blockScroll={true}
+  center={true}
+  classNames={
+    Object {
+      "modal": "promptsPopup",
+      "overlay": "promptsPopupOverlay",
+    }
+  }
+  classes={
+    Object {
+      "closeButton": "styles_closeButton__20ID4",
+      "closeIcon": "styles_closeIcon__1QwbI",
+      "modal": "styles_modal__gNwvD",
+      "modalCenter": "styles_modalCenter__L9F2w",
+      "overlay": "styles_overlay__CLSq-",
+      "transitionEnter": "styles_transitionEnter__3j_-a",
+      "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+      "transitionExit": "styles_transitionExit__1KmEf",
+      "transitionExitActive": "styles_transitionExitActive__1nQXw",
+    }
+  }
+  closeIconSize={28}
+  closeIconSvgPath={
+    <path
+      d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+    />
+  }
+  closeOnEsc={false}
+  closeOnOverlayClick={false}
+  container={null}
+  focusTrapOptions={Object {}}
+  focusTrapped={true}
+  onClose={[Function]}
+  onExited={[MockFunction]}
+  open={true}
+  role="dialog"
+  showCloseIcon={false}
+  styles={Object {}}
+>
+  <div
+    className="popupWrapper"
+  >
+    <button
+      className="okBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.okBtn"
+      />
+    </button>
+  </div>
+</Modal>
+`;

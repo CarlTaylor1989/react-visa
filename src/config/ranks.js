@@ -1,0 +1,63 @@
+export const defaultRank = 'r20';
+
+export default [{
+  id: 'r1',
+  threshold: 11000000
+}, {
+  id: 'r2',
+  threshold: 10500000
+}, {
+  id: 'r3',
+  threshold: 9750000
+}, {
+  id: 'r4',
+  threshold: 8500000
+}, {
+  id: 'r5',
+  threshold: 7500000
+}, {
+  id: 'r6',
+  threshold: 6500000
+}, {
+  id: 'r7',
+  threshold: 5550000
+}, {
+  id: 'r8',
+  threshold: 4750000
+}, {
+  id: 'r9',
+  threshold: 4000000
+}, {
+  id: 'r10',
+  threshold: 3500000
+}, {
+  id: 'r11',
+  threshold: 2750000
+}, {
+  id: 'r12',
+  threshold: 2250000
+}, {
+  id: 'r13',
+  threshold: 1750000
+}, {
+  id: 'r14',
+  threshold: 1250000
+}, {
+  id: 'r15',
+  threshold: 850000
+}, {
+  id: 'r16',
+  threshold: 500000
+}, {
+  id: 'r17',
+  threshold: 350000
+}, {
+  id: 'r18',
+  threshold: 200000
+}, {
+  id: 'r19',
+  threshold: 100000
+}, {
+  id: 'r20',
+  threshold: 0
+}];

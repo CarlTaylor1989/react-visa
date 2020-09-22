@@ -1,0 +1,18 @@
+{
+  "title": "Settings page",
+  "description": "The Visa Inside Track Game Settings page.",
+
+  "on": "on",
+  "off": "off",
+
+  "audioTitle": "Audio on-off toggle",
+  "audioDescription": "Turn audio on-off",
+  "tooltipsTitle": "Tooltip on-off toggle",
+  "tooltipsDescription": "Turn tooltips (like this) on-off",
+  "regionBtnTitle": "Region change button",
+  "regionBtnDescription": "Return to the diagnostic to change your region",
+  "tutorialTitle": "Tutorial on-off toggle",
+  "tutorialDescription": "Turn tutorial messages on-off",
+  "tutorialBtnTitle": "Tutorial reset button",
+  "tutorialBtnDescription": "Unhide previously dismissed tutorial messages"
+}

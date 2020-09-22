@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`method updateChallengeState() sets the status to available 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.available"
+>
+  <span
+    className="challengeIcon m1f1 available "
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  />
+</Connect(Tooltip)>
+`;
+
+exports[`method updateChallengeState() sets the status to available for the first tree node 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.available"
+>
+  <span
+    className="challengeIcon m1f1 available "
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  />
+</Connect(Tooltip)>
+`;
+
+exports[`method updateChallengeState() sets the status to completed 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.completed"
+>
+  <span
+    className="challengeIcon m1f1 completed "
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  />
+</Connect(Tooltip)>
+`;
+
+exports[`method updateChallengeState() sets the status to perfect 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.perfect"
+>
+  <span
+    className="challengeIcon m1f1 perfect "
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  />
+</Connect(Tooltip)>
+`;
+
+exports[`renders the ChallengeIcon component with the available state 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.available"
+>
+  <span
+    className="challengeIcon m1f1  "
+    style={
+      Object {
+        "left": 100,
+        "top": 100,
+      }
+    }
+  />
+</Connect(Tooltip)>
+`;

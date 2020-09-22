@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StatementsGroup component 1`] = `
+<div
+  className="statementsGroup"
+>
+  <Translate
+    className="groupTitle"
+    tag="span"
+    value="clientprops.goals"
+  />
+  <Translate
+    className="required"
+    required={1}
+    tag="span"
+    value="clientprops.statementsRequired"
+  />
+</div>
+`;

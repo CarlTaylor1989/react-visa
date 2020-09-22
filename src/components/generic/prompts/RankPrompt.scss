@@ -1,0 +1,36 @@
+@import '../../../styles/ranks';
+@import '../../../styles/variables';
+
+$rank-icon-width: 94px;
+$rank-icon-height: 94px;
+
+.rankPrompt {
+  text-align: center;
+
+  .rank {
+    padding-top: 0;
+
+    .label {
+      display: none;
+    }
+
+    .icon {
+      height: $rank-icon-height;
+      width: $rank-icon-width;
+    }
+
+    .rankName {
+      color: $colour-white;
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .progressBar {
+      height: 20px;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}

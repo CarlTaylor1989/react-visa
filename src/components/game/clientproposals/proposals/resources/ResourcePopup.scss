@@ -1,0 +1,70 @@
+$popup-close-n: '../../../../../styles/icons/popup_close_n.svg';
+$popup-close-h: '../../../../../styles/icons/popup_close_h.svg';
+
+@import '../../../../../styles/generic';
+@import '../../../../../styles/popup';
+
+$audio-icon: '../../../../../styles/icons/clients/resource_icons/audio_icon.svg';
+$call-icon: '../../../../../styles/icons/clients/resource_icons/call_icon.svg';
+$email-icon: '../../../../../styles/icons/clients/resource_icons/email_icon.svg';
+$pdf-icon: '../../../../../styles/icons/clients/resource_icons/pdf_icon.svg';
+$video-icon: '../../../../../styles/icons/clients/resource_icons/video_icon.svg';
+$icon-width: 54px;
+$icon-height: 40px;
+
+$avatar-icon: '../../../../../styles/icons/clients/resource_icons/resource_avatar_02.svg';
+$avatar-icon-width: 100px;
+$avatar-icon-height: $avatar-icon-width;
+
+.resourcePopup {
+  @extend %gradient-popup;
+  @include border-radius(27px);
+  @include box-shadow(21px, 21px, 11px, 0, rgba(0, 0, 0, .3));
+  @include opacity(0);
+  border: 2px solid $colour-white;
+  bottom: -2px;
+  box-sizing: border-box;
+  left: -2px;
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  transition: opacity .5s ease-in-out;
+  z-index: -1;
+
+  &.available {
+    @include opacity(1);
+    z-index: 10;
+  }
+
+  .popupWrapper {
+    padding: 25px 25px 40px 50px;
+
+    .resourceIcon {
+      background-position: top left;
+      height: $icon-height;
+      width: $icon-width;
+    }
+  }
+
+  .exitPopup {
+    @extend %exit-popup;
+  }
+
+  .buttons {
+    @include align-items(flex-end);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .scrollingArea {
+    @extend %scrollbar;
+    height: 385px;
+    margin-top: 40px;
+
+    .resourcesWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 30px;
+    }
+  }
+}

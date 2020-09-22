@@ -1,0 +1,93 @@
+@import '../../../styles/generic';
+@import '../../../styles/mixins';
+
+.rankView {
+  @extend %scrollbar;
+  height: 550px;
+  margin-right: 45px;
+
+  .contentWrapper {
+    @include border-radius(27px 27px 0 0);
+    @include multi-angle-gradient(
+      180deg, $dashboard-gradient-1 0%,
+      $dashboard-gradient-2 100%
+    );
+    height: 530px;
+    padding: 10px 0;
+    width: 1283px;
+  }
+
+  .rankRow {
+    @include align-items(center);
+    border-top: 1px solid $colour-white;
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    height: 67px;
+    margin: 0 35px;
+    opacity: .2;
+
+    &:last-of-type {
+      border-bottom: 1px solid $colour-white;
+    }
+
+    &.current {
+      @include multi-left-right-gradient(
+        rgba($colour-white, 0) 0%,
+        rgba($colour-white, .3) 18%,
+        rgba($colour-white, .3) 87%,
+        rgba($colour-white, 0) 100%
+      );
+      border-bottom: 1px solid $colour-white;
+      font-size: 32px;
+      margin: 0 35px 0 0;
+      opacity: 1;
+    }
+
+    .rankIdentifier {
+      @include align-items(center);
+      display: flex;
+
+      .rankRowIcon {
+        background-position: center;
+        background-size: cover;
+        height: 50px;
+        margin-right: 5px;
+        width: 41px;
+      }
+    }
+
+    .progress {
+      margin-left: auto;
+      margin-right: 45px;
+
+      .progressBar {
+        height: 20px;
+        width: 500px;
+      }
+    }
+
+    .rankRowPoints {
+      @include align-items(center);
+      @include border-radius(24px);
+      @include multi-angle-gradient(
+        152deg,
+        rgba($colour-white, 0) 0%,
+        rgba($colour-white, .01) 9%,
+        rgba($colour-white, .05) 23%,
+        rgba($colour-white, .1) 43%,
+        rgba($colour-white, .18) 66%,
+        rgba($colour-white, .27) 92%,
+        rgba($colour-white, .3) 100%
+      );
+      border: 2px solid $colour-white;
+      color: $colour-yellow;
+      font-size: 32px;
+      font-weight: 700;
+      height: 48px;
+      margin-left: auto;
+      text-align: center;
+      width: 330px;
+    }
+  }
+}

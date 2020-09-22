@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the MeetingResource component 1`] = `
+<div
+  className="meetingResource"
+>
+  <Translate
+    className="title"
+    tag="span"
+    value="clientprops.clients.client1.resources.res1.title"
+  />
+  <Translate
+    className="content"
+    dangerousHTML={true}
+    tag="span"
+    value="clientprops.clients.client1.resources.res1.content"
+  />
+</div>
+`;

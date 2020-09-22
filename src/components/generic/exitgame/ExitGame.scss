@@ -1,0 +1,76 @@
+@import '../../../styles/buttons';
+@import '../../../styles/popup';
+
+$stars-left-icon: '../../../styles/icons/exit_game/stars_left.svg';
+$stars-right-icon: '../../../styles/icons/exit_game/stars_right.svg';
+$bars-icon: '../../../styles/icons/exit_game/bars.svg';
+$loaders-icon: '../../../styles/icons/exit_game/loaders.svg';
+
+.exitGamePopupOverlay {
+  @extend %popup-overlay;
+}
+
+.exitGamePopup {
+  @extend %popup;
+
+  .bgIcons {
+    display: block;
+    position: absolute;
+    z-index: 1;
+
+    &.starsLeft {
+      background-image: url($stars-left-icon);
+      height: 108px;
+      left: 20px;
+      top: 20px;
+      width: 270px;
+    }
+
+    &.starsRight {
+      background-image: url($stars-right-icon);
+      height: 103px;
+      right: 20px;
+      top: 20px;
+      width: 246px;
+    }
+
+    &.bars {
+      background-image: url($bars-icon);
+      bottom: 20px;
+      height: 72px;
+      left: 20px;
+      width: 257px;
+    }
+
+    &.loaders {
+      background-image: url($loaders-icon);
+      bottom: 20px;
+      height: 280px;
+      right: 20px;
+      width: 63px;
+    }
+  }
+
+  .popupWrapper {
+    padding: 100px 40px;
+    text-align: center;
+  }
+
+  .popupTitle {
+    color: $colour-gold;
+    font-size: 48px;
+    padding-bottom: 30px;
+  }
+
+  .popupText {
+    color: $colour-white;
+    font-size: 24px;
+    padding-bottom: 60px;
+  }
+
+  .yesBtn,
+  .noBtn {
+    @extend %blue-btn-shadow;
+    margin: 0 15px;
+  }
+}

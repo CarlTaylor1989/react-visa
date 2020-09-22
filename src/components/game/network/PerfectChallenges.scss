@@ -1,0 +1,42 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$star-icon: '../../../styles/icons/star.svg';
+$star-icon-height: 18px;
+$star-icon-width: 18px;
+
+.perfectChallenges {
+  @include border-radius(16px 0 0 16px);
+  background-color: $mini-dashboard-bg-colour;
+  border: 1.5px solid $colour-white;
+  border-right: 0;
+  color: $colour-white;
+  padding: 10px 20px 10px 25px;
+  width: 130px;
+
+  .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .icon {
+    background-image: url($star-icon);
+    background-size: $star-icon-width $star-icon-height;
+    height: $star-icon-height;
+    margin-right: 10px;
+    width: $star-icon-width;
+  }
+
+  .completed {
+    font-size: 20px;
+  }
+
+  .completedContainer {
+    @include align-items(center);
+    display: flex;
+    justify-content: flex-start;
+  }
+}

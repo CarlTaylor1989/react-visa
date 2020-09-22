@@ -1,0 +1,20 @@
+@import '../../../../styles/mixins';
+@import '../../../../styles/variables';
+
+.productCompletion {
+  @include align-items(center);
+  display: flex;
+
+  .progress {
+    color: $colour-white;
+    font-size: 18px;
+    margin-right: 2%;
+    text-align: right;
+    width: 8%;
+  }
+
+  .progressBar {
+    height: 20px;
+    width: 90%;
+  }
+}

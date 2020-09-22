@@ -1,0 +1,46 @@
+@import '../styles/buttons';
+@import '../styles/generic';
+
+$exit-icon: '../styles/icons/exit_icon.svg';
+$exit-icon-width: 33px;
+$exit-icon-height: 29px;
+
+.app {
+  @extend %screen-size;
+  margin: 0 auto;
+  position: relative;
+  transform-origin: left top;
+
+  .exitBtn {
+    @extend %solid-blue-colour-btn;
+    @include align-items(center);
+    display: flex;
+    padding-right: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 2;
+
+    .text {
+      margin-right: 20px;
+    }
+
+    .icon {
+      background-image: url($exit-icon);
+      display: inline-block;
+      height: $exit-icon-height;
+      top: 4px;
+      width: $exit-icon-width;
+    }
+  }
+
+  span > p {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8" />
+  <meta name="author" content="LEO Learning LTD" />
+  <title>tester</title>
+
+  <script>
+    let score = 0;
+    let completion = 'incomplete';
+    let success = 'failed';
+
+    function onComplete() {
+      score = 90;
+      completion = 'completed';
+      success = 'passed';
+      passDataToGame();
+    }
+
+    function onPerfect() {
+      score = 100;
+      completion = 'completed';
+      success = 'passed';
+      passDataToGame();
+    }
+
+    function onFail() {
+      score = 10;
+      completion = 'completed';
+      success = 'failed';
+      passDataToGame();
+    }
+    
+    function onInProgress() {
+      score = 0;
+      completion = 'incomplete';
+      success = 'unknown';
+      passDataToGame();
+    }
+
+    function passDataToGame() {
+      if (window.top
+        && window.top.game
+        && window.top.game.iframeChallengePopup
+        && window.top.game.iframeChallengePopup.updateChallengeData)
+      {
+        window.top.game.iframeChallengePopup.updateChallengeData({
+          completion,
+          success
+        }, score);
+      }
+    }
+    
+    window.CONTENT_TRACKING = {
+      saveState: () => {},
+      adapters: {
+        scorm: {
+          instance: {
+            lessonScore: score,
+            lessonStatus: {
+              completion,
+              success
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <button onclick="onComplete()">Pass - score 90%</button>
+  <br /><br />
+  <button onclick="onPerfect()">Perfect - score 100%</button>
+  <br /><br />
+  <button onclick="onFail()">Fail - score 10%</button>
+  <br /><br />
+  <button onclick="onInProgress()">In progress - score 0%</button>
+</body>
+
+</html>

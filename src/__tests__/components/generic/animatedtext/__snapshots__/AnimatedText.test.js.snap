@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AnimatedText component 1`] = `
+<div
+  className="animatedText"
+>
+  <div
+    className="text-container"
+    key="one"
+  >
+    <div
+      className="text"
+      onAnimationEnd={null}
+    >
+      <Translate
+        dangerousHTML={true}
+        tag="span"
+        value="MESSAGE 1 MOTIVATIONAL MESSAGE"
+      />
+    </div>
+  </div>
+  <div
+    className="text-container"
+    key="two"
+  >
+    <div
+      className="text"
+      onAnimationEnd={null}
+    >
+      <Translate
+        dangerousHTML={true}
+        tag="span"
+        value="MESSAGE 2 MOTIVATIONAL MESSAGE"
+      />
+    </div>
+  </div>
+  <div
+    className="text-container"
+    key="three"
+  >
+    <div
+      className="text"
+      onAnimationEnd={null}
+    >
+      <Translate
+        dangerousHTML={true}
+        tag="span"
+        value="MESSAGE 3 MOTIVATIONAL MESSAGE"
+      />
+    </div>
+  </div>
+  <div
+    className="text-container"
+    key="four"
+  >
+    <div
+      className="text"
+      onAnimationEnd={[MockFunction]}
+    >
+      <Translate
+        dangerousHTML={true}
+        tag="span"
+        value="MESSAGE 4 MOTIVATIONAL MESSAGE"
+      />
+    </div>
+  </div>
+</div>
+`;

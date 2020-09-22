@@ -1,0 +1,311 @@
+{
+  "m1f5": [{
+    "id": "c1",
+    "productId": "p1",
+    "coordinates": [553, 189],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=a936a05c-8142-46f1-9d1f-1f207eb31fdd",
+    "children": ["c2"],
+    "productCoordinates": [494, 387],
+    "productType": "type2",
+    "gomoId": "p87966",
+    "isFirst": true
+  }, {
+    "id": "c2",
+    "productId": "p1",
+    "coordinates": [538, 174],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=eb0fdd8b-b16a-405d-b21c-1effc3db0ca6",
+    "children": ["c3"],
+    "productCoordinates": [430, 324],
+    "productType": "type2",
+    "gomoId": "p87967"
+  }, {
+    "id": "c3",
+    "productId": "p1",
+    "coordinates": [520, 157],
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=eb0fdd8b-b16a-405d-b21c-1effc3db0ca6",
+    "children": [],
+    "productCoordinates": [368, 261],
+    "productType": "type2",
+    "gomoId": "p87968"
+  }, {
+    "id": "c4",
+    "productId": "p2",
+    "coordinates": [456, 92],
+    "link": "",
+    "children": ["c5"],
+    "productCoordinates": [484, 262],
+    "productType": "type2",
+    "gomoId": "p96810",
+    "isFirst": true
+  }, {
+    "id": "c5",
+    "productId": "p2",
+    "coordinates": [438, 74],
+    "link": "",
+    "children": ["c6"],
+    "productCoordinates": [419, 198],
+    "productType": "type2",
+    "gomoId": "p96814"
+  }, {
+    "id": "c6",
+    "productId": "p2",
+    "coordinates": [421, 57],
+    "link": "",
+    "children": [],
+    "productCoordinates": [354, 132],
+    "productType": "type2",
+    "gomoId": "p96823"
+  }, {
+    "id": "c7",
+    "productId": "p3",
+    "coordinates": [481, 230],
+    "link": "",
+    "children": ["c8"],
+    "productCoordinates": [653, 121],
+    "productType": "type3",
+    "gomoId": "p97078",
+    "isFirst": true
+  }, {
+    "id": "c8",
+    "productId": "p3",
+    "coordinates": [462, 249],
+    "link": "",
+    "children": ["c9"],
+    "productCoordinates": [567, 205],
+    "productType": "type3",
+    "gomoId": "p0"
+  }, {
+    "id": "c9",
+    "productId": "p3",
+    "coordinates": [441, 270],
+    "link": "",
+    "children": [],
+    "productCoordinates": [483, 289],
+    "productType": "type3",
+    "gomoId": "p0"
+  }, {
+    "id": "c10",
+    "productId": "p4",
+    "coordinates": [453, 189],
+    "link": "",
+    "children": ["c11"],
+    "productCoordinates": [627, 443],
+    "productType": "type2",
+    "gomoId": "p96765",
+    "isFirst": true
+  }, {
+    "id": "c11",
+    "productId": "p4",
+    "coordinates": [438, 174],
+    "link": "",
+    "children": ["c12"],
+    "productCoordinates": [526, 343],
+    "productType": "type2",
+    "gomoId": "p97061"
+  }, {
+    "id": "c12",
+    "productId": "p4",
+    "coordinates": [419, 155],
+    "link": "",
+    "children": [],
+    "productCoordinates": [447, 264],
+    "productType": "type2",
+    "gomoId": "p96775"
+  }, {
+    "id": "c13",
+    "productId": "p5",
+    "coordinates": [354, 90],
+    "link": "",
+    "children": ["c14"],
+    "productCoordinates": [607, 90],
+    "productType": "type2",
+    "gomoId": "p96769",
+    "isFirst": true
+  }, {
+    "id": "c14",
+    "productId": "p5",
+    "coordinates": [331, 67],
+    "link": "",
+    "children": ["c15"],
+    "productCoordinates": [358, -13],
+    "productType": "type1",
+    "gomoId": "p96806"
+  }, {
+    "id": "c15",
+    "productId": "p5",
+    "coordinates": [294, 67],
+    "link": "",
+    "children": [],
+    "productCoordinates": [164, -13],
+    "productType": "type1",
+    "gomoId": "p96804"
+  }, {
+    "id": "c16",
+    "productId": "p6",
+    "coordinates": [386, 242],
+    "link": "",
+    "children": ["c17"],
+    "productCoordinates": [577, 118],
+    "productType": "type3",
+    "gomoId": "p96845",
+    "isFirst": true
+  }, {
+    "id": "c17",
+    "productId": "p6",
+    "coordinates": [362, 267],
+    "link": "",
+    "children": ["c18"],
+    "productCoordinates": [491, 204],
+    "productType": "type3",
+    "gomoId": "p96847"
+  }, {
+    "id": "c18",
+    "productId": "p6",
+    "coordinates": [335, 294],
+    "link": "",
+    "children": [],
+    "productCoordinates": [405, 290],
+    "productType": "type3",
+    "gomoId": "p96849"
+  }, {
+    "id": "c19",
+    "productId": "p7",
+    "coordinates": [224, 375],
+    "link": "",
+    "children": ["c20"],
+    "productCoordinates": [612, 301],
+    "productType": "type1",
+    "gomoId": "p96838",
+    "isFirst": true
+  }, {
+    "id": "c20",
+    "productId": "p7",
+    "coordinates": [167, 375],
+    "link": "",
+    "children": ["c21"],
+    "productCoordinates": [447, 301],
+    "productType": "type1",
+    "gomoId": "p96842"
+  }, {
+    "id": "c21",
+    "productId": "p7",
+    "coordinates": [108, 375],
+    "link": "",
+    "children": [],
+    "productCoordinates": [278, 301],
+    "productType": "type1",
+    "gomoId": "p96848"
+  }, {
+    "id": "c22",
+    "productId": "p8",
+    "coordinates": [321, 189],
+    "link": "",
+    "children": ["c23"],
+    "productCoordinates": [592, 455],
+    "productType": "type2",
+    "gomoId": "p96935",
+    "isFirst": true
+  }, {
+    "id": "c23",
+    "productId": "p8",
+    "coordinates": [301, 169],
+    "link": "",
+    "children": ["c24"],
+    "productCoordinates": [515, 377],
+    "productType": "type2",
+    "gomoId": "p96941"
+  }, {
+    "id": "c24",
+    "productId": "p8",
+    "coordinates": [264, 156],
+    "link": "",
+    "children": [],
+    "productCoordinates": [307, 307],
+    "productType": "type1",
+    "gomoId": "p96950"
+  }, {
+    "id": "c25",
+    "productId": "p9",
+    "coordinates": [282, 230],
+    "link": "",
+    "children": ["c26"],
+    "productCoordinates": [670, 108],
+    "productType": "type3",
+    "gomoId": "p96835",
+    "isFirst": true
+  }, {
+    "id": "c26",
+    "productId": "p9",
+    "coordinates": [263, 249],
+    "link": "",
+    "children": ["c27"],
+    "productCoordinates": [596, 182],
+    "productType": "type3",
+    "gomoId": "p96841"
+  }, {
+    "id": "c27",
+    "productId": "p9",
+    "coordinates": [227, 264],
+    "link": "",
+    "children": [],
+    "productCoordinates": [403, 180],
+    "productType": "type1",
+    "gomoId": "p97040"
+  }, {
+    "id": "c28",
+    "productId": "p10",
+    "coordinates": [184, 183],
+    "link": "",
+    "children": ["c29"],
+    "productCoordinates": [593, 187],
+    "productType": "type2",
+    "gomoId": "p96852",
+    "isFirst": true
+  }, {
+    "id": "c29",
+    "productId": "p10",
+    "coordinates": [156, 156],
+    "link": "",
+    "children": ["c30"],
+    "productCoordinates": [496, 91],
+    "productType": "type2",
+    "gomoId": "p97025"
+  }, {
+    "id": "c30",
+    "productId": "p10",
+    "coordinates": [111, 145],
+    "link": "",
+    "children": [],
+    "productCoordinates": [276, -10],
+    "productType": "type1",
+    "gomoId": "p96858"
+  }, {
+    "id": "c31",
+    "productId": "p11",
+    "coordinates": [174, 210],
+    "link": "",
+    "children": ["c32"],
+    "productCoordinates": [425, 112],
+    "productType": "type1",
+    "gomoId": "p96963",
+    "isFirst": true
+  }, {
+    "id": "c32",
+    "productId": "p11",
+    "coordinates": [141, 210],
+    "link": "",
+    "children": ["c33"],
+    "productCoordinates": [282, 112],
+    "productType": "type1",
+    "gomoId": "p96924"
+  }, {
+    "id": "c33",
+    "productId": "p11",
+    "coordinates": [104, 210],
+    "link": "",
+    "children": [],
+    "productCoordinates": [120, 112],
+    "productType": "type1",
+    "gomoId": "p96931"
+  }]
+}

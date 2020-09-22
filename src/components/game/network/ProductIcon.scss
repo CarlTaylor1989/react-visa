@@ -1,0 +1,202 @@
+// sass-lint:disable no-ids
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$product-height: 44px;
+$product-width: 44px;
+$product-height-large: 136px;
+$product-width-large: 136px;
+
+$dotted-product-icon: '../../../styles/icons/product_bg_icon.svg';
+$flag-icon: '../../../styles/icons/map/flag.svg';
+$flag-height: 22px;
+$flag-width: 18px;
+$flag-height-large: 22px * 2.25;
+$flag-width-large: 18px * 2.25;
+
+.productIconWrapper {
+  height: $product-height;
+  position: absolute;
+  width: $product-width;
+  z-index: 5;
+
+  .productIcon {
+    display: block;
+  }
+
+  > .flag {
+    @extend %priority-flag;
+  }
+}
+
+.productIcon {
+  @include border-radius($product-width);
+  height: $product-height;
+  width: $product-width;
+  z-index: 1;
+
+  &.button {
+    transition: transform .5s ease-in-out;
+
+    &:hover {
+      transform: scale(1.15);
+      transform-origin: center center;
+    }
+  }
+
+  &::before {
+    @include border-radius($product-width);
+    background-color: transparent;
+    background-image: url($dotted-product-icon);
+    background-repeat: no-repeat;
+    bottom: -3px;
+    content: '';
+    left: -3px;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    z-index: -1;
+  }
+
+  .icon {
+    display: block;
+    height: $product-height;
+    width: $product-width;
+  }
+
+  &.completed {
+    &::before {
+      @include box-shadow(0, 0, 20px, 4px, rgba($colour-white, .5));
+      background-image: none;
+      border: 3px solid $colour-white;
+    }
+  }
+
+  &.disabled {
+    @include opacity(.3);
+    border-color: $colour-family-disabled;
+  }
+
+  &.m1f1 {
+    background-color: $colour-family-1;
+
+    &.disabled {
+      background-color: $colour-family-1-disabled;
+    }
+  }
+
+  &.m1f2 {
+    background-color: $colour-family-2;
+
+    &.disabled {
+      background-color: $colour-family-2-disabled;
+    }
+  }
+
+  &.m1f3 {
+    background-color: $colour-family-3;
+
+    &.disabled {
+      background-color: $colour-family-3-disabled;
+    }
+  }
+
+  &.m1f4 {
+    background-color: $colour-family-4;
+
+    &.disabled {
+      background-color: $colour-family-4-disabled;
+    }
+  }
+
+  &.m1f5 {
+    background-color: $colour-family-5;
+
+    &.disabled {
+      background-color: $colour-family-5-disabled;
+    }
+  }
+
+  > .flag {
+    @extend %priority-flag;
+  }
+
+  &.large {
+    @include border-radius($product-width-large);
+    height: $product-height-large - 12;
+    position: absolute;
+    width: $product-width-large - 12;
+    z-index: 5;
+
+    &::before {
+      @include border-radius($product-width-large);
+      background-size: $product-width-large $product-height-large;
+      bottom: -6px;
+      left: -6px;
+      right: -6px;
+      top: -6px;
+    }
+
+    &.completed {
+      &::before {
+        border: 6px solid $colour-white;
+      }
+    }
+
+    .icon {
+      height: $product-height-large - 12;
+      width: $product-width-large - 12;
+    }
+
+    .flag {
+      background-size: $flag-width-large $flag-height-large;
+      height: $flag-height-large;
+      width: $flag-width-large;
+
+      &.top {
+        margin-left: -$flag-width-large / 2;
+        top: -65px;
+      }
+    }
+  }
+}
+
+%priority-flag {
+  background-image: url($flag-icon);
+  background-size: $flag-width $flag-height;
+  height: $flag-height;
+  position: absolute;
+  width: $flag-width;
+
+  &.bottom {
+    left: 50%;
+    margin-left: -$flag-width / 2;
+    top: 112%;
+  }
+
+  &.bottomLeft {
+    left: -$flag-width;
+    top: 100%;
+  }
+
+  &.bottomRight {
+    right: -$flag-width;
+    top: 100%;
+  }
+
+  &.top {
+    left: 50%;
+    margin-left: -$flag-width / 2;
+    top: -($flag-height + 6);
+  }
+
+  &.topLeft {
+    left: -$flag-width;
+    top: -$flag-height;
+  }
+
+  &.topRight {
+    right: -$flag-width;
+    top: -$flag-height;
+  }
+}

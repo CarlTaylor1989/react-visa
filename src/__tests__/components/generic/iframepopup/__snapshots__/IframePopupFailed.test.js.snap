@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the IframePopupFailed component 1`] = `
+<div
+  className="iframePopupFailed"
+>
+  <span
+    className="icon"
+  />
+  <div
+    className="errorBody"
+  >
+    <Translate
+      className="errorTitle"
+      tag="span"
+      value="generic.iframePopup.errorTitle"
+    />
+    <Translate
+      className="errorText"
+      tag="span"
+      value="generic.iframePopup.errorText"
+    />
+  </div>
+</div>
+`;

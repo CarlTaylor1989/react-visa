@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CallResource component 1`] = `
+<div
+  className="callResource"
+>
+  <div
+    className="callDetails"
+  >
+    <div
+      className="client"
+    >
+      <ResourceInlineSVG
+        client="client1"
+        imageName="imageName"
+        type="clientAvatar"
+      />
+      <div
+        className="title"
+      >
+        <Translate
+          tag="span"
+          value="clientprops.clients.client1.resources.res2.title"
+        />
+      </div>
+    </div>
+    <div
+      className="information"
+    >
+      <Translate
+        tag="span"
+        value="clientprops.clients.client1.resources.res2.caller"
+      />
+    </div>
+  </div>
+  <div
+    className="instruction"
+  >
+    <Translate
+      tag="span"
+      value="clientprops.clients.client1.resources.res2.instruction"
+    />
+  </div>
+  <audio
+    className="audio"
+    controls={true}
+    src="clients/client1/audioName"
+  />
+  <div
+    className="transcript"
+  >
+    <Translate
+      dangerousHTML={true}
+      tag="span"
+      value="clientprops.clients.client1.resources.res2.transcript"
+    />
+  </div>
+</div>
+`;

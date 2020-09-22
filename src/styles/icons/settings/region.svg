@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-change_reqion_icon">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="change_reqion_icon" clip-path="url(#clip-change_reqion_icon)">
+    <path id="Path_10432" data-name="Path 10432" d="M94.781,38.088c-11.034,0-20.6,8.962-19.981,19.982a28.224,28.224,0,0,0,5.457,15.5l14,18.292a.719.719,0,0,0,1.041,0L109.524,73.5c3.293-5.177,5.054-9.9,5.238-15.43C115.129,47.039,105.816,38.088,94.781,38.088Zm0,29.776a9.794,9.794,0,1,1,9.793-9.794A9.793,9.793,0,0,1,94.781,67.864Z" transform="translate(-66.772 -37.088)" fill="#fff"/>
+  </g>
+</svg>

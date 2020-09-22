@@ -1,0 +1,87 @@
+{
+  "slides": [{
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t1"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t1"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t1"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t2"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t2"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t2"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t3"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t3"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t3"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t4"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t4"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t4"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t5"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t5"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t5"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t6"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t6"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t6"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t7"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t7"
+  }, {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mauris justo, fermentum ac mauris sit amet, consequat interdum risus. Vestibulum id orci consectetur, ullamcorper diam nec, gravida mauris. Pellentesque ligula diam, imperdiet at enim sed, elementum tristique mauris.",
+    "imageSrc": "placeholder.jpg",
+    "section": "t7"
+  }]
+}

@@ -1,0 +1,76 @@
+{
+  "m1f1": [{
+    "id": "p1",
+    "familyId": "m1f1",
+    "nameCoord": {
+      "name": "Data APIs",
+      "coordinates": [345, 31]
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=5c98966d-225d-4346-acfe-932f27c0542d",
+    "gomoId": "p87969",
+    "coordinates": [290, 20],
+    "priorityPosition": "topLeft",
+    "large": {
+      "coordinates": [570, 148],
+      "nameCoord": {
+        "coordinates": [434, 281]
+      }
+    }
+  }, {
+    "id": "p2",
+    "familyId": "m1f1",
+    "nameCoord": {
+      "name": "Visa Ad Solutions",
+      "coordinates": [261, 194]
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=35eee8a5-3a9f-4028-b55a-600ce909b50e",
+    "gomoId": "p87944",
+    "coordinates": [290, 141],
+    "priorityPosition": "topLeft",
+    "large": {
+      "coordinates": [944, 444],
+      "nameCoord": {
+        "coordinates": [882, 585],
+        "classes": ["small"]
+      }
+    }
+  }, {
+    "id": "p3",
+    "familyId": "m1f1",
+    "nameCoord": {
+      "name": "Visa Analytics Platform",
+      "coordinates": [310, 114],
+      "classes": ["center", "small"]
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=b8b5f4f9-1da1-4dc4-a03a-fcf8356bf738",
+    "gomoId": "p87812",
+    "coordinates": [343, 65],
+    "priorityPosition": "topRight",
+    "large": {
+      "coordinates": [800, 273],
+      "nameCoord": {
+        "coordinates": [715, 405],
+        "classes": ["small"]
+      }
+    }
+  }, {
+    "id": "p4",
+    "familyId": "m1f1",
+    "nameCoord": {
+      "name": "Visa Travel Predict",
+      "coordinates": [513, 114],
+      "classes": ["center", "small"]
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=8489b6e2-13f3-41d2-9d8e-18b1332e0d9f",
+    "gomoId": "p87901",
+    "coordinates": [550, 65],
+    "priorityPosition": "topLeft",
+    "large": {
+      "coordinates": [800, 126],
+      "nameCoord": {
+        "coordinates": [737, 264],
+        "classes": ["small"]
+      }
+    }
+  }]
+}

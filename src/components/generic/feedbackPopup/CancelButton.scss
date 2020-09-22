@@ -1,0 +1,32 @@
+@import '../../../styles/buttons';
+
+$not-now-icon: '../../../styles/icons/feedback/close_icon.svg';
+$not-now-height: 15px;
+$not-now-width: 15px;
+
+.cancelBtn {
+  @extend %button-reset;
+  @include align-items(center);
+  border-bottom: 2px solid transparent;
+  color: $colour-white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 2px;
+  transition: border .5s ease-in-out;
+
+  .icon {
+    background-image: url($not-now-icon);
+    background-repeat: no-repeat;
+    display: block;
+    height: $not-now-height;
+    margin-left: 10px;
+    width: $not-now-width;
+  }
+
+  &:hover {
+    border-color: $colour-white;
+  }
+}

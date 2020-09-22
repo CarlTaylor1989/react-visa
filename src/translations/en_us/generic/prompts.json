@@ -1,0 +1,20 @@
+{
+  "achievementTitle": "Achievement unlocked!",
+  "multipleAchievementsTitle": "Achievements unlocked!",
+  "rankTitle": "New rank unlocked!",
+  "productTitle": "Product complete!",
+  "bonusStreakTitle": "Daily Challenge Streak<br />Bonus Awarded!",
+  "bonusStreakBody": "You can earn another bonus streak tomorrow!",
+  "points": " POINTS",
+  "pointsPrefix": "+",
+  "okBtn": "OK",
+
+  "multiplier": " X ",
+  "challengesCategory": "CHALLENGE COMPLETE",
+  "perfectBonusCategory": "PERFECT BONUS",
+  "streakBonusCategory": "STREAK BONUS",
+  "productsCategory": "PRODUCT COMPLETE",
+  "clientNeedsCategory": "CLIENT NEEDS COMPLETE",
+  "proposalsCategory": "CLIENT PROPOSAL",
+  "achievementsCategory": "ACHIEVEMENT UNLOCK"
+}

@@ -1,0 +1,76 @@
+@import '../../../../styles/buttons';
+@import '../../../../styles/generic';
+
+$group-colour: rgba($colour-white, .5);
+$group-border-colour-completed: rgba($colour-white, .3);
+
+$title-icon: '../../../../styles/icons/clients/client_req_icon.svg';
+$title-width: 54px;
+$title-height: 38px;
+
+.requirements {
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 765px;
+
+  .group {
+    @include border-radius(27px);
+    @include box-shadow(0, 0, 20px, 0, $group-colour);
+    background-color: $colour-blue;
+    border: 2px solid $group-colour;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 570px;
+    justify-content: space-between;
+    padding: 15px 25px 25px;
+    width: 100%;
+  }
+
+  .arrows {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .checkboxLabel {
+    border-bottom: 1px solid $colour-white;
+
+    &:first-child {
+      border-top: 1px solid $colour-white;
+    }
+  }
+
+  .scrollingArea {
+    @extend %scrollbar;
+    height: 340px;
+    margin-top: 20px;
+
+    .statementsWrapper {
+      padding-right: 35px;
+    }
+  }
+
+  .submitBtn {
+    @extend %blue-btn;
+    margin-top: 15px;
+
+    &:disabled {
+      @extend %disabled-btn;
+    }
+  }
+
+  &.completed {
+    .group {
+      @include box-shadow-reset;
+      @include multi-angle-gradient(
+        180deg,
+        rgba($colour-blue, .4) 0%,
+        rgba($colour-blue, 0) 7%,
+        rgba($colour-blue, 0) 94%,
+        rgba($colour-blue, .4) 100%
+      );
+      background-color: transparent;
+      border-color: $group-border-colour-completed;
+    }
+  }
+}

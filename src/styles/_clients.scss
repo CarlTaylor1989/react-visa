@@ -1,0 +1,40 @@
+$client-icon-path: '../../../styles/icons/clients/client_icons' !default;
+$client-avatar-icon-path: '../../../styles/icons/clients/client_icons' !default;
+
+@import 'mixins';
+@import 'variables';
+
+$no-of-clients: 10;
+$avatar-icon-width: 92px;
+$avatar-icon-height: 92px;
+$avatar-icon-small-width: 74px;
+$avatar-icon-small-height: 74px;
+
+.clientAvatar {
+  .icon {
+    background-repeat: no-repeat;
+    display: block;
+    height: $avatar-icon-height;
+    width: $avatar-icon-width;
+
+    @for $index from 1 through $no-of-clients {
+      &.client#{$index} {
+        background-image: url('#{$client-avatar-icon-path}/client#{$index}/client#{$index}_avatar.svg');
+        background-size: $avatar-icon-width $avatar-icon-height;
+      }
+    }
+  }
+
+  &.proposal {
+    .icon {
+      height: $avatar-icon-small-height;
+      width: $avatar-icon-small-width;
+
+      @for $index from 1 through $no-of-clients {
+        &.client#{$index} {
+          background-size: $avatar-icon-small-width $avatar-icon-small-height;
+        }
+      }
+    }
+  }
+}

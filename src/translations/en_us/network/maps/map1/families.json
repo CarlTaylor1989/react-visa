@@ -1,0 +1,43 @@
+{
+  "m1f1": {
+    "mapId": "m1",
+    "nameCoord": {
+      "name": "DATA SOLUTIONS",
+      "coordinates": [373, -25]
+    },
+    "type": "type1"
+  },
+  "m1f2": {
+    "mapId": "m1",
+    "nameCoord": {
+      "name": "SECURITY & IDENTITY",
+      "coordinates": [380, 266]
+    },
+    "type": "type2"
+  },
+  "m1f3": {
+    "mapId": "m1",
+    "nameCoord": {
+      "name": "ISSUER PROCESSING & PLATFORM SOLUTIONS",
+      "coordinates": [0, 354],
+      "classes": ["small"]
+    },
+    "type": "type3"
+  },
+  "m1f4": {
+    "mapId": "m1",
+    "nameCoord": {
+      "name": "CYBERSOURCE",
+      "coordinates": [137, 373]
+    },
+    "type": "type4"
+  },
+  "m1f5": {
+    "mapId": "m1",
+    "nameCoord": {
+      "name": "COMMERCIAL SOLUTIONS",
+      "coordinates": [61, -28]
+    },
+    "type": "type5"
+  }
+}

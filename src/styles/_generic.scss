@@ -1,0 +1,49 @@
+@import 'variables';
+@import 'mixins';
+
+%screen-size {
+  height: $content-area-height;
+  overflow: hidden;
+  width: $content-area-width;
+}
+
+%bg-size {
+  background-repeat: no-repeat;
+  background-size: $content-area-width $content-area-height;
+}
+
+%scrollbar {
+  .ScrollbarsCustom {
+    height: 100%;
+    width: 100%;
+
+    .ScrollbarsCustom-Wrapper {
+      height: 100%;
+      width: 100%;
+    }
+
+    .ScrollbarsCustom-TrackY {
+      @include border-radius(4px);
+      background: $colour-white;
+      height: 100%;
+      overflow: hidden;
+      padding-bottom: 2px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      user-select: none;
+      width: 10px;
+
+      .ScrollbarsCustom-ThumbY {
+        @include border-radius(5px);
+        background: $colour-scrollbar-thumb;
+        cursor: pointer;
+        height: 83px;
+        margin: 1px 0 1px 2px;
+        touch-action: none;
+        transform: translateY(0);
+        width: 6px;
+      }
+    }
+  }
+}

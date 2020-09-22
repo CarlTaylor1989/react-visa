@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the MiniDashboard component 1`] = `
+<div
+  className="miniDashboard"
+>
+  <div
+    className="myDashboard"
+  >
+    <div
+      className="icon"
+    />
+    <Translate
+      tag="span"
+      value="generic.miniDashboard.myDashboard"
+    />
+  </div>
+  <Connect(Points)
+    animate={true}
+  />
+  <Connect(ChallengeStreak) />
+  <Connect(Proposals) />
+  <Connect(Rank) />
+  <Connect(ProductsCompleted) />
+  <Connect(Achievements) />
+  <div
+    className="more"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.minidashboard.more"
+    >
+      <button
+        className="moreBtn"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchEnd={[Function]}
+        type="button"
+      >
+        <span
+          className="icon"
+        />
+        <Translate
+          tag="span"
+          value="generic.miniDashboard.moreBtn"
+        />
+      </button>
+    </Connect(Tooltip)>
+  </div>
+  <Connect(Dashboard)
+    closeDashboard={[Function]}
+    displayDashboard={false}
+  />
+</div>
+`;

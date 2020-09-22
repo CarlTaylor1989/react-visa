@@ -1,0 +1,33 @@
+@import '../../../../styles/mixins';
+@import '../../../../styles/variables';
+
+.statementsInstruction {
+  @include align-items(center);
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: $colour-gold;
+    display: block;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .text {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+
+    .correct {
+      color: $colour-gold;
+      font-weight: 700;
+    }
+  }
+
+  &.completed {
+    .text {
+      margin-top: 30px;
+    }
+  }
+}

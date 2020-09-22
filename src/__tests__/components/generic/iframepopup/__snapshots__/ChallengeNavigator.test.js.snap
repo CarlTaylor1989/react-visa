@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ChallengeNavigator component 1`] = `
+<div
+  className="challengeNavigator"
+>
+  <button
+    className="backBtn"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="icon"
+    />
+  </button>
+  <button
+    className="nextBtn"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="icon"
+    />
+  </button>
+  <ResetStreakPopup
+    displayResetStreak={false}
+    onCloseResetStreakPopup={[Function]}
+  />
+</div>
+`;

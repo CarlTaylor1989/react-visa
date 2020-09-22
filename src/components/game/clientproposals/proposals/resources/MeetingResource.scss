@@ -1,0 +1,25 @@
+@import '../../../../../styles/mixins';
+@import '../../../../../styles/variables';
+
+.meetingResource {
+  padding-right: 35px;
+
+  .title,
+  .content {
+    display: block;
+    text-align: left;
+  }
+
+  .title {
+    color: $colour-gold;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+}
+
+

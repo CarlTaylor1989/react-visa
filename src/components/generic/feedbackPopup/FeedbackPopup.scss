@@ -1,0 +1,126 @@
+$generic-popup-height: 570px;
+$generic-popup-width: 960px;
+
+@import '../../../styles/buttons';
+@import '../../../styles/popup';
+
+$stars-left-icon: '../../../styles/icons/exit_game/stars_left.svg';
+$star-left-height: 108px;
+$star-left-width: 270px;
+$stars-right-icon: '../../../styles/icons/exit_game/stars_right.svg';
+$star-right-height: 103px;
+$star-right-width: 246px;
+$bars-icon: '../../../styles/icons/exit_game/bars.svg';
+$bars-height: 72px;
+$bars-width: 257px;
+$loaders-icon: '../../../styles/icons/exit_game/loaders.svg';
+$loaders-height: 280px;
+$loaders-width: 63px;
+
+.feedbackPopupOverlay {
+  @extend %popup-overlay;
+}
+
+.feedbackPopup {
+  @extend %popup;
+
+  .bgIcons {
+    display: block;
+    position: absolute;
+    z-index: 1;
+
+    &.starsLeft {
+      background-image: url($stars-left-icon);
+      height: $star-left-height;
+      left: 20px;
+      top: 20px;
+      width: $star-left-width;
+    }
+
+    &.starsRight {
+      background-image: url($stars-right-icon);
+      height: $star-right-height;
+      right: 20px;
+      top: 20px;
+      width: $star-right-width;
+    }
+
+    &.bars {
+      background-image: url($bars-icon);
+      bottom: 20px;
+      height: $bars-height;
+      left: 20px;
+      width: $bars-width;
+    }
+
+    &.loaders {
+      background-image: url($loaders-icon);
+      bottom: 20px;
+      height: $loaders-height;
+      right: 20px;
+      width: $loaders-width;
+    }
+  }
+
+  .popupWrapper {
+    padding: 50px 95px;
+    text-align: center;
+
+    .popupTitle {
+      color: $colour-gold;
+      font-size: 48px;
+      padding-bottom: 30px;
+    }
+
+    .popupText {
+      color: $colour-white;
+      font-size: 24px;
+      padding-bottom: 35px;
+    }
+
+    .rating {
+      margin-bottom: 55px;
+    }
+
+    &.successful-submit {
+      .popupTitle {
+        padding-bottom: 50px;
+      }
+
+      .popupText {
+        padding-bottom: 70px;
+      }
+    }
+
+    textarea {
+      @include border-radius(12px);
+      background-color: transparent;
+      border: 2px solid $colour-white;
+      box-sizing: border-box;
+      color: $colour-white;
+      font-size: 24px;
+      height: 145px;
+      line-height: 36px;
+      margin-bottom: 35px;
+      outline: 0;
+      padding: 15px 30px;
+      resize: none;
+      width: 100%;
+    }
+  }
+
+  .buttons {
+    @include align-items(center);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submitBtn {
+    margin-bottom: 30px;
+  }
+
+  .submitBtn,
+  .closeBtn {
+    @extend %blue-btn-shadow;
+  }
+}

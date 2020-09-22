@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`method updateChallengeState() sets the status to available 1`] = `
+<div
+  className="challengeIconContent type1"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Translate
+    className="statusText"
+    tag="span"
+    value="network.productpages.generic.available"
+  />
+  <span
+    className="challengeIcon m1f1 available"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <div
+      className="pointsText"
+    >
+      <Translate
+        tag="span"
+        value="network.productpages.generic.points"
+      />
+    </div>
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="challengePoints"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`method updateChallengeState() sets the status to available for the first tree node 1`] = `
+<div
+  className="challengeIconContent type1"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Translate
+    className="statusText"
+    tag="span"
+    value="network.productpages.generic.available"
+  />
+  <span
+    className="challengeIcon m1f1 available"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <div
+      className="pointsText"
+    >
+      <Translate
+        tag="span"
+        value="network.productpages.generic.points"
+      />
+    </div>
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="challengePoints"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`method updateChallengeState() sets the status to completed 1`] = `
+<div
+  className="challengeIconContent type1"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Translate
+    className="statusText"
+    tag="span"
+    value="network.productpages.generic.completed"
+  />
+  <span
+    className="challengeIcon m1f1 completed"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <div
+      className="pointsText"
+    >
+      <Translate
+        tag="span"
+        value="network.productpages.generic.points"
+      />
+    </div>
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="challengePoints"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={10000}
+    />
+  </div>
+</div>
+`;
+
+exports[`method updateChallengeState() sets the status to perfect 1`] = `
+<div
+  className="challengeIconContent type1"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Translate
+    className="statusText"
+    tag="span"
+    value="network.productpages.generic.perfect"
+  />
+  <span
+    className="challengeIcon m1f1 perfect"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <div
+      className="pointsText"
+    >
+      <Translate
+        tag="span"
+        value="network.productpages.generic.points"
+      />
+    </div>
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="challengePoints"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={15000}
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the ChallengeIconContent component with the available state 1`] = `
+<div
+  className="challengeIconContent type1"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Translate
+    className="statusText"
+    tag="span"
+    value="network.productpages.generic.notStarted"
+  />
+  <span
+    className="challengeIcon m1f1 notStarted"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <div
+      className="pointsText"
+    >
+      <Translate
+        tag="span"
+        value="network.productpages.generic.points"
+      />
+    </div>
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="challengePoints"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={0}
+    />
+  </div>
+</div>
+`;

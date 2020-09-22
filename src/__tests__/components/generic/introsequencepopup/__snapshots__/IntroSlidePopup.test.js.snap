@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the IntroSlidePopup component 1`] = `
+<div
+  className="introSlidePopup"
+>
+  <div
+    className="text"
+  >
+    irrelevant
+  </div>
+</div>
+`;

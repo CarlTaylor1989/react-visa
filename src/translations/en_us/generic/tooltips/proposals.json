@@ -1,0 +1,9 @@
+{
+  "confirm": "Select this button to confirm your Proposal.",
+  "hint": "Select this button to receive a hint (but the available reward for this client will decrease).",
+  "feedback": "Select this button to review your previous feedback from the client.",
+  "tabs": "Review this client's information before proposing a solution.",
+  "retry": "Return to the client info and submit a different proposal.",
+  "close": "Select this button to close the Client Proposal.",
+  "back": "Return to the Client Proposals."
+}

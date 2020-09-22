@@ -1,0 +1,38 @@
+@import '../../../styles/buttons';
+
+$footer-bar-height: 64px;
+$settings-icon: '../../../styles/icons/footer/settings_icon.svg';
+
+.footerBar {
+  @include align-items(center);
+  background-color: $colour-footer-bg;
+  bottom: 0;
+  display: flex;
+  font-weight: 600;
+  height: $footer-bar-height;
+  left: 0;
+  line-height: $footer-bar-height;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  z-index: 10;
+
+  .settingsBtn {
+    @extend %solid-blue-colour-btn;
+    background-color: transparent;
+    display: flex;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: 12px;
+    padding: 7px 13px;
+
+    .icon {
+      background-image: url($settings-icon);
+      height: 24px;
+      margin-right: 7px;
+      width: 24px;
+    }
+  }
+}

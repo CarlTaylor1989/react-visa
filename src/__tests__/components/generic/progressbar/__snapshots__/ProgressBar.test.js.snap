@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProgressBar component 1`] = `
+<div
+  className="progressBar"
+>
+  <div
+    className="inner dark"
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+  />
+</div>
+`;

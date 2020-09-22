@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a hidden SolutionsInfo component 1`] = `
+<div
+  className="solutionsInfo"
+>
+  <button
+    className="exitPopup"
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="contentScroll"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="popupWrapper"
+      >
+        <Translate
+          className="solutionTitle"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupTitle"
+        />
+        <Translate
+          className="solutionSubtitle"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupSubtitle"
+        />
+        <Translate
+          className="solutionText"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupText"
+        />
+      </div>
+    </Scrollbar>
+  </div>
+</div>
+`;
+
+exports[`renders a visible SolutionsInfo component 1`] = `
+<div
+  className="solutionsInfo available"
+>
+  <button
+    className="exitPopup"
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      tag="span"
+      value="generic.popupCloseBtn"
+    />
+  </button>
+  <div
+    className="contentScroll"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="popupWrapper"
+      >
+        <Translate
+          className="solutionTitle"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupTitle"
+        />
+        <Translate
+          className="solutionSubtitle"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupSubtitle"
+        />
+        <Translate
+          className="solutionText"
+          dangerousHTML={true}
+          tag="span"
+          value="clientprops.clients.client1.products.0.popupText"
+        />
+      </div>
+    </Scrollbar>
+  </div>
+</div>
+`;

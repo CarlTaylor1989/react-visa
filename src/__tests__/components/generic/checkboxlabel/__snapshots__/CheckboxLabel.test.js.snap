@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CheckboxLabel component with the disabled state 1`] = `
+<div
+  className="checkboxLabel disabled"
+>
+  <label
+    htmlFor="irrelevant"
+  >
+    <input
+      checked={false}
+      className="checkbox"
+      disabled={true}
+      id="irrelevant"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="label"
+    >
+      irrelevant
+    </span>
+    <span
+      className="checkmark"
+    />
+  </label>
+</div>
+`;
+
+exports[`renders the CheckboxLabel component with the enabled state 1`] = `
+<div
+  className="checkboxLabel"
+>
+  <label
+    htmlFor="irrelevant"
+  >
+    <input
+      checked={false}
+      className="checkbox"
+      disabled={false}
+      id="irrelevant"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="label"
+    >
+      irrelevant
+    </span>
+    <span
+      className="checkmark"
+    />
+  </label>
+</div>
+`;

@@ -1,0 +1,78 @@
+$generic-popup-height: 800px;
+$generic-popup-width: 1600px;
+
+@import '../../../styles/popup';
+
+$dashboard-icon: '../../../styles/icons/dashboard/dashboard.svg';
+
+.dashboardOverlay {
+  @extend %popup-overlay;
+}
+
+.dashboard {
+  @extend %popup;
+
+  .popupWrapper {
+    background-image: url($dashboard-icon);
+    background-position: 120px 60px;
+    background-repeat: no-repeat;
+    background-size: 75px;
+    padding: 55px 0 0 215px;
+  }
+
+  .popupTitle {
+    color: $colour-gold;
+    font-size: 48px;
+  }
+
+  .main {
+    margin-top: -15px;
+  }
+
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+  }
+
+  .navigation {
+    @include align-self(center);
+    display: flex;
+
+    .achievementsBtn,
+    .rankBtn,
+    .productsCompletedBtn {
+      @extend %btn-blue-with-arrow;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      &::before {
+        @include opacity(0);
+        border-color: $colour-white transparent transparent;
+        border-style: solid;
+        border-width: 13px 13px 0;
+        bottom: -13px;
+        content: '';
+        height: 0;
+        left: 50%;
+        margin-left: -13px;
+        position: absolute;
+        transition: opacity .5s ease-in-out;
+        width: 0;
+      }
+
+      &.selected {
+        border: 1.5px solid $colour-white;
+
+        &::before {
+          @include opacity(1);
+        }
+      }
+    }
+
+    .achievementsBtn,
+    .rankBtn {
+      margin-right: 10px;
+    }
+  }
+}

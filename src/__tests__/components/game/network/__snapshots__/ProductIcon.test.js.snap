@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`method updateProductState() last modidied challenge completed 1`] = `
+<span
+  className="productIconWrapper"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.productnetwork.product"
+  >
+    <span>
+      <NavLink
+        className="productIcon button m1f1 p1  completed"
+        onClick={[Function]}
+        to="/game/network/product"
+      >
+        <InlineSVG
+          className="icon"
+          element="i"
+          raw={false}
+          src=""
+        />
+      </NavLink>
+    </span>
+  </Connect(Tooltip)>
+</span>
+`;
+
+exports[`method updateProductState() last modidied challenge perfected 1`] = `
+<span
+  className="productIconWrapper"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.productnetwork.product"
+  >
+    <span>
+      <NavLink
+        className="productIcon button m1f1 p1  completed"
+        onClick={[Function]}
+        to="/game/network/product"
+      >
+        <InlineSVG
+          className="icon"
+          element="i"
+          raw={false}
+          src=""
+        />
+      </NavLink>
+    </span>
+  </Connect(Tooltip)>
+</span>
+`;
+
+exports[`renders the ProductIcon button component with the incomplete state 1`] = `
+<span
+  className="productIconWrapper"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.productnetwork.product"
+  >
+    <span>
+      <NavLink
+        className="productIcon button m1f1 p1  incomplete"
+        onClick={[Function]}
+        to="/game/network/product"
+      >
+        <InlineSVG
+          className="icon"
+          element="i"
+          raw={false}
+          src=""
+        />
+      </NavLink>
+    </span>
+  </Connect(Tooltip)>
+</span>
+`;
+
+exports[`renders the ProductIcon button component with the prioritity flag 1`] = `
+<span
+  className="productIconWrapper"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.product.flag"
+  >
+    <span
+      className="flag topRight"
+    />
+  </Connect(Tooltip)>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.productnetwork.product"
+  >
+    <span>
+      <NavLink
+        className="productIcon button m1f2 p3  incomplete"
+        onClick={[Function]}
+        to="/game/network/product"
+      >
+        <InlineSVG
+          className="icon"
+          element="i"
+          raw={false}
+          src=""
+        />
+      </NavLink>
+    </span>
+  </Connect(Tooltip)>
+</span>
+`;
+
+exports[`renders the ProductIcon component with the incomplete state 1`] = `
+<span
+  className="productIcon m1f1 p1  incomplete"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <InlineSVG
+    className="icon"
+    element="i"
+    raw={false}
+    src=""
+  />
+</span>
+`;
+
+exports[`renders the ProductIcon component with the prioritity flag 1`] = `
+<span
+  className="productIcon m1f2 p3  incomplete"
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+>
+  <Connect(Tooltip)
+    fieldName="generic.tooltips.productnetwork.flag"
+  >
+    <span
+      className="flag topRight"
+    />
+  </Connect(Tooltip)>
+  <InlineSVG
+    className="icon"
+    element="i"
+    raw={false}
+    src=""
+  />
+</span>
+`;

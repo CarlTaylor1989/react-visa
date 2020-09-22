@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a different layout when multipleAchievements prop has been passed 1`] = `
+<div
+  className="achievementPrompt"
+>
+  <span
+    className="achievementIcon dark ac1"
+  />
+  <span
+    className="achievementText"
+  >
+    <Translate
+      className="achievementTitle"
+      tag="span"
+      value="generic.achievements.ac1.title"
+    />
+    <Translate
+      className="achievementDescription"
+      tag="span"
+      value="generic.achievements.ac1.description"
+    />
+    <div
+      className="score"
+    >
+      <Translate
+        tag="span"
+        value="generic.prompts.pointsPrefix"
+      />
+      <NumberFormat
+        allowEmptyFormatting={false}
+        allowNegative={true}
+        decimalSeparator="."
+        displayType="text"
+        fixedDecimalScale={false}
+        getInputRef={[Function]}
+        isAllowed={[Function]}
+        isNumericString={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        onValueChange={[Function]}
+        prefix=""
+        suffix=""
+        thousandSeparator=","
+        thousandsGroupStyle="thousand"
+        type="text"
+        value={5000}
+      />
+    </div>
+  </span>
+</div>
+`;
+
+exports[`renders the AchievementPrompt with a score of 0 1`] = `
+<div
+  className="achievementPrompt"
+>
+  <Translate
+    className="popupTitle"
+    tag="span"
+    value="generic.prompts.achievementTitle"
+  />
+  <span
+    className="achievementIcon dark foo"
+  />
+  <Translate
+    className="achievementTitle"
+    tag="span"
+    value="generic.achievements.foo.title"
+  />
+  <Translate
+    className="achievementDescription"
+    tag="span"
+    value="generic.achievements.foo.description"
+  />
+  <div
+    className="score"
+  >
+    <Translate
+      tag="span"
+      value="generic.prompts.pointsPrefix"
+    />
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the AchievementPrompt with an achievement score 1`] = `
+<div
+  className="achievementPrompt"
+>
+  <Translate
+    className="popupTitle"
+    tag="span"
+    value="generic.prompts.achievementTitle"
+  />
+  <span
+    className="achievementIcon dark ac1"
+  />
+  <Translate
+    className="achievementTitle"
+    tag="span"
+    value="generic.achievements.ac1.title"
+  />
+  <Translate
+    className="achievementDescription"
+    tag="span"
+    value="generic.achievements.ac1.description"
+  />
+  <div
+    className="score"
+  >
+    <Translate
+      tag="span"
+      value="generic.prompts.pointsPrefix"
+    />
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={5000}
+    />
+  </div>
+</div>
+`;

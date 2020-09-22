@@ -1,0 +1,31 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.points {
+  color: $colour-transparent-semi;
+  font-size: 18px;
+  font-weight: 800;
+  padding-bottom: 15px;
+
+  .totalContainer {
+    @include border-radius(13px);
+    @include multi-angle-gradient(
+      152deg,
+      rgba($colour-white, 0) 0%,
+      rgba($colour-white, .01) 9%,
+      rgba($colour-white, .05) 23%,
+      rgba($colour-white, .1) 43%,
+      rgba($colour-white, .18) 66%,
+      rgba($colour-white, .27) 92%,
+      rgba($colour-white, .3) 100%
+    );
+
+    border: 1px solid $colour-white;
+    color: $colour-yellow;
+    font-size: 43px;
+    line-height: 64px;
+    margin: 5px 0;
+    text-align: center;
+    width: 242px;
+  }
+}

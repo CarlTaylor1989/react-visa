@@ -1,0 +1,9 @@
+{
+  "title": "Client Proposals page",
+  "description": "The page containing the client proposals.",
+
+  "proposalTitle": "Client Proposal %{client}",
+  "proposalDescription": "A client proposal in the Visa Inside Track Game",
+
+  "learnMoreTitle": "%{product} Learn more"
+}

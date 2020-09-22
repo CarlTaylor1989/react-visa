@@ -1,0 +1,40 @@
+$popup-close-n: '../../../../../styles/icons/popup_close_n.svg';
+$popup-close-h: '../../../../../styles/icons/popup_close_h.svg';
+
+@import '../../../../../styles/popup';
+
+.showSolutionOverlay {
+  @extend %popup-overlay;
+}
+
+.showSolutionPrompt {
+  @extend %prompt-popup;
+  box-shadow: none;
+
+  .popupWrapper {
+    padding: 20px 25px 35px;
+    text-align: center;
+
+    .popupTitle {
+      color: $colour-gold;
+      display: block;
+      font-size: 36px;
+      margin-bottom: 45px;
+    }
+
+    .popupText {
+      display: block;
+      font-size: 28px;
+      margin-bottom: 50px;
+    }
+
+    .ctaBtn {
+      @extend %blue-btn;
+      display: inline-block;
+
+      &:first-of-type {
+        margin-right: 20px;
+      }
+    }
+  }
+}

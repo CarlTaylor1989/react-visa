@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SuccessfulSubmit component 1`] = `
+<Fragment>
+  <div
+    className="popupText"
+  >
+    <Translate
+      tag="span"
+      value="generic.feedback.popupSuccesText"
+    />
+  </div>
+  <div
+    className="buttons"
+  >
+    <button
+      className="closeBtn"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        className="text"
+        tag="span"
+        value="generic.feedback.closeBtn"
+      />
+    </button>
+  </div>
+</Fragment>
+`;

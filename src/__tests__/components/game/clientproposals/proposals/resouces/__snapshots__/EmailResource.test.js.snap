@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the EmailResource component 1`] = `
+<div
+  className="emailResource"
+>
+  <span
+    className="emailHeader"
+  />
+  <div
+    className="emailInformation"
+  >
+    <ResourceInlineSVG
+      client="client1"
+      imageName="imageName"
+      type="clientAvatar"
+    />
+    <Translate
+      className="sender"
+      tag="span"
+      value="clientprops.clients.client1.resources.res1.sender"
+    />
+  </div>
+  <Translate
+    className="subject"
+    tag="span"
+    value="clientprops.clients.client1.resources.res1.subject"
+  />
+  <Translate
+    className="body"
+    dangerousHTML={true}
+    tag="span"
+    value="clientprops.clients.client1.resources.res1.body"
+  />
+</div>
+`;

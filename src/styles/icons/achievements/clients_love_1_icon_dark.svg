@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-clients_love_1_icon_dark">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="clients_love_1_icon_dark" clip-path="url(#clip-clients_love_1_icon_dark)">
+    <path id="ICO_love_01" d="M328.973,1082.907a6.572,6.572,0,0,0-5.917,3.775,6.573,6.573,0,0,0-5.917-3.775,6.655,6.655,0,0,0-6.583,6.725c0,8.835,12.5,15.275,12.5,15.275s12.5-6.44,12.5-15.275A6.655,6.655,0,0,0,328.973,1082.907Zm-4.076,17.01H322.09v-5.535q0-1.009.042-1.845a6.087,6.087,0,0,1-.644.672l-1.162.98-1.435-1.8,3.514-2.925H324.9Z" transform="translate(-304.556 -1075.907)" fill="#00043e"/>
+  </g>
+</svg>

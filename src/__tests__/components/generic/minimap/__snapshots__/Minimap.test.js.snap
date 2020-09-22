@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Minimap component 1`] = `
+<Connect(Tooltip)
+  fieldName="generic.tooltips.productnetwork.minimap"
+>
+  <div
+    className="minimap"
+  >
+    <div
+      className="inner"
+    />
+  </div>
+</Connect(Tooltip)>
+`;

@@ -1,0 +1,8 @@
+{
+  "questionTitle": "%{name} client proposal step %{index}",
+  "questionDescription": "%{name} client proposal with topic %{problem}, %{question} selection:",
+  "question1": "statement",
+  "question2": "product",
+
+  "completedDescription": "A client proposal with topic %{problem}"
+}

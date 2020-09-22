@@ -1,0 +1,32 @@
+@import '../../../styles/mixins';
+@import '../../../styles/popup';
+
+$summary-popup-width: 420px;
+$summary-popup-bg: rgba($colour-blue, .88);
+
+.summaryPrompt {
+  @extend %prompt-popup;
+  background-color: $summary-popup-bg;
+  display: flex;
+  left: 340px;
+  min-width: $summary-popup-width;
+  padding: 25px 40px;
+  position: absolute;
+  top: 214px;
+  width: auto;
+  z-index: 40;
+
+  .runningPoints {
+    color: $colour-yellow;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 200px;
+    text-align: left;
+  }
+
+  .categories {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}

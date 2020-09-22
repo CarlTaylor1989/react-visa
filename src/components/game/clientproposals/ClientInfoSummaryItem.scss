@@ -1,0 +1,40 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.clientInfoSummaryItem {
+  @include align-items(flex-start);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &.difficulty {
+    @include align-items(flex-end);
+    margin-left: auto;
+  }
+
+  &:not(:first-child) {
+    padding: 0 15px;
+  }
+
+  &:nth-child(-n + 4) {
+    border-right: 1px solid $colour-white;
+  }
+
+  &:first-child {
+    padding-right: 15px;
+  }
+
+  .infoSummaryTitle {
+    padding-bottom: 2px;
+  }
+
+  .infoSummaryTitle,
+  .infoSummaryText {
+    font-size: 16px;
+  }
+
+  .infoSummaryText,
+  .avatarName {
+    font-weight: 700;
+  }
+}

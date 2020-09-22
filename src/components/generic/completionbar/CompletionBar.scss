@@ -1,0 +1,28 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.completionBar {
+  @include border-radius(17px);
+  background-color: $completion-bar-colour;
+  height: 30px;
+  padding: 3px;
+  position: relative;
+  width: 100%;
+
+  .inner {
+    @include border-radius(17px);
+    @include multi-left-right-gradient(rgba($colour-white, .15), rgba($colour-white, .8));
+    height: 30px;
+    transition: width .5s ease-in;
+  }
+
+  .completion {
+    font-size: 20px;
+    font-weight: 700;
+    left: 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+  }
+}

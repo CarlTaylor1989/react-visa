@@ -1,0 +1,50 @@
+// sass-lint:disable no-ids
+@import '../../../styles/variables';
+
+$home-icon: '../../../styles/icons/map/home_pin.svg';
+$home-height: 126px;
+$home-width: 90px;
+$contours: '../../../styles/icons/map/contours.svg';
+$contours-width: 1228px;
+$contours-height: 700px;
+
+.networkMap {
+  bottom: 0;
+  left: 310px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+
+  .contours {
+    background-image: url($contours);
+    height: $contours-height;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: $contours-width;
+  }
+
+  .mapContainer {
+    height: 756px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1210px;
+  }
+
+  .home {
+    background-image: url($home-icon);
+    height: $home-height;
+    left: 557px;
+    position: absolute;
+    top: 278px;
+    width: $home-width;
+    z-index: 1;
+  }
+
+  .perfectChallenges {
+    position: absolute;
+    right: 0;
+    top: 315px;
+  }
+}

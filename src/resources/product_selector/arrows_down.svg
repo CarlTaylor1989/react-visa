@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="31" viewBox="0 0 33 31">
+  <defs>
+    <style>
+      .cls-5 {
+        clip-path: url(#clip-arrows_down);
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3.2px;
+      }
+
+      .cls-6 {
+        opacity: 0.4;
+      }
+
+      .cls-8 {
+        opacity: 0.2;
+      }
+    </style>
+    <clipPath id="clip-arrows_down">
+      <rect width="33" height="31"/>
+    </clipPath>
+  </defs>
+  <g id="arrows_down" class="cls-5">
+    <g id="Group_5917" data-name="Group 5917" transform="translate(2 2)">
+      <path id="Path_538" data-name="Path 538" class="cls-6" d="M529.617,209.633,515.175,219l-14.442-9.363" transform="translate(-500.732 -200.976)"/>
+      <path id="Path_539" data-name="Path 539" class="cls-7" d="M529.617,218.291l-14.442,9.363-14.442-9.363" transform="translate(-500.732 -200.976)"/>
+      <path id="Path_540" data-name="Path 540" class="cls-8" d="M529.617,200.976l-14.442,9.363-14.442-9.363" transform="translate(-500.732 -200.976)"/>
+    </g>
+  </g>
+</svg>

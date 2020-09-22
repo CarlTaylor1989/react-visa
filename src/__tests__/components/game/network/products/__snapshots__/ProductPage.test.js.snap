@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductPage component 1`] = `
+<div
+  className="productPage type m1f2p4"
+>
+  <div
+    className="header"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.product.back"
+      forceHide={false}
+    >
+      <span>
+        <NavLink
+          className="backBtn"
+          onClick={[Function]}
+          to="/game/network/map"
+        >
+          <span
+            className="icon"
+          />
+          <Translate
+            className="text"
+            tag="span"
+            value="network.productpages.generic.backBtn"
+          />
+        </NavLink>
+      </span>
+    </Connect(Tooltip)>
+    <span
+      className="familyName type2"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "SECURITY & IDENTITY",
+        }
+      }
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <Translate
+      className="pageTitle"
+      tag="span"
+      value="network.productpages.m1f2p4.title"
+    />
+    <Translate
+      className="bodyText"
+      dangerousHTML={true}
+      tag="span"
+      value="network.productpages.m1f2p4.bodyText"
+    />
+  </div>
+  <div
+    className="buttonArea"
+  >
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.product.learning"
+    >
+      <button
+        className="openLearningBtn"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="icon"
+        />
+        <Translate
+          className="text"
+          tag="span"
+          value="network.productpages.generic.openLearningBtn"
+        />
+      </button>
+    </Connect(Tooltip)>
+    <Translate
+      className="orText"
+      tag="span"
+      value="network.productpages.generic.or"
+    />
+    <Connect(Tooltip)
+      fieldName="generic.tooltips.product.challenges"
+    >
+      <button
+        className="openChallengesBtn"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="icon"
+        />
+        <Translate
+          className="text"
+          tag="span"
+          value="network.productpages.generic.openChallengesBtn"
+        />
+      </button>
+    </Connect(Tooltip)>
+  </div>
+  <div
+    className="productContainer m1f2p4  "
+  >
+    <InlineSVG
+      className="productSvg"
+      element="i"
+      raw={false}
+      src=""
+    />
+    <Connect(ProductIcon)
+      coordinates={
+        Array [
+          860,
+          226,
+        ]
+      }
+      familyId="m1f2"
+      mapId="m1"
+      priorityPosition="top"
+      productId="p4"
+      status={0}
+      type="large"
+      useButton={false}
+    />
+    <MapText
+      nameCoord={
+        Object {
+          "coordinates": Array [
+            738,
+            365,
+          ],
+          "name": "Visa Consumer Authentication Service",
+        }
+      }
+      type="productName large "
+    />
+    <Connect(ChallengeIconContent)
+      challengeId="c10"
+      coordinates={
+        Array [
+          369,
+          233,
+        ]
+      }
+      familyId="m1f2"
+      key="m1f2c10"
+      type="type1"
+    />
+    <Connect(ChallengeIconContent)
+      challengeId="c11"
+      coordinates={
+        Array [
+          537,
+          233,
+        ]
+      }
+      familyId="m1f2"
+      key="m1f2c11"
+      type="type1"
+    />
+    <Connect(ChallengeIconContent)
+      challengeId="c12"
+      coordinates={
+        Array [
+          687,
+          233,
+        ]
+      }
+      familyId="m1f2"
+      key="m1f2c12"
+      type="type1"
+    />
+  </div>
+  <Minimap />
+  <IframeChallengesPopup
+    closePopup={[Function]}
+    onExited={[Function]}
+    onModalOpen={[Function]}
+    popupReferrer="irrelevant"
+    showPopup={false}
+  />
+  <IframeLearningPopup
+    closePopup={[Function]}
+    gomoId="p87977"
+    iframeSrc="https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=54c73fd4-6d1c-49f1-83dc-207bc938f91d"
+    onExited={[Function]}
+    onModalOpen={[Function]}
+    popupReferrer="irrelevant"
+    showPopup={false}
+  />
+</div>
+`;

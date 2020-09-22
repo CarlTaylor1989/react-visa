@@ -1,0 +1,180 @@
+{
+  "p87965": {
+    "title": "B2BC-LEARN",
+    "description": "B2BC-LEARN - B2B Connect Learn"
+  },
+  "p87966": {
+    "title": "B2BC-CHAL1",
+    "description": "B2BC-CHAL1 - B2B Connect Challenge 1"
+  },
+  "p87967": {
+    "title": "B2BC-CHAL2",
+    "description": "B2BC-CHAL2 - B2B Connect Challenge 2"
+  },
+  "p87968": {
+    "title": "B2BC-CHAL3",
+    "description": "B2BC-CHAL3 - B2B Connect Challenge 3"
+  },
+
+  "p93212": {
+    "title": "Learn: BPN",
+    "description": "BPN-Learning Module"
+  },
+  "p96810": {
+    "title": "Challenge 1: Quick fire mythbuster",
+    "description": "BPN-Chal 1 - BPN Challenge 1"
+  },
+  "p96814": {
+    "title": "Challenge 2: Client call",
+    "description": "BPN-Chal 2 - BPN Challenge 2"
+  },
+  "p96823": {
+    "title": "Challenge 3: Client conversation (easy/hard)",
+    "description": "BPN-Chal 3 - BPN Challenge 3"
+  },
+
+  "p92953": {
+    "title": "Learn: VPA",
+    "description": "VPA-Learning Module"
+  },
+  "p97078": {
+    "title": "Challenge 1: Complete the email",
+    "description": "VPA-Chal 1 - VPA Challenge 1"
+  },
+
+  "p93247": {
+    "title": "Learn: B2B Travel",
+    "description": "B2B Travel-Learning Module"
+  },
+  "p96765": {
+    "title": "Challenge 1: Quick fire quiz",
+    "description": "B2B Travel-Chal 1 - B2B Travel Challenge 1"
+  },
+  "p97061": {
+    "title": "Challenge 2: Complete the email",
+    "description": "B2B Travel-Chal 2 - B2B Travel Challenge 2"
+  },
+  "p96775": {
+    "title": "Challenge 3: Client conversation",
+    "description": "B2B Travel-Chal 3 - B2B Travel Challenge 3"
+  },
+
+  "p93100": {
+    "title": "Learn: Visa Virtual Travel",
+    "description": "Visa Virtual Travel - Learning Module"
+  },
+  "p96769": {
+    "title": "Challenge 1: Complete the email",
+    "description": "Visa Virtual Travel-Chal1 - Visa Virtual Travel Challenge 1"
+  },
+  "p96806": {
+    "title": "Challenge 2: Beat Quizbot",
+    "description": "Visa Virtual Travel-Chal1 - Visa Virtual Travel Challenge 2"
+  },
+  "p96804": {
+    "title": "Challenge 3: Client call",
+    "description": "Visa Virtual Travel-Chal1 - Visa Virtual Travel Challenge 3"
+  },
+
+  "p93409": {
+    "title": "Learn: VBR",
+    "description": "VBR - Learning Module"
+  },
+  "p96845": {
+    "title": "Challenge 1: Client call",
+    "description": "VBR-Chal 1 - VBR Challenge 1"
+  },
+  "p96847": {
+    "title": "Challenge 2: Beat Quizbot",
+    "description": "VBR-Chal 2 - VBR Challenge 2"
+  },
+  "p96849": {
+    "title": "Challenge 3: Client conversation (easy/hard)",
+    "description": "VBR-Chal 3 - VBR Challenge 3"
+  },
+
+  "p93302": {
+    "title": "Learn: Visa Infinite Business",
+    "description": "Visa Infinite Business - Learning Module"
+  },
+  "p96838": {
+    "title": "Challenge 1: Quick fire quiz",
+    "description": "Visa Infinite Business-Chal 1 - Visa Infinite Business Challenge 1"
+  },
+  "p96842": {
+    "title": "Challenge 2: Client call",
+    "description": "Visa Infinite Business-Chal 2 - Visa Infinite Business Challenge 2"
+  },
+  "p96848": {
+    "title": "Challenge 3: Client conversation classic",
+    "description": "Visa Infinite Business-Chal 3 - Visa Infinite Business Challenge 3"
+  },
+
+  "p93324": {
+    "title": "Learn: Visa SES",
+    "description": "Visa SES - Learning Module"
+  },
+  "p96935": {
+    "title": "Challenge 1: Quick fire quiz",
+    "description": "Visa SES-Chal 1 - Visa SES Challenge 1"
+  },
+  "p96941": {
+    "title": "Challenge 2: Client conversation (easy/hard)",
+    "description": "Visa SES-Chal 2 - Visa SES Challenge 2"
+  },
+  "p96950": {
+    "title": "Challenge 3: Client call",
+    "description": "Visa SES-Chal 3 - Visa SES Challenge 3"
+  },
+
+  "p93226": {
+    "title": "Learn: VISM",
+    "description": "VISM - Learning Module"
+  },
+  "p96835": {
+    "title": "Challenge 1: Quick fire mythbuster",
+    "description": "VISM-Chal 1 - VISM Challenge 1"
+  },
+  "p96841": {
+    "title": "Challenge 2: Client conversation (easy/hard)",
+    "description": "VISM-Chal 2 - VISM Challenge 2"
+  },
+  "p97040": {
+    "title": "Challenge 3: Complete the email",
+    "description": "VISM-Chal 3 - VISM Challenge 3"
+  },
+
+  "p93194": {
+    "title": "Learn: VIDS",
+    "description": "VIDS - Learning Module"
+  },
+  "p96852": {
+    "title": "Challenge 1: Quick fire quiz",
+    "description": "VIDS-Chal 1 - VIDS Challenge 1"
+  },
+  "p97025": {
+    "title": "Challenge 2: Complete the email",
+    "description": "VIDS-Chal 2 - VIDS Challenge 2"
+  },
+  "p96858": {
+    "title": "Challenge 3: Client conversation classic",
+    "description": "VIDS-Chal 3 - VIDS Challenge 3"
+  },
+
+  "p93517": {
+    "title": "Learn: Corporate Card",
+    "description": "Corporate Card - Learning Module"
+  },
+  "p96963": {
+    "title": "Challenge 1: Quick fire mythbuster",
+    "description": "Corporate Card-Chal 1 - Corporate Card Challenge 1"
+  },
+  "p96924": {
+    "title": "Challenge 2: Beat Quizbot",
+    "description": "Corporate Card-Chal 2 - Corporate Card Challenge 2"
+  },
+  "p96931": {
+    "title": "Challenge 3: Client call",
+    "description": "Corporate Card-Chal 3 - Corporate Card Challenge 3"
+  }
+}

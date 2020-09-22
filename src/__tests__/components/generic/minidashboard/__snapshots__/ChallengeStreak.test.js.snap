@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ChallengeStreak component 1`] = `
+<div
+  className="challengeStreak"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.bonusStreak"
+  />
+  <div
+    className="streakContainer"
+  >
+    <div
+      className="streakCircle "
+      key="1"
+    />
+    <div
+      className="streakCircle "
+      key="2"
+    />
+    <div
+      className="streakCircle "
+      key="3"
+    />
+    <div
+      className="streakCircle "
+      key="4"
+    />
+    <Translate
+      className="bonus"
+      tag="span"
+      value="generic.miniDashboard.bonus"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the ChallengeStreak component with progress of two 1`] = `
+<div
+  className="challengeStreak"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.bonusStreak"
+  />
+  <div
+    className="streakContainer"
+  >
+    <div
+      className="streakCircle filled"
+      key="1"
+    />
+    <div
+      className="streakCircle filled"
+      key="2"
+    />
+    <div
+      className="streakCircle "
+      key="3"
+    />
+    <div
+      className="streakCircle "
+      key="4"
+    />
+    <Translate
+      className="bonus"
+      tag="span"
+      value="generic.miniDashboard.bonus"
+    />
+  </div>
+</div>
+`;

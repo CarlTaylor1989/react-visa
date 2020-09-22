@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TutorialSlide component with just a title 1`] = `
+<div
+  className="tutorialSlide"
+>
+  <div>
+    <img
+      alt=""
+      className="slideImg"
+      src=""
+    />
+  </div>
+  <div
+    className="contentArea"
+  >
+    <div
+      className="title"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "irrelevant",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the TutorialSlide component with just some text 1`] = `
+<div
+  className="tutorialSlide"
+>
+  <div>
+    <img
+      alt=""
+      className="slideImg"
+      src=""
+    />
+  </div>
+  <div
+    className="contentArea"
+  >
+    <div
+      className="text"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "irrelevant",
+        }
+      }
+    />
+  </div>
+</div>
+`;

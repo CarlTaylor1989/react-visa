@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Rank component with the threshold 1`] = `
+<div
+  className="rank"
+>
+  <Translate
+    className="label"
+    tag="span"
+    value="generic.miniDashboard.rank"
+  />
+  <div
+    className="rankContainer"
+  >
+    <div
+      className="icon r20"
+    />
+    <div
+      className="progress"
+    >
+      <Translate
+        className="rankName"
+        tag="span"
+        value="generic.ranks.r20"
+      />
+      <ProgressBar
+        colour="dark"
+        percent={0}
+      />
+      <div
+        className="threshold"
+      >
+        <NumberFormat
+          allowEmptyFormatting={false}
+          allowNegative={true}
+          decimalSeparator="."
+          displayType="text"
+          fixedDecimalScale={false}
+          getInputRef={[Function]}
+          isAllowed={[Function]}
+          isNumericString={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          onValueChange={[Function]}
+          prefix=""
+          suffix=""
+          thousandSeparator=","
+          thousandsGroupStyle="thousand"
+          type="text"
+          value={0}
+        />
+        <Translate
+          tag="span"
+          value="generic.prompts.points"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders the Rank component without the threshold 1`] = `
+<div
+  className="rank"
+>
+  <Translate
+    className="label"
+    tag="span"
+    value="generic.miniDashboard.rank"
+  />
+  <div
+    className="rankContainer"
+  >
+    <div
+      className="icon r20"
+    />
+    <div
+      className="progress"
+    >
+      <Translate
+        className="rankName"
+        tag="span"
+        value="generic.ranks.r20"
+      />
+      <ProgressBar
+        colour="dark"
+        percent={0}
+      />
+    </div>
+  </div>
+</div>
+`;

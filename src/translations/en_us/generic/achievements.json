@@ -1,0 +1,86 @@
+{
+  "ac1": {
+    "title": "OFF THE MARK",
+    "description": "SCORE YOUR FIRST POINTS"
+  },
+  "ac2": {
+    "title": "ONE DOWN",
+    "description": "COMPLETE YOUR FIRST CHALLENGE"
+  },
+  "ac3": {
+    "title": "FLYING START",
+    "description": "COMPLETE YOUR FIRST PRODUCT"
+  },
+  "ac4": {
+    "title": "TAKE 5",
+    "description": "COMPLETE 5 PRODUCTS (IN ANY ORDER)"
+  },
+  "ac5": {
+    "title": "SMARTY PANTS",
+    "description": "COMPLETE 15 PRODUCTS (IN ANY ORDER)"
+  },
+  "ac6": {
+    "title": "CLEVER CLOGGS",
+    "description": "COMPLETE 25 PRODUCTS (IN ANY ORDER)"
+  },
+  "ac7": {
+    "title": "HOOKED",
+    "description": "PLAY THE GAME FIVE DAYS IN A ROW"
+  },
+  "ac8": {
+    "title": "YOU'll GET IT NEXT TIME!",
+    "description": "FAIL A CLIENT PROPOSAL FIVE TIMES"
+  },
+  "ac9": {
+    "title": "MILLIONNAIRE",
+    "description": "SCORE 1 MILLION POINTS"
+  },
+  "ac10": {
+    "title": "M-M-MILLIONAIRE",
+    "description": "SCORE 3 MILLION POINTS"
+  },
+  "ac11": {
+    "title": "YOU MIGHT BE PLAYING TOO MUCH",
+    "description": "SCORE 5 MILLION POINTS"
+  },
+  "ac12": {
+    "title": "THIS SHOULDN'T BE POSSIBLE",
+    "description": "SCORE 10 MILLION POINTS"
+  },
+  "ac13": {
+    "title": "FIRST OF MANY",
+    "description": "COMPLETE YOUR FIRST CLIENT PROPOSAL"
+  },
+  "ac14": {
+    "title": "CLIENTS LOVE YOU (LEVEL 1)",
+    "description": "COMPLETE ALL LEVEL 1 CLIENT PROPOSALS"
+  },
+  "ac15": {
+    "title": "CLIENTS LOVE YOU (LEVEL 2)",
+    "description": "COMPLETE ALL LEVEL 2 CLIENT PROPOSALS"
+  },
+  "ac16": {
+    "title": "CLIENTS LOVE YOU (LEVEL 3)",
+    "description": "COMPLETE ALL LEVEL 3 CLIENT PROPOSALS"
+  },
+  "ac17": {
+    "title": "EPIC WIN!",
+    "description": "COMPLETE ALL CLIENT PROPOSALS"
+  },
+  "ac18": {
+    "title": "FIRST TIME'S A CHARM",
+    "description": "COMPLETE A CLIENT PROPOSAL ON THE FIRST ATTEMPT"
+  },
+  "ac19": {
+    "title": "FELL AT THE LAST HURDLE",
+    "description": "FAIL A CHALLENGE WHEN ON A BONUS STREAK OF 3"
+  },
+  "ac20": {
+    "title": "PERFECTIONIST",
+    "description": "COMPLETE ALL CHALLENGES WITH A PERFECT SCORE"
+  },
+  "ac21": {
+    "title": "FINE TUNA",
+    "description": "ACCESS THE SETTINGS PANEL"
+  }
+}

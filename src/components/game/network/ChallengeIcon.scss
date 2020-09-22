@@ -1,0 +1,101 @@
+@import '../../../styles/buttons';
+
+$star-icon: '../../../styles/icons/star.svg';
+$star-icon-height: 12px;
+$star-icon-width: 12px;
+$star-icon-height-large: 32px;
+$star-icon-width-large: 32px;
+$star-icon-height-large: 12px;
+$star-icon-width-large: 12px;
+$challenge-icon-height: 10px;
+$challenge-icon-width: $challenge-icon-height;
+$challenge-icon-height-perfect: 14px;
+$challenge-icon-width-perfect: $challenge-icon-height;
+$challenge-icon-height-large: 30px;
+$challenge-icon-width-large: $challenge-icon-height-large;
+$challenge-icon-height-large-perfect: 40px;
+$challenge-icon-width-large-perfect: $challenge-icon-height-large-perfect;
+
+.challengeIcon {
+  @extend %button-reset;
+  @include border-radius($challenge-icon-height-perfect / 2);
+  box-sizing: border-box;
+  height: $challenge-icon-height;
+  position: absolute;
+  width: $challenge-icon-width;
+  z-index: 3;
+
+  &.m1f1 {
+    @include challenge-icon($colour-family-1);
+  }
+
+  &.m1f2 {
+    @include challenge-icon($colour-family-2);
+  }
+
+  &.m1f3 {
+    @include challenge-icon($colour-family-3);
+  }
+
+  &.m1f4 {
+    @include challenge-icon($colour-family-4);
+  }
+
+  &.m1f5 {
+    @include challenge-icon($colour-family-5);
+  }
+
+  &.available {
+    border: 1px solid $colour-white;
+  }
+
+  &.completed {
+    background-color: $colour-white;
+    border: 0;
+  }
+
+  &.perfect {
+    border: 0;
+    height: $challenge-icon-height-perfect;
+    margin-left: -($challenge-icon-width-perfect - $challenge-icon-width) / 2;
+    margin-top: -($challenge-icon-height-perfect - $challenge-icon-height) / 2;
+    width: $challenge-icon-height-perfect;
+
+    &::after {
+      background-image: url($star-icon);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: $star-icon-width $star-icon-height;
+      content: '';
+      display: block;
+      height: $challenge-icon-height-perfect;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: $challenge-icon-height-perfect;
+    }
+  }
+
+  &.large {
+    @include border-radius($challenge-icon-height-large-perfect / 2);
+    height: $challenge-icon-height-large;
+    width: $challenge-icon-width-large;
+
+    &.available {
+      border-width: 2px;
+    }
+
+    &.perfect {
+      height: $challenge-icon-height-large-perfect;
+      margin-left: -($challenge-icon-width-large-perfect - $challenge-icon-width-large) / 2;
+      margin-top: -($challenge-icon-height-large-perfect - $challenge-icon-height-large) / 2;
+      width: $challenge-icon-width-large-perfect;
+
+      &::after {
+        background-size: $star-icon-width-large $star-icon-height-large;
+        height: $challenge-icon-height-large-perfect;
+        width: $challenge-icon-width-large-perfect;
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the RequirementFeedback component with the correct feedback and an OK button 1`] = `
+<div
+  className="requirementFeedback available correct"
+>
+  <div
+    className="popupWrapper"
+  >
+    <span
+      className="feedbackIcon"
+    />
+    <Translate
+      className="feedbackTitle"
+      tag="span"
+      value="clientprops.correctRequirementFeedbackTitle"
+    />
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <div
+          className="scrollingContent"
+        >
+          <Translate
+            attempts={1}
+            className="feedbackText"
+            dangerousHTML={true}
+            tag="span"
+            value="clientprops.clients.client1.correctFeedback"
+          />
+        </div>
+      </Scrollbar>
+    </div>
+    <FeedbackPoints
+      points={10000}
+      showTotalText={false}
+    />
+    <button
+      className="feedbackBtn"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="clientprops.okBtn"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders the RequirementFeedback component with the incorrect feedback and a retry button 1`] = `
+<div
+  className="requirementFeedback available incorrect"
+>
+  <div
+    className="popupWrapper"
+  >
+    <span
+      className="feedbackIcon"
+    />
+    <Translate
+      className="feedbackTitle"
+      tag="span"
+      value="clientprops.incorrectRequirementFeedbackTitle"
+    />
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <div
+          className="scrollingContent"
+        >
+          <Translate
+            className="feedbackText"
+            dangerousHTML={true}
+            remaining={1}
+            tag="span"
+            value="clientprops.clients.client1.incorrectFeedback"
+          />
+        </div>
+      </Scrollbar>
+    </div>
+    <button
+      className="feedbackBtn"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="clientprops.retryBtn"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders the RequirementFeedback component with the incorrect feedback with an OK button 1`] = `
+<div
+  className="requirementFeedback available incorrect"
+>
+  <div
+    className="popupWrapper"
+  >
+    <span
+      className="feedbackIcon"
+    />
+    <Translate
+      className="feedbackTitle"
+      tag="span"
+      value="clientprops.incorrectRequirementFeedbackTitle"
+    />
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <div
+          className="scrollingContent"
+        >
+          <Translate
+            className="feedbackText"
+            dangerousHTML={true}
+            remaining={1}
+            tag="span"
+            value="clientprops.clients.client1.incorrectFeedback"
+          />
+        </div>
+      </Scrollbar>
+    </div>
+    <button
+      className="feedbackBtn"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      <Translate
+        tag="span"
+        value="clientprops.okBtn"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders the RequirementFeedback component without any feedback 1`] = `
+<div
+  className="requirementFeedback incorrect"
+>
+  <div
+    className="popupWrapper"
+  >
+    <span
+      className="feedbackIcon"
+    />
+  </div>
+</div>
+`;

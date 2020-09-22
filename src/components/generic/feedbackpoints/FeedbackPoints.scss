@@ -1,0 +1,35 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.feedbackPoints {
+  @include align-items(center);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .text {
+    font-size: 24px;
+  }
+
+  .pointsContainer {
+    @include border-radius(27px);
+    @include multi-angle-gradient(
+      152deg,
+      rgba($colour-white, .04) 0%,
+      rgba($colour-white, .05) 14%,
+      rgba($colour-white, .1) 86%,
+      rgba($colour-white, .11) 100%
+    );
+    border: 1px solid $colour-white;
+    margin: 10px 0;
+    text-align: center;
+    width: 250px;
+
+    .pointsText {
+      color: $colour-yellow;
+      font-size: 44px;
+      font-weight: 700;
+      line-height: 64px;
+    }
+  }
+}

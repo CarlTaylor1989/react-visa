@@ -1,0 +1,6 @@
+{
+  "title": "Tutorial %{title}",
+  "description": "A tutorial on %{title}",
+  "sectionTitle": "Tutorial %{id}",
+  "slideTitle": "Tutorial %{id} slide %{index}"
+}

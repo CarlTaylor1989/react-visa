@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FamilyContainer component 1`] = `
+<div
+  className="familyContainer m1f2 c1 c2"
+>
+  <InlineSVG
+    className="family"
+    element="i"
+    raw={false}
+    src=""
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c1"
+    coordinates={
+      Array [
+        161,
+        69,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c1"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c2"
+    coordinates={
+      Array [
+        196,
+        69,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c2"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c3"
+    coordinates={
+      Array [
+        228,
+        69,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c3"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c4"
+    coordinates={
+      Array [
+        337,
+        69,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c4"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c5"
+    coordinates={
+      Array [
+        375,
+        69,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c5"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c6"
+    coordinates={
+      Array [
+        411,
+        54,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c6"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c7"
+    coordinates={
+      Array [
+        149,
+        95,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c7"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c8"
+    coordinates={
+      Array [
+        176,
+        120,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c8"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c9"
+    coordinates={
+      Array [
+        201,
+        146,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c9"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c10"
+    coordinates={
+      Array [
+        307,
+        187,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c10"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c11"
+    coordinates={
+      Array [
+        352,
+        187,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c11"
+  />
+  <Connect(ChallengeIcon)
+    challengeId="c12"
+    coordinates={
+      Array [
+        392,
+        187,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2c12"
+  />
+  <Connect(ProductIcon)
+    coordinates={
+      Array [
+        264,
+        49,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2p1"
+    mapId="m1"
+    priorityPosition="topRight"
+    productId="p1"
+    status={0}
+    useButton={true}
+  />
+  <MapText
+    key="namem1f2p1"
+    nameCoord={
+      Object {
+        "coordinates": Array [
+          206,
+          102,
+        ],
+        "name": "Visa Advanced Authorization",
+        "type": "center",
+      }
+    }
+    type="productName  center"
+  />
+  <Connect(ProductIcon)
+    coordinates={
+      Array [
+        424,
+        9,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2p2"
+    mapId="m1"
+    priorityPosition="topRight"
+    productId="p2"
+    status={0}
+    useButton={true}
+  />
+  <MapText
+    key="namem1f2p2"
+    nameCoord={
+      Object {
+        "classes": Array [
+          "small",
+        ],
+        "coordinates": Array [
+          447,
+          7,
+        ],
+        "name": "Visa Risk Manager",
+        "type": "center",
+      }
+    }
+    type="productName small center"
+  />
+  <Connect(ProductIcon)
+    coordinates={
+      Array [
+        217,
+        167,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2p3"
+    mapId="m1"
+    priorityPosition="topRight"
+    productId="p3"
+    status={0}
+    useButton={true}
+  />
+  <MapText
+    key="namem1f2p3"
+    nameCoord={
+      Object {
+        "coordinates": Array [
+          206,
+          218,
+        ],
+        "name": "EMV 3-D Secure",
+        "type": "center smaller",
+      }
+    }
+    type="productName  center smaller"
+  />
+  <Connect(ProductIcon)
+    coordinates={
+      Array [
+        427,
+        167,
+      ]
+    }
+    familyId="m1f2"
+    key="m1f2p4"
+    mapId="m1"
+    priorityPosition="top"
+    productId="p4"
+    status={0}
+    useButton={true}
+  />
+  <MapText
+    key="namem1f2p4"
+    nameCoord={
+      Object {
+        "coordinates": Array [
+          375,
+          218,
+        ],
+        "name": "Visa Consumer Authentication Service",
+        "type": "center",
+      }
+    }
+    type="productName  center"
+  />
+  <MapText
+    nameCoord={
+      Object {
+        "coordinates": Array [
+          380,
+          266,
+        ],
+        "name": "SECURITY & IDENTITY",
+      }
+    }
+    type="familyName type2 "
+  />
+</div>
+`;

@@ -1,0 +1,18 @@
+{
+  "slides": [{
+    "title": "Welcome to Inside Track ",
+    "text": "<p>Hi, I am Vikki.</p><p>Visa is improving the way we bundle and sell our products, services and consultancy capabilities to solve our client’s needs and goals more effectively.</p><p>Now we want your help to strengthen this go-to-market offering.</p><p>Inside Track will help build your ability to better understand, identify and recommend the right product and service solution sets to our clients.</p>"
+  }, {
+    "title": "Make Visa Solutions work for you",
+    "text": "<p>There are two areas of Inside Track.</p><p>In the Client Proposal area, there is a growing list of clients waiting for you to recommend them product solutions, but they’re not going to make it easy.</p><p>Your challenge is to pick apart their stories and identify what really matters to them. Can you construct the perfect solution to help achieve their goals?</p>"
+  }, {
+    "title": "Product and Service info you need at your fingertips",
+    "text": "<p>Our Solution Sets help clients achieve their business goals, but how well do you know the products and services inside the sets?</p><p>The Product Network area is your tool to get you up to speed with the latest and greatest products and services Visa has to offer.</p><p>You can solve Product Challenges to grow your product knowledge portfolio so you’re ready to take on whatever needs your clients bring to you.</p>"
+  }, {
+    "title": "Forge your own track",
+    "text": "<p>How you play is up to you. How do you want to start your Inside Track journey?</p><p>Choose <b>Client Proposals</b> to get straight into the action by creating bespoke solutions for a challenging roster of potential clients.</p><p>Or choose <b>Product Network</b> to hone your solution knowledge and gear up for the client challenges later.</p><p>Don’t forget you can jump between the two areas anytime you like by selecting these buttons at the top of the screen.</p>"
+  }],
+
+  "backBtn": "BACK",
+  "nextBtn": "NEXT"
+}

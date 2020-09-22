@@ -1,0 +1,198 @@
+@import '../../styles/buttons';
+@import '../../styles/generic';
+@import '~slick-carousel/slick/slick.css';
+
+$intro-bg: '../../styles/backgrounds/intro_bg.jpg';
+$network-icon: '../../styles/icons/product_network_icon.svg';
+$network-icon-width: 48px;
+$network-icon-height: 44px;
+$client-proposals-icon: '../../styles/icons/client_proposals_icon.svg';
+$client-proposals-icon-width: 48px;
+$client-proposals-icon-height: 44px;
+
+$woman: '../../styles/icons/intro_seq/intro_woman.png';
+$woman-retina: '../../styles/icons/intro_seq/intro_woman@2x.png';
+$woman-height: 840px;
+$woman-width: 480px;
+
+$client: '../../styles/icons/intro_seq/intro_screenshot_clients.png';
+$client-height: 745px;
+$client-width: 801px;
+
+$map: '../../styles/icons/intro_seq/intro_screenshot_map.png';
+$map-height: 745px;
+$map-width: 801px;
+
+$quotes-icon: '../../styles/icons/intro_seq/quote_icon.png';
+$quotes-icon-retina: '../../styles/icons/intro_seq/quote_icon@2x.png';
+$quotes-icon-height: 200px;
+$quotes-icon-width: 200px;
+$next-back-icon: '../../styles/icons/intro_seq/next_n.svg';
+$next-back-over-icon: '../../styles/icons/intro_seq/next_h.svg';
+$next-back-icon-height: 46px;
+$next-back-icon-width: 46px;
+
+.introSequence {
+  @extend %screen-size;
+  @extend %bg-size;
+  background-image: url($intro-bg);
+  position: relative;
+
+  .routeButtons {
+    @include align-items(flex-start);
+    display: flex;
+    justify-content: center;
+
+    .productNetworkBtn,
+    .clientPropsBtn {
+      @extend %btn-blue-with-arrow;
+      margin-top: 12px;
+      z-index: 2;
+    }
+
+    .clientPropsBtn {
+      .icon {
+        background-image: url($client-proposals-icon);
+        height: $client-proposals-icon-height;
+        margin-right: 15px;
+        width: $client-proposals-icon-width;
+      }
+    }
+
+    .productNetworkBtn {
+      margin-left: 20px;
+
+      .icon {
+        background-image: url($network-icon);
+        height: $network-icon-height;
+        margin-right: 15px;
+        width: $network-icon-width;
+      }
+    }
+  }
+
+  .contentGraphic {
+    display: block;
+    position: absolute;
+
+    &.woman {
+      @include retina-image($woman-retina, $woman-width, $woman-height);
+      background-image: url($woman);
+      bottom: 0;
+      height: $woman-height;
+      left: 90px;
+      width: $woman-width;
+    }
+
+    &.client,
+    &.map {
+      left: 0;
+      top: 160px;
+    }
+
+    &.client {
+      background-image: url($client);
+      height: $client-height;
+      width: $client-width;
+    }
+
+    &.map {
+      background-image: url($map);
+      height: $map-height;
+      width: $map-width;
+    }
+  }
+
+  .carouselContainer {
+    @include border-radius(27px);
+    @include linear-gradient($intro-seq-colour-top, $intro-seq-colour-bottom);
+    border: 1.5px solid $colour-white;
+    margin-left: 785px;
+    margin-top: 70px;
+    min-height: 510px;
+    padding: 40px;
+    position: relative;
+    width: 640px;
+
+    &::after,
+    &::before {
+      @include retina-image($quotes-icon-retina, $quotes-icon-width, $quotes-icon-height*2);
+      background-image: url($quotes-icon);
+      background-repeat: no-repeat;
+      content: '';
+      display: block;
+      height: $quotes-icon-height;
+      position: absolute;
+      width: $quotes-icon-width;
+      z-index: 1;
+    }
+
+    &::after {
+      background-position: 0 0;
+      left: -$quotes-icon-height / 2;
+      top: -$quotes-icon-width / 2;
+    }
+
+    &::before {
+      background-position: 0 -200px;
+      bottom: -$quotes-icon-width / 2;
+      right: -$quotes-icon-height / 2;
+    }
+  }
+
+  .navButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    button {
+      @include align-items(center);
+      background: none;
+      border: 0;
+      color: $colour-white;
+      cursor: pointer;
+      display: flex;
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0 10px;
+      outline: 0;
+
+      .icon {
+        background: url($next-back-icon);
+        display: block;
+        height: $next-back-icon-height;
+        transition: background .5s ease-in-out;
+        width: $next-back-icon-width;
+      }
+
+      &:hover {
+        .icon {
+          background: url($next-back-over-icon);
+        }
+      }
+
+      &:disabled {
+        @extend %disabled-btn;
+
+        &:hover {
+          .icon {
+            background: url($next-back-icon);
+          }
+        }
+      }
+
+      &.backBtn {
+        .icon {
+          margin-right: 10px;
+          transform: rotate(180deg);
+        }
+      }
+
+      &.nextBtn {
+        .icon {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

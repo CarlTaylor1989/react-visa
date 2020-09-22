@@ -1,0 +1,141 @@
+{
+  "id": "client2",
+  "name": "ZEPHYR BANK",
+  "clientType": "issuer",
+  "problemType": "travel",
+  "info": {
+    "account": "Zephyr Bank",
+    "segment": "Issuer",
+    "region": "Global",
+    "bid": "#89659",
+    "fiscal": "FY 2020",
+    "avatarName": "Rishu Parikh",
+    "title": "Client Information",
+    "text": "<p>Rishu Parikh, a Finance Manager for Zephyr Bank, has recently made contact with you on behalf of his client Big Talks. Big Talks, an offshoot of Ted Talks, is a large company that travels the globe offering inspirational talks, encouraging discussion and challenging outdated perceptions of disability. They were recently announced as a top five company globally for disabled workers.</p><p>Big Talks has seen an increase in travel spend due to their goal to become the most popular company of their kind in Europe. Not only have they increased the frequency with which they travel, each trip is fairly expensive due to the varying travel requirements of each employee. Airfare, taxis and hotels need to have enough room to accommodate support staff, as well as things like wheelchairs and walking aids. Due to the varying travel requirements of each employee, the company has struggled to decide on a formal travel policy, and this has created an influx of employees putting travel expenses on their personal cards or travel agencies sending them a bill at the end of the month. Travel agency bills often arrive late too.</p><p>The current process is a pain point throughout the company, causing stress and wasting time.</p><p>Rishu is looking to find the client a solution that simplifies the expenses process.</p><p>Are you ready to discuss his needs in more detail?</p>"
+  },
+  "instructionTextInitial": "Learn about the client’s challenges and goals.",
+  "instructionTextFinal": "You've now defined this client's needs, you can review them below.",
+  "statements": [{
+    "id": "st1",
+    "text": "Big Talks is struggling with the amount of false declines on their cards when traveling",
+    "type": "challenges"
+  }, {
+    "id": "st2",
+    "text": "Big Talks is frustrated with how long it’s taking to get expense reports back",
+    "type": "challenges"
+  }, {
+    "id": "st3",
+    "text": "Big Talks has recently been overcharged for international purchases and need to be able to set limits on types of transaction activity",
+    "type": "challenges"
+  }, {
+    "id": "st4",
+    "text": "Big Talks’ lack of a travel policy is causing a high spend on travel and entertainment costs",
+    "type": "challenges"
+  }, {
+    "id": "st5",
+    "text": "An ability to block cards to avoid fraudulent transactions with the issuer being automatically notified",
+    "type": "goals"
+  }, {
+    "id": "st6",
+    "text": "Oversight of all travel expenses for hotel stays and plane travel",
+    "type": "goals"
+  }, {
+    "id": "st7",
+    "text": "An ability to reduce false declines when traveling in real time",
+    "type": "goals"
+  }, {
+    "id": "st8",
+    "text": "An ability to log upcoming business travel to give maximum visibility to key staff",
+    "type": "goals"
+  }, {
+    "id": "st9",
+    "text": "An ability to capture all bulk airfare company purchases",
+    "type": "goals"
+  }, {
+    "id": "st10",
+    "text": "An ability to monitor and evaluate authorizations in real time to better identify and respond to emerging fraud patterns and trends",
+    "type": "goals"
+  }, {
+    "id": "st11",
+    "text": "An ability to capture travel spending on cards that is currently not being reported",
+    "type": "goals"
+  }],
+  "correctFeedback": "Next, you’ll be presented with a solution set. It’s your job to select products relevant to this client. Don’t worry – you’ll have your client needs list to help you.",
+  "incorrectFeedback": "<p>In order to submit your proposal, you’ve got to fully understand the client’s needs.</p><p>Rishu has mentioned that Big Talks is looking for a dedicated travel card solution. He also mentioned that they want a solution that can efficiently capture and manage travel expenses efficiently.</p><p>Explore the resources again and have another go at identifying the client’s challenges and goals.</p><p>ATTEMPTS REMAINING: <span class='attempts'>%{remaining}</span></p>",
+  "resources": [{
+    "id": "res1",
+    "type": "email",
+    "name": "CLIENT EMAIL",
+    "imageName": "client2_resource_avatar_1.svg",
+    "sender": "Rishu Parikh, Zephyr Bank: 06/06, 14:56pm",
+    "subject": "RE: Travel",
+    "body": "<p>Good afternoon,</p><p>I work as a Financial Manager for Zephyr Bank.</p><p>I’m emailing in the hope you can offer a travel solution to my client, Big Talks. Akin to Ted Talks, they operate within the frame of disability, offering moving and challenging talks at venues large and small. They were recently referred to as ‘the impetus for change’ within the field of disability.</p><p>They’re a business that visits all areas of the globe, but are now seeking to become the most popular business of their kind in Europe. This ambitious goal has led to their travel spending rising sharply, without a travel policy or process to match.</p><p>They’re looking for a solution that makes managing their travel expenses easier.</p><p>I look forward to hearing from you.</p><p>Kind regards,</p><p>Rishu Parikh | Financial Manager | Zephyr Bank</p>"
+  }, {
+    "id": "res2",
+    "type": "call",
+    "name": "CLIENT CALL",
+    "title": "Client call",
+    "imageName": "client2_resource_avatar_1.svg",
+    "caller": "Rishu Parikh, Zephyr Bank: 06/12, 08:45am",
+    "instruction": "Select the play button to listen to the call recording.",
+    "transcript": "<p>“Good afternoon.</p><p>Thank you again for fitting the call in this morning. I’ve just heard a bit more back from the Travel Program Administrator at Big Talks and what they’re looking for is a dedicated travel card solution.</p><p>An ability to capture all bulk airfare company purchases would also be desirable.”</p>"
+  }, {
+    "id": "res3",
+    "type": "meeting",
+    "name": "MEETING MINUTES",
+    "title": "Meeting minutes",
+    "content": "<p><b>Date/Time:</b> 06/14, 15:00pm</p><p><b>Client:</b> Rishu Parikh | Zephyr Bank | Big Talks</p><p><b>Agenda:</b><ul><li>Introductions (5 minutes)</li><li>Define organization objectives (25 minutes)</li><li>RFP questions and follow-up (10 minutes)</li><li>Next steps and actions (5 minutes)</li></ul></p><p><b>Notes:</b><br><b>Client priorities:</b><ul><li>To easily manage travel expenses for our hotel stays and all types of business travel</li></ul></p><p><b>Client non-priorities:</b><ul><li>A card for making large business purchases</li><li>Safe transactions with a unique digital identifier</li><li>Promotions and targeted offers</li></ul></p><p><b>Actions:</b><ul><li>Visa to have an Account Executive engage in discussions with client</li><li>Account Executive to recommend product bundle</li></ul></p>"
+  }],
+  "products": [{
+    "id": "prod1",
+    "familyId": "family5",
+    "familyName": "CORE COMMERCIAL PRODUCTS",
+    "productName": "VISA TRAVEL & ENTERTAINMENT CORPORATE CARD",
+    "popupTitle": "Visa Travel & Entertainment Corporate Card",
+    "popupSubtitle": "Product family: Core Commercial Products",
+    "popupText": "With the Visa Corporate card, employees can pay their travel and entertainment expenses securely around the world while the company enjoys access to accurate information to more effectively manage spending."
+  }, {
+    "id": "prod2",
+    "familyId": "family3",
+    "familyName": "TRAVEL",
+    "productName": "GLOBAL CENTRAL TRAVEL ACCOUNT",
+    "popupTitle": "Global Central Travel Account",
+    "popupSubtitle": "Product family: Travel",
+    "popupText": "Visa’s Global Central Travel Account (CTA) Solution is designed to seamlessly capture Travel Management Company (TMC) data and provide comprehensive reconciliation services to deliver complete, accurate and timely travel and client details for organizations."
+  }, {
+    "id": "prod3",
+    "familyId": "family5",
+    "familyName": "BUSINESS MEASUREMENT & OPTIMIZATION",
+    "productName": "VISA INTELLILINK SPEND MANAGEMENT",
+    "popupTitle": "Visa IntelliLink Spend Management",
+    "popupSubtitle": "Product family: Business Measurement & Optimization",
+    "popupText": "Visa IntelliLink Spend Management is a complete reporting and expense management solution for organizations that use Visa Corporate, Visa Business, Visa Purchasing, and Visa Fleet card products. With Visa IntelliLink Spend Management, you can easily access a cardholder’s expenses, view spending patterns, and analyze transaction details."
+  }, {
+    "id": "prod4",
+    "familyId": "family4",
+    "familyName": "TRAVEL",
+    "productName": "VISA VIRTUAL TRAVEL CARD SERVICE",
+    "popupTitle": "Visa Virtual Travel Card Service",
+    "popupSubtitle": "Product family: Travel",
+    "popupText": "Helps organizations efficiently capture a greater percentage of their overall business travel spending, regardless of whether or not the traveler has a corporate card."
+  }, {
+    "id": "prod5",
+    "familyId": "family3",
+    "familyName": "CORE COMMERCIAL PRODUCTS",
+    "productName": "VISA PURCHASING CARD",
+    "popupTitle": "Visa Purchasing Card",
+    "popupSubtitle": "Product family: Core Commercial Products",
+    "popupText": "Purchasing Cards provide corporate clients a comprehensive solution to pay for business expenses, operating goods and services, thereby reducing processing and transaction costs and eliminating purchase orders, invoices, and checks."
+  }, {
+    "id": "prod6",
+    "familyId": "family4",
+    "familyName": "VISA DIRECT",
+    "productName": "VISA DIRECT",
+    "popupTitle": "Visa Direct",
+    "popupSubtitle": "Product family: Visa Direct",
+    "popupText": "Visa Direct allows financial institutions, developers, merchants, and partners to enable users to send and receive person-to-person and business disbursements directly to an eligible Visa card."
+  }],
+  "correctSolutionFeedback": "<p>You won this client proposal. Congratulations!</p><p><b>Here is the correct solution:</b></p><ul><li>Visa Travel & Entertainment Corporate Card</li><li>Global Central Travel Account</li></ul><p>You’ve solved the immediate needs of the client, but Visa can do more for your client. By applying our complete lifecycle approach, you can flag potential issues for your client before they appear.</p><p>The lifecycle approach has five distinctive steps which are the following:</p><ul><li><b>Acquisition:</b> Is this solution appropriate for any other customers the client has?</li><li><b>Implementation:</b> Keep an open dialogue with clients during implementation</li><li><b>Adoption:</b> Once the client is implemented, providing help with their internal change processes is crucial</li><li><b>Retention:</b> The new processes have been adopted but you must support your client to avoid staff falling into bad habits</li><li><b>Optimization:</b> When the client is comfortably using their new process then we can suggest further efficiency gains</li></ul><p>The Visa Consulting & Analytics (VCA) group can further investigate the client’s difficulties and suggest tailored solutions.</p>",
+  "incorrectSolutionFeedback": "<p>You lost this client proposal.</p><p>Rishu has mentioned that Big Talks is looking for a dedicated travel card solution. He also mentioned that they want a solution that can efficiently capture and manage travel expenses efficiently.</p><p>Review the client needs again and learn more about the products. Then have another go at customizing the solution.</p>",
+  "givenUpSolutionFeedback": "<p>You’ve forfeited your points and have given up. The client has reviewed the solution and has confirmed interest in the following products:</p><ul><li>Visa Travel & Entertainment Corporate Card</li><li>Global Central Travel Account</li></ul><p>While you were unable to successfully win the client deal, there is much more work to do.</p><p>Visa can do more for your client. By applying our complete lifecycle approach you can flag potential issues for your client before they appear.</p><p>The lifecycle approach has five distinctive steps which are the following:</p><ul><li><b>Acquisition:</b> Is this solution appropriate for any other customers the client has?</li><li><b>Implementation:</b> Keep an open dialogue with clients during implementation</li><li><b>Adoption:</b> Once the client is implemented, providing help with their internal change processes is crucial</li><li><b>Retention:</b> The new processes have been adopted but you must support your client to avoid staff falling into bad habits</li><li><b>Optimization:</b> When the client is comfortably using their new process then we can suggest further efficiency gains</li></ul><p>The Visa Consulting & Analytics (VCA) group can further investigate the client’s difficulties and suggest tailored solutions.</p>"
+}

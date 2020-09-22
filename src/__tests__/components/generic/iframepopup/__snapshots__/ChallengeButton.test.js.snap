@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ChallengeButton component 1`] = `
+<button
+  className="challengeBtn completed"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <Translate
+    className="text"
+    count={3}
+    tag="span"
+    value="network.productpages.generic.challengeBtn"
+  />
+  <span
+    className="icon m1f2"
+  />
+</button>
+`;
+
+exports[`renders the ChallengeButton component and sets the class to current 1`] = `
+<button
+  className="challengeBtn completed current"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <Translate
+    className="text"
+    count={3}
+    tag="span"
+    value="network.productpages.generic.challengeBtn"
+  />
+  <span
+    className="icon m1f2"
+  />
+</button>
+`;

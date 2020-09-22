@@ -1,0 +1,32 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$persona-icon: '../../../styles/icons/tutorials/tutorial_persona_icon.png';
+$persona-icon-width: 100px;
+$persona-icon-height: 100px;
+
+.tutorialSlide {
+  @include align-items(flex-start);
+  display: flex;
+  justify-content: space-between;
+
+  .contentArea {
+    background-image: url($persona-icon);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: $persona-icon-width $persona-icon-height;
+    margin-left: 30px;
+    padding-top: 120px;
+
+    .title {
+      color: $colour-gold;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .text {
+      color: $colour-gold;
+      font-size: 22px;
+    }
+  }
+}

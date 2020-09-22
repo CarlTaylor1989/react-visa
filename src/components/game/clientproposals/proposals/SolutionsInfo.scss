@@ -1,0 +1,85 @@
+@import '../../../../styles/generic';
+@import '../../../../styles/popup';
+
+$faded-border-colour: rgba($colour-white, .5);
+$feedback-panel-width: 450px;
+$popup-close-n: '../../../../styles/icons/popup_close_n.svg';
+$popup-close-h: '../../../../styles/icons/popup_close_h.svg';
+$popup-close-height: 50px;
+$popup-close-width: 50px;
+
+.solutionsInfo {
+  @extend %gradient-popup;
+  @include border-radius(27px);
+  @include box-shadow(21px, 21px, 11px, 0, rgba(0, 0, 0, .3));
+  @include opacity(0);
+  border: 2px solid $faded-border-colour;
+  box-sizing: border-box;
+  height: 665px;
+  padding: 100px 30px 30px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  transition: opacity .5s ease-in-out;
+  width: $feedback-panel-width;
+  z-index: -1;
+
+  &.available {
+    @include opacity(1);
+    z-index: 10;
+  }
+
+  .exitPopup {
+    @extend %un-button;
+    background-image: url($popup-close-n);
+    background-size: $popup-close-width $popup-close-height;
+    height: $popup-close-height;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transition: background .5s ease-in-out;
+    width: $popup-close-width;
+    z-index: 2;
+
+    &:hover {
+      background-image: url($popup-close-h);
+      background-size: $popup-close-width $popup-close-height;
+    }
+  }
+
+  .popupWrapper {
+    padding-right: 20px;
+
+    .solutionTitle,
+    .solutionSubtitle,
+    .solutionText {
+      display: block;
+      text-align: left;
+    }
+
+    .solutionTitle {
+      color: $colour-gold;
+      font-size: 36px;
+    }
+
+    .solutionSubtitle {
+      color: $colour-gold;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+
+    .solutionText {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+
+  .contentScroll {
+    @extend %scrollbar;
+    height: 525px;
+
+    .resourceWrapper {
+      padding-right: 30px;
+    }
+  }
+}

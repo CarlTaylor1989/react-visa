@@ -1,0 +1,85 @@
+@import '../../../styles/popup';
+
+$next-back-icon: '../../../styles/icons/intro_seq/next_n.svg';
+$next-back-over-icon: '../../../styles/icons/intro_seq/next_h.svg';
+$next-back-icon-height: 46px;
+$next-back-icon-width: 46px;
+
+.challengeNavigator {
+  @include align-items(flex-start);
+  display: flex;
+  justify-content: center;
+
+  .backBtn,
+  .nextBtn {
+    @extend %button-reset;
+    cursor: pointer;
+
+    .icon {
+      background: url($next-back-icon);
+      display: block;
+      height: $next-back-icon-height;
+      transition: background .5s ease-in-out;
+      width: $next-back-icon-width;
+    }
+
+    &:hover {
+      .icon {
+        background: url($next-back-over-icon);
+      }
+    }
+
+    &:disabled {
+      @extend %disabled-btn;
+
+      &:hover {
+        .icon {
+          background: url($next-back-icon);
+        }
+      }
+    }
+
+    &.backBtn {
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.resetStreakPopupOverlay {
+  @extend %popup-overlay;
+
+  .popupWrapper {
+    padding: 20px 25px 35px;
+    text-align: center;
+  }
+
+  .resetStreakPopup {
+    @extend %popup;
+    height: 387px;
+    width: 547px;
+
+    .yesBtn,
+    .noBtn {
+      @extend %blue-btn;
+    }
+
+    .yesBtn {
+      margin-right: 20px;
+    }
+  }
+
+  .title {
+    color: $colour-gold;
+    display: block;
+    font-size: 36px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 28px;
+    padding-bottom: 45px;
+  }
+}

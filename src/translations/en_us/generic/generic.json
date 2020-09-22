@@ -1,0 +1,13 @@
+{
+  "completionProgressDivider": " / ",
+  "gameExit": "EXIT",
+  "hint": "HINT",
+  "settingsBtn": "SETTINGS",
+  "popupCloseBtn": "CLOSE",
+  "switchOn": "ON",
+  "switchOff": "OFF",
+  "backBtn": "BACK",
+  "nextBtn": "NEXT",
+  "dontShow": "Don't show this message again",
+  "helpBtn": "HELP"
+}

@@ -1,0 +1,90 @@
+$content-area-width: 1706px;
+$content-area-height: 960px;
+
+$colour-black: #000;
+$colour-blue: #00043e;
+$colour-blue-dark: #11131e;
+$colour-light-blue: #3bcfbf;
+$colour-gold: #dfbb69;
+$colour-pink: #ff00e1;
+$colour-red: #9e0700;
+$colour-white: #fff;
+$colour-yellow: #f7b600;
+$colour-purple: #835c9b;
+$colour-orange: #d85601;
+$colour-violet: #8a2047;
+
+$colour-transparent-dark: rgba(255, 255, 255, .3);
+$colour-transparent-semi: rgba(255, 255, 255, .5);
+$colour-transparent: rgba(255, 255, 255, 0);
+
+$colour-intro-seq: $colour-blue;
+$intro-seq-colour-top: rgba($colour-intro-seq, .7);
+$intro-seq-colour-bottom: rgba($colour-intro-seq, .3);
+
+$colour-research: $colour-blue;
+
+$colour-button: #267fbc;
+$colour-dark-button: $colour-blue;
+$colour-button-dark-hover: rgba($colour-black, .6);
+$colour-button-light-hover: rgba($colour-white, .3);
+$colour-button-very-light-hover: rgba($colour-white, .1);
+$colour-button-dark: $colour-blue;
+
+$colour-family-disabled: #5d4454;
+$colour-family-1: #f58221;
+$colour-family-1-dashboard: $colour-family-1;
+$colour-family-1-sol-btn: $colour-family-1;
+$colour-family-1-sol-btn-hover: rgba($colour-family-1, .3);
+$colour-family-1-disabled: #505446;
+$colour-family-2: #9d71bc;
+$colour-family-2-dashboard: #835c9b;
+$colour-family-2-sol-btn: $colour-family-2;
+$colour-family-2-sol-btn-hover: rgba($colour-family-2, .3);
+$colour-family-2-disabled: #312867;
+$colour-family-3: #8baf72;
+$colour-family-3-dashboard: #516342;
+$colour-family-3-sol-btn: $colour-family-3;
+$colour-family-3-sol-btn-hover: rgba($colour-family-3, .3);
+$colour-family-3-disabled: #304144;
+$colour-family-4: #cc382d;
+$colour-family-4-dashboard: $colour-family-4;
+$colour-family-4-sol-btn: $colour-family-4;
+$colour-family-4-sol-btn-hover: rgba($colour-family-4, .3);
+$colour-family-4-disabled: #4c2a3d;
+$colour-family-5: #5b90c4;
+$colour-family-5-dashboard: $colour-family-5;
+$colour-family-5-sol-btn: $colour-family-5;
+$colour-family-5-sol-btn-hover: rgba($colour-family-5, .3);
+$colour-family-5-disabled: #1e326b;
+
+$colour-popupb-bg-1: #065892;
+$colour-popupb-bg-2: #2a367d;
+$colour-popupb-bg-3: #0d1331;
+
+$colour-hint-box: #267fbc;
+
+$colour-footer-bg: rgba($colour-blue-dark, .8);
+
+$bg-colour: $colour-popupb-bg-3;
+
+$font-colour: $colour-white;
+$font-family: 'Open Sans';
+
+$popup-bg-colour: $colour-popupb-bg-3 !default;
+$popup-overlay-colour: rgba($colour-popupb-bg-3, .9) !default;
+
+$popup-font-colour: $colour-white;
+
+$mini-dashboard-bg-colour: rgba($colour-blue, .4);
+
+$colour-scrollbar-thumb: #1a1f71;
+
+$dashboard-gradient-1: rgba(26, 31, 113, .5);
+$dashboard-gradient-2: rgba(26, 31, 113, 0);
+$completion-bar-colour: rgba(6, 13, 52, .4);
+
+$client-progress: rgba($colour-yellow, .9);
+
+$tutorial-title-colour-top: rgba($colour-white, .15);
+$tutorial-title-colour-bottom: rgba($colour-white, 0);

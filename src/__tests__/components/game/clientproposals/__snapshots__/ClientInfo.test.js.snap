@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientInfo component 1`] = `
+<div
+  className="clientInfo"
+>
+  <div
+    className="infoSummaryWrapper"
+  >
+    <div
+      className="summaryItems"
+    >
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="account"
+        type=""
+      />
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="segment"
+        type=""
+      />
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="region"
+        type=""
+      />
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="bid"
+        type=""
+      />
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="fiscal"
+        type=""
+      />
+      <ClientInfoSummaryItem
+        client="irrelevant"
+        fieldName="difficulty"
+        type="difficulty"
+      />
+    </div>
+    <div
+      className="infoContent"
+    >
+      <Translate
+        className="infoTitle"
+        tag="span"
+        value="clientprops.clients.irrelevant.info.title"
+      />
+      <div
+        className="infoScrollingArea"
+      >
+        <Scrollbar
+          contentProps={Object {}}
+          fallbackScrollbarWidth={20}
+          maximalThumbYSize={83}
+          minimalThumbSize={30}
+          minimalThumbYSize={83}
+          momentum={true}
+          noDefaultStyles={true}
+          scrollDetectionThreshold={100}
+          scrollerProps={Object {}}
+          thumbXProps={Object {}}
+          thumbYProps={Object {}}
+          trackClickBehavior="jump"
+          trackXProps={Object {}}
+          trackYProps={Object {}}
+          wrapperProps={Object {}}
+        >
+          <div
+            className="infoTextWrapper"
+          >
+            <Translate
+              className="infoText"
+              dangerousHTML={true}
+              tag="span"
+              value="clientprops.clients.irrelevant.info.text"
+            />
+          </div>
+        </Scrollbar>
+      </div>
+    </div>
+  </div>
+  <div
+    className="client"
+  >
+    <ClientAvatar
+      client="irrelevant"
+      type="info"
+    />
+    <Connect(ClientInfoButtons)
+      client="irrelevant"
+      status={0}
+    />
+    <div
+      className="client-attempts"
+    >
+      <Translate
+        count={0}
+        dangerousHTML={true}
+        tag="span"
+        value="clientprops.attempts"
+      />
+    </div>
+  </div>
+</div>
+`;

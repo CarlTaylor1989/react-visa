@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProposalPage component with the products 1`] = `
+<div
+  className="proposalPage"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className="header"
+    >
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.proposals.back"
+        forceHide={false}
+      >
+        <span>
+          <NavLink
+            className="backBtn"
+            onClick={[Function]}
+            to="/game/clientproposals/selector"
+          >
+            <span
+              className="icon"
+            />
+            <Translate
+              className="text"
+              tag="span"
+              value="clientprops.backBtn"
+            />
+          </NavLink>
+        </span>
+      </Connect(Tooltip)>
+      <ClientAvatar
+        client="client1"
+        type="proposal"
+      />
+      <ProposalClientIcon
+        client="client1"
+      />
+    </div>
+    <Connect(Requirements)
+      answeredCorrectly={true}
+      client="client1"
+      closeResourcePopup={[Function]}
+      displayReqFeedback={false}
+    />
+  </div>
+  <div
+    className="rightColumn"
+  >
+    <SolutionFeedback
+      clientData={
+        Object {
+          "reqCorrect": true,
+        }
+      }
+      closePopup={[MockFunction]}
+      onAnswerCorrectly={[Function]}
+      onModalExited={[Function]}
+      onModalOpen={[Function]}
+      setClientStatus={[MockFunction]}
+      showPopup={false}
+    />
+    <Connect(SolutionsPanel)
+      answeredCorrectly={false}
+      clientData={
+        Object {
+          "reqCorrect": true,
+        }
+      }
+      displaySoluFeedback={false}
+    />
+  </div>
+</div>
+`;
+
+exports[`renders the ProposalPage component with the resources 1`] = `
+<div
+  className="proposalPage"
+>
+  <div
+    className="leftColumn"
+  >
+    <div
+      className="header"
+    >
+      <Connect(Tooltip)
+        fieldName="generic.tooltips.proposals.back"
+        forceHide={false}
+      >
+        <span>
+          <NavLink
+            className="backBtn"
+            onClick={[Function]}
+            to="/game/clientproposals/selector"
+          >
+            <span
+              className="icon"
+            />
+            <Translate
+              className="text"
+              tag="span"
+              value="clientprops.backBtn"
+            />
+          </NavLink>
+        </span>
+      </Connect(Tooltip)>
+      <ClientAvatar
+        client="client1"
+        type="proposal"
+      />
+      <ProposalClientIcon
+        client="client1"
+      />
+    </div>
+    <Connect(Requirements)
+      answeredCorrectly={false}
+      client="client1"
+      closeResourcePopup={[Function]}
+      displayReqFeedback={false}
+    />
+  </div>
+  <div
+    className="rightColumn"
+  >
+    <RequirementFeedback
+      clientData={null}
+      onAnswerCorrectly={[Function]}
+      onLockClient={[Function]}
+      onLocked={[Function]}
+      onRetry={[MockFunction]}
+      points={50000}
+      showFeedback={false}
+    />
+    <ResourcesPanel
+      client="client1"
+      isResourcePopupOpen={false}
+      onCloseResourcePopup={[Function]}
+      onOpenResourcePopup={[Function]}
+      selectedResourceId=""
+      selectedResourceType=""
+    />
+  </div>
+</div>
+`;

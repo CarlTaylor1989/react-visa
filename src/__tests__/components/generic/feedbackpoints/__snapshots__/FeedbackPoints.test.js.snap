@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FeedbackPoints component 1`] = `
+<div
+  className="feedbackPoints"
+>
+  <Translate
+    className="text"
+    tag="span"
+    value="clientprops.total"
+  />
+  <div
+    className="pointsContainer"
+  >
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      className="pointsText"
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={10000}
+    />
+  </div>
+  <Translate
+    className="text"
+    tag="span"
+    value="clientprops.points"
+  />
+</div>
+`;

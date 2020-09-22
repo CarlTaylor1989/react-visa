@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SummaryPromptCategory 1`] = `
+<li
+  className="summaryPromptCategory"
+>
+  <Translate
+    tag="span"
+    value="generic.prompts.achievementsCategory"
+  />
+  <Translate
+    tag="span"
+    value="generic.prompts.multiplier"
+  />
+  2
+</li>
+`;

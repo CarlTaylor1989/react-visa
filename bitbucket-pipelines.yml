@@ -1,0 +1,62 @@
+image: node:8.11.4
+pipelines:
+  default:
+    - step:
+        name: LEO Visa Game - lint and unit tests
+
+        caches:
+          - node
+
+        script:
+          - npm install
+          - npm run lint-js
+          - npm run lint-sass
+          - npm run test:coverage
+
+  branches:
+    master:
+      - step:
+          name: LEO Visa Game - Lint, unit tests and SCOs
+
+          caches:
+            - node
+
+          script:
+            - npm install
+            - npm run lint-js
+            - npm run lint-sass
+            - npm run test:coverage
+            - cp .env.example .env
+            - npm run publish-test-sco
+            - npm run publish-release-test-sco
+            - npm run publish-release-live-sco
+            - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/leo-19-036-visa-game-react/downloads" -F files=@"dist/testbuild.zip" -F files=@"dist/cornerstonetest.zip" -F files=@"dist/cornerstonelive.zip"
+
+  custom:
+    build-test-sco:
+      - step:
+          name: LEO Visa Game - Publish test SCO
+
+          caches:
+            - node
+
+          script:
+            - npm install
+            - cp .env.example .env
+            - npm run publish-test-sco
+            - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/leo-19-036-visa-game-react/downloads" -F files=@"dist/visa_game_test_sco.zip"
+
+    build-scos:
+      - step:
+          name: LEO Visa Game - Publish release and test SCOs
+
+          caches:
+            - node
+
+          script:
+            - npm install
+            - cp .env.example .env
+            - npm run publish-test-sco
+            - npm run publish-release-test-sco
+            - npm run publish-release-live-sco
+            - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/leo-19-036-visa-game-react/downloads" -F files=@"dist/testbuild.zip" -F files=@"dist/cornerstonetest.zip" -F files=@"dist/cornerstonelive.zip"

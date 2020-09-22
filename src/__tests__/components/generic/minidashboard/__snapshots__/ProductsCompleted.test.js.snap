@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductsCompleted component 1`] = `
+<div
+  className="productsCompleted"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.productsCompleted"
+  />
+  <div
+    className="completedContainer"
+  >
+    <div
+      className="completed"
+    >
+      2
+      <div
+        className="divider"
+      >
+        <Translate
+          tag="span"
+          value="generic.miniDashboard.productsDivider"
+        />
+      </div>
+      19
+    </div>
+    <div
+      className="progress"
+    >
+      <ProgressBar
+        colour="white"
+        percent={11}
+      />
+    </div>
+  </div>
+</div>
+`;

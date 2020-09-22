@@ -1,0 +1,46 @@
+$audio-icon: '../../../../../styles/icons/clients/resource_icons/audio_icon.svg';
+$call-icon: '../../../../../styles/icons/clients/resource_icons/call_icon.svg';
+$category-icon: '../../../../../styles/icons/clients/resource_icons/category_icon.svg';
+$email-icon: '../../../../../styles/icons/clients/resource_icons/email_icon.svg';
+$meeting-icon: '../../../../../styles/icons/clients/resource_icons/meeting_icon.svg';
+$pdf-icon: '../../../../../styles/icons/clients/resource_icons/pdf_icon.svg';
+$quote-icon: '../../../../../styles/icons/clients/resource_icons/quote_icon.svg';
+$recommendations-icon: '../../../../../styles/icons/clients/resource_icons/recommendations_icon.svg';
+$report-icon: '../../../../../styles/icons/clients/resource_icons/report_icon.svg';
+$rfp-icon: '../../../../../styles/icons/clients/resource_icons/rfp_icon.svg';
+$salesforce-icon: '../../../../../styles/icons/clients/resource_icons/salesforce_icon.svg';
+$skype-icon: '../../../../../styles/icons/clients/resource_icons/skype_icon.svg';
+$video-icon: '../../../../../styles/icons/clients/resource_icons/video_icon.svg';
+
+$icon-width: 56px;
+$icon-height: 39px;
+
+$icon-list: (
+  'audio': $audio-icon,
+  'call': $call-icon,
+  'category': $category-icon,
+  'email': $email-icon,
+  'meeting': $meeting-icon,
+  'pdf': $pdf-icon,
+  'quote': $quote-icon,
+  'recommendations': $recommendations-icon,
+  'report': $report-icon,
+  'rfp': $rfp-icon,
+  'salesforce': $salesforce-icon,
+  'skype': $skype-icon,
+  'video': $video-icon
+);
+
+.resourceIcon {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: $icon-height;
+  width: $icon-width;
+
+  @each $icon-name, $icon-path in $icon-list {
+    &.#{$icon-name} {
+      background-image: url(#{$icon-path});
+    }
+  }
+}

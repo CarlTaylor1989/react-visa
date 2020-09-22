@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-transcript_icon);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-transcript_icon">
+      <rect width="17" height="17"/>
+    </clipPath>
+  </defs>
+  <g id="transcript_icon" class="cls-1">
+    <g id="Group_5920" data-name="Group 5920" transform="translate(-694.799 -660.4)">
+      <line id="Line_248" data-name="Line 248" class="cls-2" x2="8.615" transform="translate(696.799 662.4)"/>
+      <line id="Line_249" data-name="Line 249" class="cls-2" x2="7.179" transform="translate(696.799 668.574)"/>
+      <line id="Line_250" data-name="Line 250" class="cls-2" x2="12.539" transform="translate(696.799 674.748)"/>
+    </g>
+  </g>
+</svg>

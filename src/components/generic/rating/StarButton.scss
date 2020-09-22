@@ -1,0 +1,24 @@
+@import '../../../styles/buttons';
+
+$star-icon: '../../../styles/icons/feedback/star.svg';
+$star-filled-icon: '../../../styles/icons/feedback/star_filled.svg';
+$star-width: 50px;
+$star-height: 48px;
+
+.starButton {
+  @extend %button-reset;
+  background-image: url($star-icon);
+  cursor: pointer;
+  height: $star-height;
+  transition: background-image 250ms ease-in-out;
+  width: $star-width;
+
+  & + .starButton {
+    margin-left: 15px;
+  }
+
+  &.is-active,
+  &.is-hovered {
+    background-image: url($star-filled-icon);
+  }
+}

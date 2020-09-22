@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BonusStreakPrompt 1`] = `
+<div
+  className="bonusStreakPrompt"
+>
+  <Translate
+    className="popupTitle"
+    dangerousHTML={true}
+    tag="span"
+    value="generic.prompts.bonusStreakTitle"
+  />
+  <div
+    className="streak"
+  >
+    <span
+      className="circle"
+    />
+    <span
+      className="line"
+    />
+    <span
+      className="circle"
+    />
+    <span
+      className="line"
+    />
+    <span
+      className="circle"
+    />
+    <span
+      className="line"
+    />
+    <span
+      className="circle"
+    />
+  </div>
+  <div
+    className="score"
+  >
+    <Translate
+      tag="span"
+      value="generic.prompts.pointsPrefix"
+    />
+    <NumberFormat
+      allowEmptyFormatting={false}
+      allowNegative={true}
+      decimalSeparator="."
+      displayType="text"
+      fixedDecimalScale={false}
+      getInputRef={[Function]}
+      isAllowed={[Function]}
+      isNumericString={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      onValueChange={[Function]}
+      prefix=""
+      suffix=""
+      thousandSeparator=","
+      thousandsGroupStyle="thousand"
+      type="text"
+      value={20000}
+    />
+  </div>
+  <Translate
+    className="bonusStreakBody"
+    dangerousHTML={true}
+    tag="span"
+    value="generic.prompts.bonusStreakBody"
+  />
+</div>
+`;

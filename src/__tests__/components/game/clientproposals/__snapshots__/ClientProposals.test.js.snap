@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ClientProposals component 1`] = `
+<TransitionGroup
+  childFactory={[Function]}
+  className="clients-transition-group"
+  component="div"
+>
+  <CSSTransition
+    classNames="pageFade"
+    key=""
+    timeout={
+      Object {
+        "enter": 1000,
+        "exit": 1000,
+      }
+    }
+  >
+    <div
+      className="clientProposals"
+    >
+      <Switch
+        location={
+          Object {
+            "hash": "",
+            "key": "",
+            "pathname": "",
+            "search": "",
+          }
+        }
+      >
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(ProposalsSelector)",
+              "type": [Function],
+            }
+          }
+          path="/game/clientproposals/selector"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(ProposalPage)",
+              "type": [Function],
+            }
+          }
+          path="/game/clientproposals/proposal"
+        />
+        <Redirect
+          to="/game/clientproposals/selector"
+        />
+      </Switch>
+    </div>
+  </CSSTransition>
+</TransitionGroup>
+`;

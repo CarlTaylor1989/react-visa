@@ -1,0 +1,25 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$progress-bar-colour: rgba($colour-white, .2);
+
+.progressBar {
+  background-color: $progress-bar-colour;
+  height: 10px;
+  width: 100%;
+
+  .inner {
+    height: 100%;
+    transition: width .5s ease-in;
+
+    &.dark {
+      @include box-shadow(0, 0, 8px, 0, $colour-yellow);
+      background-color: $colour-yellow;
+    }
+
+    &.white {
+      @include box-shadow(0, 0, 8px, 0, $colour-white);
+      background-color: $colour-white;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import './variables';
+
+$selector-colours: (
+  'type1': $colour-family-1-dashboard,
+  'type2': $colour-family-2-dashboard,
+  'type3': $colour-family-3-dashboard,
+  'type4': $colour-family-4-dashboard,
+  'type5': $colour-family-5-dashboard,
+);
+
+@each $type, $col in $selector-colours {
+  .productList {
+    &.#{$type} {
+      &::before {
+        background-color: $col;
+      }
+    }
+  }
+}

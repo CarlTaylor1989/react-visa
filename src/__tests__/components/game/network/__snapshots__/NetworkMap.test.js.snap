@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the NetworkMap component 1`] = `
+<div
+  className="networkMap"
+>
+  <IntroSequencePopup
+    onClose={[Function]}
+    open={true}
+    translations="network"
+  />
+  <div
+    className="contours"
+  />
+  <div
+    className="mapContainer"
+  >
+    <Connect(FamilyContainer)
+      familyId="m1f1"
+      key="m1f10"
+      mapId="m1"
+    />
+    <Connect(FamilyContainer)
+      familyId="m1f2"
+      key="m1f21"
+      mapId="m1"
+    />
+    <Connect(FamilyContainer)
+      familyId="m1f3"
+      key="m1f32"
+      mapId="m1"
+    />
+    <Connect(FamilyContainer)
+      familyId="m1f4"
+      key="m1f43"
+      mapId="m1"
+    />
+    <Connect(FamilyContainer)
+      familyId="m1f5"
+      key="m1f54"
+      mapId="m1"
+    />
+    <span
+      className="home"
+    />
+  </div>
+  <PerfectChallenges
+    current={0}
+    total={0}
+  />
+  <Minimap />
+</div>
+`;

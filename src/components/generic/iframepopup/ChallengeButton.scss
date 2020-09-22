@@ -1,0 +1,102 @@
+@import '../../../styles/buttons';
+@import '../../../styles/variables';
+
+$star-icon: '../../../styles/icons/star.svg';
+$star-icon-height: 32px;
+$star-icon-width: 32px;
+$icon-width: 30px;
+$icon-height: 30px;
+$icon-perfect-width: 40px;
+$icon-perfect-height: 40px;
+
+.challengeBtn {
+  @extend %button-reset;
+  cursor: pointer;
+  margin-left: 17px;
+  margin-right: 17px;
+  padding-right: 55px;
+  position: relative;
+
+  .text {
+    color: $colour-white;
+    display: block;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 44px;
+  }
+
+  .icon {
+    @include border-radius($icon-perfect-width / 2);
+    border: 1.5px solid $colour-white;
+    box-sizing: border-box;
+    display: block;
+    height: $icon-height;
+    position: absolute;
+    right: ($icon-perfect-height - $icon-height) / 2;
+    top: ($icon-perfect-height - $icon-height) / 2;
+    width: $icon-width;
+
+    &.m1f1 {
+      background-color: $colour-family-1;
+    }
+
+    &.m1f2 {
+      background-color: $colour-family-2;
+    }
+
+    &.m1f3 {
+      background-color: $colour-family-3;
+    }
+
+    &.m1f4 {
+      background-color: $colour-family-4;
+    }
+
+    &.m1f5 {
+      background-color: $colour-family-5;
+    }
+  }
+
+  &.notStarted {
+    @include opacity(.3);
+    cursor: not-allowed;
+  }
+
+  &.completed {
+    .icon {
+      @include box-shadow(0, 0, 20px, 4px, rgba($colour-white, .5));
+      background-color: $colour-white;
+      border: 0;
+    }
+  }
+
+  &.perfect {
+    .icon {
+      @include box-shadow(0, 0, 20px, 4px, rgba($colour-white, .5));
+      border: 0;
+      height: $icon-perfect-height;
+      right: 0;
+      top: 0;
+      width: $icon-perfect-width;
+
+      &::after {
+        background-image: url($star-icon);
+        background-size: $star-icon-width $star-icon-height;
+        content: '';
+        display: block;
+        height: $star-icon-height;
+        left: ($icon-perfect-width - $star-icon-width) / 2;
+        position: absolute;
+        top: ($icon-perfect-height - $star-icon-height) / 2;
+        width: $star-icon-width;
+      }
+    }
+  }
+
+  &.current {
+    .text {
+      border-bottom: 3px solid $colour-white;
+      padding-bottom: 10px;
+    }
+  }
+}

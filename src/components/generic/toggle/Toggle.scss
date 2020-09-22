@@ -1,0 +1,46 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.toggleWrapper {
+  @include align-items(center);
+  display: flex;
+  outline: none;
+
+  .toggleSwitch {
+    @include border-radius(26px);
+    background: none;
+    border: 1.5px solid $colour-white;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 51px;
+    margin: 0 12px;
+    outline: none;
+    position: relative;
+    width: 102px;
+
+    &::after {
+      @include border-radius(16px);
+      border: 1.5px solid $colour-white;
+      box-sizing: border-box;
+      content: '';
+      display: block;
+      height: 31px;
+      left: 45px;
+      position: absolute;
+      top: 9px;
+      transition: left .3s linear, top .3s linear;
+      width: 43px;
+    }
+
+    &.checked {
+      &::after {
+        background: $colour-button;
+        left: 9px;
+      }
+    }
+  }
+
+  .toggleText {
+    font-size: 20px;
+  }
+}

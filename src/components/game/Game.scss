@@ -1,0 +1,146 @@
+@import '../../styles/buttons';
+@import '../../styles/generic';
+@import '../../styles/variables';
+
+$map-bg: '../../styles/backgrounds/map_bg.jpg';
+$network-icon: '../../styles/icons/product_network_icon.svg';
+$network-icon-width: 48px;
+$network-icon-height: 44px;
+$client-proposals-icon: '../../styles/icons/client_proposals_icon.svg';
+$client-proposals-icon-width: 48px;
+$client-proposals-icon-height: 44px;
+$help-icon: '../../styles/icons/help_icon.svg';
+$help-icon-width: 36px;
+$help-icon-height: 30px;
+$logo-icon: '../../styles/icons/logo_no_strapline.svg';
+$logo-icon-height: 200px * .33;
+$logo-icon-width: 360px * .33;
+$vu-logo-icon: '../../styles/icons/vu_logo.svg';
+$vu-logo-icon-height: 29px;
+$vu-logo-icon-width: 163px;
+
+$stars: '../../styles/icons/map/stars.svg';
+$stars-width: 1650px;
+$stars-height: 216px;
+$circles-top: '../../styles/icons/map/circles_top.svg';
+$circles-top-width: 106px;
+$circles-top-height: 230px;
+$circles-bottom: '../../styles/icons/map/circles_bottom.svg';
+$circles-bottom-width: 250px;
+$circles-bottom-height: 44px;
+
+.game {
+  @extend %bg-size;
+  @extend %screen-size;
+  background-image: url($map-bg);
+  position: relative;
+  text-align: center;
+
+  .navButtons {
+    @include align-items(flex-start);
+    display: flex;
+    height: 80px;
+    justify-content: center;
+  }
+
+  .helpBtn {
+    @extend %solid-blue-colour-btn;
+    @include align-items(center);
+    display: flex;
+    padding-right: 20px;
+    position: absolute;
+    right: 190px;
+    top: 15px;
+    z-index: 2;
+
+    .text {
+      margin-right: 20px;
+    }
+
+    .icon {
+      background-image: url($help-icon);
+      display: inline-block;
+      height: $help-icon-height;
+      top: 4px;
+      width: $help-icon-width;
+    }
+  }
+
+  .productNetworkBtn,
+  .clientPropsBtn {
+    @extend %route-btn;
+    @extend %btn-blue-with-arrow;
+    margin-top: 12px;
+    z-index: 2;
+  }
+
+  .productNetworkBtn {
+    margin-left: 20px;
+
+    .icon {
+      background-image: url($network-icon);
+      height: $network-icon-height;
+      margin-right: 15px;
+      width: $network-icon-width;
+    }
+  }
+
+  .clientPropsBtn {
+    .icon {
+      background-image: url($client-proposals-icon);
+      height: $client-proposals-icon-height;
+      margin-right: 15px;
+      width: $client-proposals-icon-width;
+    }
+  }
+
+  .logo {
+    background-image: url($logo-icon);
+    background-size: $logo-icon-width $logo-icon-height;
+    height: $logo-icon-height;
+    left: 80px;
+    position: absolute;
+    top: 30px;
+    width: $logo-icon-width;
+  }
+
+  .vuLogo {
+    background-image: url($vu-logo-icon);
+    background-size: $vu-logo-icon-width $vu-logo-icon-height;
+    bottom: 80px;
+    height: $vu-logo-icon-height;
+    position: absolute;
+    right: 14px;
+    width: $vu-logo-icon-width;
+  }
+
+  .decor {
+    position: absolute;
+    z-index: 1;
+
+    &.stars {
+      background-image: url($stars);
+      height: $stars-height;
+      left: 50%;
+      margin-left: -$stars-width / 2;
+      top: 0;
+      width: $stars-width;
+    }
+
+    &.circlesTop {
+      background-image: url($circles-top);
+      height: $circles-top-height;
+      right: 15px;
+      top: 180px;
+      width: $circles-top-width;
+    }
+
+    &.circlesBottom {
+      background-image: url($circles-bottom);
+      bottom: 100px;
+      height: $circles-bottom-height;
+      left: 335px;
+      width: $circles-bottom-width;
+    }
+  }
+}

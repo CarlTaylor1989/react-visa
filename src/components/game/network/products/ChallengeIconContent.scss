@@ -1,0 +1,155 @@
+@import '../../../../styles/buttons';
+
+$star-icon: '../../../../styles/icons/star.svg';
+$star-icon-height: 32px;
+$star-icon-width: 32px;
+$challenge-icon-height: 30px;
+$challenge-icon-width: $challenge-icon-height;
+$challenge-icon-height-perfect: 40px;
+$challenge-icon-width-perfect: $challenge-icon-height-perfect;
+
+.challengeIconContent {
+  @include align-items(center);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  .statusText {
+    width: 150px;
+  }
+
+  .statusText,
+  .pointsText {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+
+    .challengePoints {
+      display: block;
+      font-size: 18px;
+    }
+  }
+
+  &.type1 {
+    .statusText {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .pointsContainer {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
+
+  &.type2 {
+    .statusText {
+      left: 3px;
+      position: absolute;
+      text-align: left;
+      top: -35px;
+    }
+
+    .pointsContainer {
+      left: -50px;
+      position: absolute;
+      text-align: right;
+      top: 40px;
+    }
+  }
+
+  &.type3 {
+    .statusText {
+      position: absolute;
+      right: -8px;
+      text-align: center;
+      top: -35px;
+    }
+
+    .pointsContainer {
+      position: absolute;
+      right: -50px;
+      text-align: center;
+      top: 40px;
+    }
+
+    &.type4 {
+      .statusText {
+        position: absolute;
+        right: 42px;
+        text-align: right;
+        top: 0;
+      }
+
+      .pointsContainer {
+        position: absolute;
+        right: -80px;
+        text-align: center;
+        top: 0;
+      }
+    }
+  }
+
+  .challengeIcon {
+    @extend %button-reset;
+    @include border-radius($challenge-icon-height / 2);
+    box-sizing: border-box;
+    display: block;
+    height: $challenge-icon-height;
+    position: static;
+    width: $challenge-icon-width;
+
+    &.m1f1 {
+      @include challenge-icon($colour-family-1);
+    }
+
+    &.m1f2 {
+      @include challenge-icon($colour-family-2);
+    }
+
+    &.m1f3 {
+      @include challenge-icon($colour-family-3);
+    }
+
+    &.m1f4 {
+      @include challenge-icon($colour-family-4);
+    }
+
+    &.m1f5 {
+      @include challenge-icon($colour-family-5);
+    }
+
+    &.available {
+      border: 2px solid $colour-white;
+    }
+
+    &.completed {
+      background-color: $colour-white;
+      border: 0;
+    }
+
+    &.perfect {
+      @include border-radius($challenge-icon-height-perfect / 2);
+      border: 0;
+      height: $challenge-icon-height-perfect;
+      margin-left: -($challenge-icon-width-perfect - $challenge-icon-width) / 2;
+      margin-top: -($challenge-icon-height-perfect - $challenge-icon-height) / 2;
+      position: relative;
+      width: $challenge-icon-width-perfect;
+
+      &::after {
+        background-image: url($star-icon);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: $star-icon-width $star-icon-height;
+        content: '';
+        display: block;
+        height: $challenge-icon-height-perfect;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: $challenge-icon-width-perfect;
+      }
+    }
+  }
+}

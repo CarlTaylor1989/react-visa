@@ -1,0 +1,86 @@
+@import '../../../styles/variables';
+
+.mapText {
+  &.familyName,
+  &.productName {
+    color: $colour-research;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+  }
+
+  &.productName {
+    color: $colour-white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    max-width: 160px;
+
+    &:not(.large) {
+      &.small {
+        max-width: 120px;
+      }
+    }
+
+    &.smaller {
+      max-width: 60px;
+    }
+
+    &.large {
+      font-size: 36px;
+      line-height: 40px;
+      max-width: 400px;
+      text-align: center;
+      width: 400px;
+
+      &.medium {
+        width: 300px;
+      }
+
+      &.small {
+        width: 250px;
+      }
+
+      &.smaller {
+        width: 170px;
+      }
+
+      &.left {
+        text-align: left;
+      }
+    }
+  }
+
+  &.familyName {
+    font-size: 16px;
+    font-weight: 800;
+
+    &:not(.small) {
+      white-space: nowrap;
+    }
+
+    &.small {
+      width: 250px;
+    }
+
+    &.type1 {
+      color: $colour-family-1;
+    }
+
+    &.type2 {
+      color: $colour-family-2;
+    }
+
+    &.type3 {
+      color: $colour-family-3;
+    }
+
+    &.type4 {
+      color: $colour-family-4;
+    }
+
+    &.type5 {
+      color: $colour-family-5;
+    }
+  }
+}

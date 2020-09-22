@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the IntroSlide component 1`] = `
+<div
+  className="introSlide"
+>
+  <div
+    className="title"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "irrelevant",
+      }
+    }
+  />
+  <div
+    className="text"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "irrelevant",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CancelButton component 1`] = `
+<button
+  className="cancelBtn"
+  onClick={[MockFunction]}
+  type="button"
+>
+  <Translate
+    className="text"
+    tag="span"
+    value="generic.feedback.cancelBtn"
+  />
+  <span
+    className="icon"
+  />
+</button>
+`;

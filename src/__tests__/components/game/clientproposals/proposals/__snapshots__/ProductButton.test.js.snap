@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProductButton component with the selected disabled state 1`] = `
+<div
+  className="productButton disabled selected"
+>
+  <button
+    className="productButtonWrap familyId"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="productInfo"
+    >
+      <div
+        className="productTitles"
+      >
+        <Translate
+          className="productFamily"
+          tag="span"
+          value="clientprops.clients.client1.products.0.familyName"
+        />
+        <Translate
+          className="productName"
+          tag="span"
+          value="clientprops.clients.client1.products.0.productName"
+        />
+      </div>
+    </div>
+  </button>
+  <button
+    className="productLearnCta"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="clientprops.solutionsSet.solutionsLearnBtn"
+    />
+    <span
+      className="arrowRight"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders the ProductButton component with the selected state 1`] = `
+<div
+  className="productButton selected"
+>
+  <button
+    className="productButtonWrap familyId"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="productInfo"
+    >
+      <div
+        className="productTitles"
+      >
+        <Translate
+          className="productFamily"
+          tag="span"
+          value="clientprops.clients.client1.products.0.familyName"
+        />
+        <Translate
+          className="productName"
+          tag="span"
+          value="clientprops.clients.client1.products.0.productName"
+        />
+      </div>
+    </div>
+  </button>
+  <button
+    className="productLearnCta"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="clientprops.solutionsSet.solutionsLearnBtn"
+    />
+    <span
+      className="arrowRight"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders the ProductButton component with the unselected disabled state 1`] = `
+<div
+  className="productButton disabled"
+>
+  <button
+    className="productButtonWrap familyId"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="productInfo"
+    >
+      <div
+        className="productTitles"
+      >
+        <Translate
+          className="productFamily"
+          tag="span"
+          value="clientprops.clients.client1.products.0.familyName"
+        />
+        <Translate
+          className="productName"
+          tag="span"
+          value="clientprops.clients.client1.products.0.productName"
+        />
+      </div>
+    </div>
+  </button>
+  <button
+    className="productLearnCta"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="clientprops.solutionsSet.solutionsLearnBtn"
+    />
+    <span
+      className="arrowRight"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders the ProductButton component with the unselected state 1`] = `
+<div
+  className="productButton"
+>
+  <button
+    className="productButtonWrap familyId"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="productInfo"
+    >
+      <div
+        className="productTitles"
+      >
+        <Translate
+          className="productFamily"
+          tag="span"
+          value="clientprops.clients.client1.products.0.familyName"
+        />
+        <Translate
+          className="productName"
+          tag="span"
+          value="clientprops.clients.client1.products.0.productName"
+        />
+      </div>
+    </div>
+  </button>
+  <button
+    className="productLearnCta"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="clientprops.solutionsSet.solutionsLearnBtn"
+    />
+    <span
+      className="arrowRight"
+    />
+  </button>
+</div>
+`;

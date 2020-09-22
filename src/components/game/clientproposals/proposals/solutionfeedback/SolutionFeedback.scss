@@ -1,0 +1,187 @@
+$generic-popup-height: 800px;
+$generic-popup-width: 1600px;
+$popup-close-n: '../../../../../styles/icons/popup_close_n.svg';
+$popup-close-h: '../../../../../styles/icons/popup_close_h.svg';
+
+@import '../../../../../styles/buttons';
+@import '../../../../../styles/generic';
+@import '../../../../../styles/popup';
+
+$arrow-right: '../../../../../styles/icons/clients/arrow_right.svg';
+$arrow-right-width: 8px;
+$arrow-right-height: 14px;
+
+$confetti-height: 400px;
+$confetti: '../../../../../styles/backgrounds/feedback_confetti.gif';
+$rain: '../../../../../styles/backgrounds/feedback_rain.gif';
+
+$woman-correct: '../../../../../styles/icons/clients/feedback_woman_correct.png';
+$woman-incorrect: '../../../../../styles/icons/clients/feedback_woman_incorrect.png';
+$woman-height: 800px;
+$woman-width: 410px;
+
+.solutionFeedbackOverlay {
+  @extend %popup-overlay;
+}
+
+.solutionFeedback {
+  @extend %popup;
+
+  .animatedBackground {
+    @include opacity(.4);
+    background-repeat: no-repeat;
+    height: $confetti-height;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: $generic-popup-width;
+  }
+
+  .woman {
+    background-repeat: no-repeat;
+    bottom: 0;
+    height: $woman-height;
+    left: 20px;
+    position: absolute;
+    width: $woman-width;
+    z-index: 1;
+  }
+
+  &.correct {
+    .animatedBackground {
+      background-image: url($confetti);
+    }
+
+    .woman {
+      background-image: url($woman-correct);
+    }
+  }
+
+  &.incorrect {
+    .animatedBackground {
+      @include opacity(.15);
+      background-image: url($rain);
+    }
+
+    .woman {
+      background-image: url($woman-incorrect);
+    }
+  }
+
+  .popupWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 100px 25px 435px;
+
+    .leftColumn,
+    .rightColumn {
+      z-index: 1;
+    }
+
+    .leftColumn {
+      margin-right: 80px;
+
+      .scrollingArea {
+        @extend %scrollbar;
+        height: 520px;
+        width: 570px;
+
+        .scrollWrapper {
+          padding-right: 30px;
+        }
+      }
+
+      .popupTitle {
+        @include align-self(flex-start);
+        color: $colour-gold;
+        font-size: 48px;
+        padding-bottom: 20px;
+        text-align: left;
+      }
+
+      .feedbackText {
+        display: block;
+        font-size: 18px;
+        line-height: 29px;
+      }
+
+      .feedbackShowSolutionBtn {
+        @extend %button-reset;
+        @include align-items(center);
+        color: $colour-white;
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+        margin: 30px auto 0;
+        padding-top: 5px;
+        position: relative;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        .showTheSolutionText {
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        .arrowRight {
+          background-image: url($arrow-right);
+          display: block;
+          height: $arrow-right-height;
+          margin-left: 10px;
+          width: $arrow-right-width;
+        }
+      }
+
+      &.givenUp {
+        .solutionAttempts {
+          display: inline-block;
+          margin-right: 50px;
+        }
+
+        .pointsWrapper {
+          display: inline-block;
+        }
+      }
+    }
+
+    .rightColumn {
+      margin-top: 85px;
+      min-width: 460px;
+    }
+
+    .solutionAttempts {
+      display: block;
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+
+      .attempts {
+        color: $colour-yellow;
+        font-weight: bold;
+      }
+    }
+
+    .pointsWrapper {
+      margin-bottom: 40px;
+    }
+
+    .nextSteps {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 29px;
+    }
+
+    .feedbackWrapper {
+      text-align: center;
+
+      .feedbackBtn {
+        @extend %blue-btn;
+        display: inline-block;
+        margin-top: 30px;
+        text-decoration: none;
+      }
+    }
+  }
+}

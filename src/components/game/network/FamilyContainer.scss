@@ -1,0 +1,77 @@
+@import '../../../styles/mixins';
+
+$m1f1-family-width: 678px;
+$m1f1-family-height: 375px;
+$m1f2-family-width: 604px;
+$m1f2-family-height: 265px;
+$m1f3-family-width: 310px;
+$m1f3-family-height: 350px;
+$m1f4-family-width: 536px;
+$m1f4-family-height: 369px;
+$m1f5-family-width: 639px;
+$m1f5-family-height: 451px;
+
+.familyContainer {
+  @include network-map;
+  position: absolute;
+
+  .family > svg {
+    pointer-events: none;
+  }
+
+  .productName {
+    font-size: 14px;
+    font-weight: 600;
+
+    &.center {
+      text-align: center;
+    }
+
+    &.left {
+      text-align: left;
+    }
+  }
+
+  svg {
+    [id$='_glow'],
+    [id$='_thick'],
+    [id$='_thin'] {
+      @include opacity(0);
+    }
+  }
+
+  &.m1f1 {
+    height: $m1f1-family-height;
+    left: 558px;
+    top: -15px;
+    width: $m1f1-family-width;
+  }
+
+  &.m1f2 {
+    height: $m1f2-family-height;
+    left: 596px;
+    top: 278px;
+    width: $m1f2-family-width;
+  }
+
+  &.m1f3 {
+    height: $m1f3-family-height;
+    left: 499px;
+    top: 358px;
+    width: $m1f3-family-width;
+  }
+
+  &.m1f4 {
+    height: $m1f4-family-height;
+    left: 84px;
+    top: 310px;
+    width: $m1f4-family-width;
+  }
+
+  &.m1f5 {
+    height: $m1f5-family-height;
+    left: 0;
+    top: 27px;
+    width: $m1f5-family-width;
+  }
+}

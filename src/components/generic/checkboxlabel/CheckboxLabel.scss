@@ -1,0 +1,125 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$checkbox-width: 32px;
+$checkbox-height: 32px;
+$checkmark-width: 24px;
+$checkmark-height: 24px;
+$tick-icon: '../../../styles/icons/clients/tick_checkbox.svg';
+$tick-icon-light: '../../../styles/icons/clients/tick_checkbox_white.svg';
+$tick-icon-width: 18px;
+$tick-icon-height: 14px;
+
+.checkboxLabel {
+  @include user-select;
+  font-size: 18px;
+  padding: 10px 0;
+  position: relative;
+  text-align: left;
+
+  label {
+    @include align-items(center);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input {
+    @include opacity(0);
+    height: 0;
+    position: absolute;
+    width: 0;
+
+    &:checked ~ .checkmark {
+      &::before,
+      &::after {
+        @include opacity(1);
+      }
+    }
+
+    &:disabled ~ .checkmark {
+      border-color: transparent;
+
+      &::before {
+        background-color: $colour-button;
+      }
+
+      &::after {
+        background-image: url($tick-icon-light);
+      }
+    }
+
+    &:disabled {
+      &:checked ~ .checkmark {
+        &::before,
+        &::after {
+          @include opacity(.6);
+        }
+      }
+
+      &:not(:checked) + .label {
+        @include opacity(.4);
+      }
+    }
+  }
+
+  .checkmark {
+    @include border-radius(8px);
+    border: 2px solid $colour-white;
+    display: block;
+    flex: 0 0 auto;
+    height: $checkbox-height;
+    margin-left: 14px;
+    position: relative;
+    width: $checkbox-width;
+
+    &::before,
+    &::after {
+      @include opacity(0);
+      content: '';
+      display: block;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transition: opacity .5s ease-in-out;
+    }
+
+    &::before {
+      @include border-radius(3px);
+      @include box-shadow(0, 0, 6px, 0, $colour-white);
+      background-color: $colour-yellow;
+      height: $checkmark-height;
+      margin-left: -$checkmark-width / 2;
+      margin-top: -$checkmark-width / 2;
+      width: $checkmark-width;
+    }
+
+    &::after {
+      background-image: url($tick-icon);
+      height: $tick-icon-height;
+      margin-left: -$tick-icon-width / 2;
+      margin-top: -$tick-icon-height / 2;
+      width: $tick-icon-width;
+    }
+  }
+
+  &.disabled {
+    label {
+      cursor: not-allowed;
+    }
+  }
+
+  &:hover {
+    input:not(:disabled) ~ .checkmark { // sass-lint:disable-line force-pseudo-nesting
+      &::before {
+        @include opacity(.4);
+      }
+    }
+
+    input:checked:not(:disabled) ~ .checkmark { // sass-lint:disable-line force-pseudo-nesting
+      &::after {
+        @include opacity(.4);
+      }
+    }
+  }
+}

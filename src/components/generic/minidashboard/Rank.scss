@@ -1,0 +1,52 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+@import '../../../styles/ranks';
+
+.rank {
+  color: $colour-transparent-semi;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px 0 0;
+  position: relative;
+
+  &::after {
+    @include border-radius(1px);
+    border: .75px solid $colour-transparent-semi;
+    content: '';
+    position: absolute;
+    width: 100%;
+  }
+
+  .rankContainer {
+    @include align-items(flex-start);
+    display: flex;
+    margin-top: 4px;
+    padding: 0 0 15px;
+
+    .icon {
+      background-position: center;
+      background-size: cover;
+      flex-shrink: 0;
+      height: 50px;
+      margin: 0 7px 0 4px;
+      width: 41px;
+    }
+
+    .progress {
+      color: $colour-yellow;
+      font-weight: 700;
+      text-align: left;
+      width: 100%;
+
+      .progressBar {
+        margin-top: 8px;
+      }
+
+      .threshold {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 15px;
+      }
+    }
+  }
+}

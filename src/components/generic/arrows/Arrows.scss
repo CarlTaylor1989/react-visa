@@ -1,0 +1,63 @@
+@import '../../../styles/mixins';
+
+$arrow-down-icon: '../../../styles/icons/clients/arrow_down.svg';
+$arrow-down-icon-width: 33px;
+$arrow-down-icon-height: 14px;
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+
+  &.top {
+    @include transform(rotate(180deg));
+  }
+
+  &.right {
+    @include transform(rotate(270deg));
+  }
+
+  &.bottom {
+    @include transform(rotate(0));
+  }
+
+  &.left {
+    @include transform(rotate(90deg));
+  }
+
+  .arrow {
+    animation: fade 900ms infinite ease-in-out;
+    background-image: url($arrow-down-icon);
+    height: $arrow-down-icon-height;
+    width: $arrow-down-icon-width;
+
+    &:first-child {
+      animation-delay: 100ms;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 300ms;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 500ms;
+    }
+
+    & + .arrow {
+      margin-top: -4px;
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    @include opacity(.2);
+  }
+
+  50% {
+    @include opacity(.4);
+  }
+
+  100% {
+    @include opacity(1);
+  }
+}

@@ -1,0 +1,106 @@
+// sass-lint:disable indentation, no-duplicate-properties, no-css-comments
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./styles/fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Regular'), local('OpenSans-Regular'),
+       url('./styles/fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-italic - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./styles/fonts/open-sans-v15-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Italic'), local('OpenSans-Italic'),
+       url('./styles/fonts/open-sans-v15-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-600 (semi-bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./styles/fonts/open-sans-v15-latin-600.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+       url('./styles/fonts/open-sans-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-600italic (semi-bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./styles/fonts/open-sans-v15-latin-600italic.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+       url('./styles/fonts/open-sans-v15-latin-600italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-600italic.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-600italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-600italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 (bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./styles/fonts/open-sans-v15-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+       url('./styles/fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700italic (bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./styles/fonts/open-sans-v15-latin-700italic.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+       url('./styles/fonts/open-sans-v15-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v15-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-700italic.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v15-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v15-latin-700italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-800 (extra-bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./styles/fonts/open-sans-v16-latin-800.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+       url('./styles/fonts/open-sans-v16-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v16-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v16-latin-800.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v16-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v16-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-800italic (extra-bold) - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('./styles/fonts/open-sans-v16-latin-800italic.eot'); /* IE9 Compat Modes */
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+       url('./styles/fonts/open-sans-v16-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./styles/fonts/open-sans-v16-latin-800italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./styles/fonts/open-sans-v16-latin-800italic.woff') format('woff'), /* Modern Browsers */
+       url('./styles/fonts/open-sans-v16-latin-800italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./styles/fonts/open-sans-v16-latin-800italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}

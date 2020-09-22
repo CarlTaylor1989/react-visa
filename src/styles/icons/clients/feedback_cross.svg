@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-feedback_cross);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.999px;
+      }
+    </style>
+    <clipPath id="clip-feedback_cross">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="feedback_cross" class="cls-1">
+    <g id="Group_5923" data-name="Group 5923" transform="translate(-676.098 -362.762)">
+      <line id="Line_252" data-name="Line 252" class="cls-2" x2="22.319" y2="22.301" transform="translate(683.097 369.762)"/>
+      <line id="Line_253" data-name="Line 253" class="cls-2" x1="22.319" y2="22.301" transform="translate(683.097 369.762)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+$streak-circle-bg-colour: rgba($colour-white, .3);
+
+.challengeStreak {
+  color: $colour-transparent-semi;
+  font-size: 18px;
+  font-weight: 800;
+  position: relative;
+
+  .streakContainer {
+    @include align-items(center);
+    display: flex;
+    padding: 5px 0 15px;
+
+    .streakCircle {
+      @include border-radius(10px);
+      background-color: $streak-circle-bg-colour;
+      border: 1.5px solid $colour-yellow;
+      height: 16px;
+      margin-right: 7px;
+      position: relative;
+      width: 16px;
+
+      &.filled {
+        background-color: $colour-yellow;
+      }
+
+      &:last-of-type {
+        margin-right: 15px;
+
+        &::after {
+          @include border-radius(10px);
+          border-top: 1.5px solid $colour-yellow;
+          content: '';
+          left: 17px;
+          position: absolute;
+          top: 7px;
+          width: 13px;
+        }
+      }
+    }
+
+    .bonus {
+      color: $colour-yellow;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  &::after {
+    @include border-radius(1px);
+    border: .75px solid $colour-transparent-semi;
+    content: '';
+    position: absolute;
+    width: 100%;
+  }
+}

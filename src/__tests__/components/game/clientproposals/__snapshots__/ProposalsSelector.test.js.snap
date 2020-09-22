@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ProposalsSelector component 1`] = `
+<div
+  className="proposalsSelector"
+>
+  <IntroSequencePopup
+    onClose={[Function]}
+    open={true}
+    translations="clientprops"
+  />
+  <GetStarted />
+  <span
+    className="divider"
+  />
+  <div
+    className="scrollingArea"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="clientIconWrapper"
+      >
+        <ClientIconButton
+          client="client7"
+          completed={false}
+          disabled={false}
+          key="client7"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client5"
+          completed={false}
+          disabled={false}
+          key="client5"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client4"
+          completed={false}
+          disabled={false}
+          key="client4"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client1"
+          completed={false}
+          disabled={false}
+          key="client1"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client10"
+          completed={false}
+          disabled={false}
+          key="client10"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client9"
+          completed={false}
+          disabled={false}
+          key="client9"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client6"
+          completed={false}
+          disabled={false}
+          key="client6"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client3"
+          completed={false}
+          disabled={false}
+          key="client3"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client8"
+          completed={false}
+          disabled={false}
+          key="client8"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client2"
+          completed={false}
+          disabled={false}
+          key="client2"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+      </div>
+    </Scrollbar>
+  </div>
+</div>
+`;
+
+exports[`renders the ProposalsSelector component with a completed and locked client 1`] = `
+<div
+  className="proposalsSelector"
+>
+  <IntroSequencePopup
+    onClose={[Function]}
+    open={true}
+    translations="clientprops"
+  />
+  <GetStarted />
+  <span
+    className="divider"
+  />
+  <div
+    className="scrollingArea"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="clientIconWrapper"
+      >
+        <ClientIconButton
+          client="client7"
+          completed={false}
+          disabled={false}
+          key="client7"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client5"
+          completed={false}
+          disabled={false}
+          key="client5"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client4"
+          completed={false}
+          disabled={false}
+          key="client4"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client1"
+          completed={false}
+          disabled={false}
+          key="client1"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client10"
+          completed={false}
+          disabled={false}
+          key="client10"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client9"
+          completed={false}
+          disabled={false}
+          key="client9"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client6"
+          completed={false}
+          disabled={false}
+          key="client6"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client3"
+          completed={false}
+          disabled={false}
+          key="client3"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client8"
+          completed={false}
+          disabled={false}
+          key="client8"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client2"
+          completed={false}
+          disabled={false}
+          key="client2"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+      </div>
+    </Scrollbar>
+  </div>
+</div>
+`;
+
+exports[`renders the ProposalsSelector component with a locked client 1`] = `
+<div
+  className="proposalsSelector"
+>
+  <IntroSequencePopup
+    onClose={[Function]}
+    open={true}
+    translations="clientprops"
+  />
+  <GetStarted />
+  <span
+    className="divider"
+  />
+  <div
+    className="scrollingArea"
+  >
+    <Scrollbar
+      contentProps={Object {}}
+      fallbackScrollbarWidth={20}
+      maximalThumbYSize={83}
+      minimalThumbSize={30}
+      minimalThumbYSize={83}
+      momentum={true}
+      noDefaultStyles={true}
+      scrollDetectionThreshold={100}
+      scrollerProps={Object {}}
+      thumbXProps={Object {}}
+      thumbYProps={Object {}}
+      trackClickBehavior="jump"
+      trackXProps={Object {}}
+      trackYProps={Object {}}
+      wrapperProps={Object {}}
+    >
+      <div
+        className="clientIconWrapper"
+      >
+        <ClientIconButton
+          client="client7"
+          completed={false}
+          disabled={false}
+          key="client7"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client5"
+          completed={false}
+          disabled={false}
+          key="client5"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client4"
+          completed={false}
+          disabled={false}
+          key="client4"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client1"
+          completed={false}
+          disabled={false}
+          key="client1"
+          locked={
+            Object {
+              "id": "client1",
+            }
+          }
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client10"
+          completed={false}
+          disabled={false}
+          key="client10"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client9"
+          completed={false}
+          disabled={false}
+          key="client9"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client6"
+          completed={false}
+          disabled={false}
+          key="client6"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client3"
+          completed={false}
+          disabled={false}
+          key="client3"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client8"
+          completed={false}
+          disabled={false}
+          key="client8"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+        <ClientIconButton
+          client="client2"
+          completed={false}
+          disabled={false}
+          key="client2"
+          locked={Object {}}
+          onClientSelected={[Function]}
+          selected={false}
+        />
+      </div>
+    </Scrollbar>
+  </div>
+</div>
+`;

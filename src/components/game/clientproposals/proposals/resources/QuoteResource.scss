@@ -1,0 +1,62 @@
+@import '../../../../../styles/mixins';
+@import '../../../../../styles/variables';
+
+$avatar-icon-width: 100px;
+$avatar-icon-height: 100px;
+
+$quote-left-icon: '../../../../../styles/icons/clients/resource_icons/quote_left.png';
+$quote-right-icon: '../../../../../styles/icons/clients/resource_icons/quote_right.png';
+$quote-icon-width: 100px;
+$quote-icon-height: 100px;
+
+.quoteResource {
+  padding-right: 35px;
+
+  .quoteTitle {
+    color: $colour-gold;
+    display: block;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .clientAvatar {
+    display: inline-block;
+    margin-bottom: 30px;
+
+    &,
+    svg {
+      height: $avatar-icon-height;
+      width: $avatar-icon-width;
+    }
+  }
+
+  .quote {
+    display: block;
+    font-size: 18px;
+    margin: 30px 50px;
+    position: relative;
+    text-align: left;
+
+    &::after,
+    &::before {
+      content: '';
+      display: block;
+      height: $quote-icon-height;
+      position: absolute;
+      width: $quote-icon-width;
+    }
+
+    &::before {
+      background-image: url($quote-left-icon);
+      left: -65px;
+      top: -70px;
+    }
+
+    &::after {
+      background-image: url($quote-right-icon);
+      bottom: -60px;
+      right: -75px;
+    }
+  }
+}

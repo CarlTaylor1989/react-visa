@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Achievements component with an achievement 1`] = `
+<div
+  className="achievement"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.achievements"
+  />
+  <div
+    className="achievementContainer"
+  >
+    <span
+      className="icon dark ac1"
+    />
+    <Translate
+      tag="span"
+      value="generic.achievements.ac1.title"
+    />
+  </div>
+</div>
+`;
+
+exports[`render Achievements component with the default text 1`] = `
+<div
+  className="achievement"
+>
+  <Translate
+    tag="span"
+    value="generic.miniDashboard.achievements"
+  />
+  <div
+    className="achievementContainer"
+  >
+    <Translate
+      tag="span"
+      value="generic.miniDashboard.noAchievements"
+    />
+  </div>
+</div>
+`;

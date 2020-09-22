@@ -1,0 +1,6 @@
+{
+  "available": "This Client Proposal is available: select the icon to open it.",
+  "complete": "You've completed this Client Proposal.",
+  "level": "Client solutions increase in complexity. Select a difficulty level between 1 and 3.",
+  "progress": "This client requires %{products} products. You've suggested %{correct} correctly."
+}

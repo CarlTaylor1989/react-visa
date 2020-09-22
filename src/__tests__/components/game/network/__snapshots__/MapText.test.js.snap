@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the MapText component 1`] = `
+<span
+  className="mapText type"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "irrelevant",
+    }
+  }
+  style={
+    Object {
+      "left": 100,
+      "top": 100,
+    }
+  }
+/>
+`;

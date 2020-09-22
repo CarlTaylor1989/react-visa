@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-tick_icon);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: rgba(0,0,0,0);
+      }
+    </style>
+    <clipPath id="clip-tick_icon">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="tick_icon" class="cls-1">
+    <path id="Subtraction_17" data-name="Subtraction 17" class="cls-2" d="M17,34A17,17,0,0,1,4.979,4.979,17,17,0,1,1,29.021,29.021,16.889,16.889,0,0,1,17,34ZM7.692,14.814a2.356,2.356,0,0,0-1.665,4.021l6.457,6.457a2.355,2.355,0,0,0,3.331,0L26.253,14.856a2.356,2.356,0,0,0-3.332-3.333L14.151,20.3,9.358,15.5A2.34,2.34,0,0,0,7.692,14.814Z"/>
+  </g>
+</svg>

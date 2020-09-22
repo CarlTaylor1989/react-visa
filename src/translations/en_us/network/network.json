@@ -1,0 +1,15 @@
+{
+  "productNetworkBtn": "MY PRODUCT NETWORK",
+
+  "perfectChallenges": "PERFECT CHALLENGES",
+  "perfectChallengesDivider": " / ",
+
+  "instructions": {
+    "unlockFirst": "EXPLORE THE RAIL TO UNLOCK YOUR FIRST PRODUCT..."
+  },
+  "start": "START EXPLORING",
+  "backBtn": "BACK",
+  "nextBtn": "NEXT",
+  "skipBtn": "TAKE ME STRAIGHT TO THE GAME",
+  "introSequenceTitle": "Welcome to the interactive Network Map."
+}

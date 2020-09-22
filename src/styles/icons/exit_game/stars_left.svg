@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="269.133" height="107.098" viewBox="0 0 269.133 107.098">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.12;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_3544);
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_3543);
+      }
+
+      .cls-5 {
+        filter: url(#Ellipse_3542);
+      }
+
+      .cls-6 {
+        filter: url(#Ellipse_3541);
+      }
+
+      .cls-7 {
+        filter: url(#Ellipse_3540);
+      }
+
+      .cls-8 {
+        filter: url(#Ellipse_3539);
+      }
+
+      .cls-9 {
+        filter: url(#Ellipse_3538);
+      }
+
+      .cls-10 {
+        filter: url(#Ellipse_3537);
+      }
+    </style>
+    <filter id="Ellipse_3537" x="172.057" y="54.667" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3538" x="81.869" y="10.289" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3539" x="235.045" y="34.626" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3540" x="10.291" y="80.435" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3541" x="166.33" y="4.563" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3542" x="124.814" y="93.319" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-6"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3543" x="1.701" y="26.036" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-7"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3544" x="74.711" y="54.667" width="13.777" height="13.779" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.342" result="blur-8"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6008" data-name="Group 6008" class="cls-1" transform="translate(-401.07 -257.4)">
+    <circle id="Ellipse_3536" data-name="Ellipse 3536" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(508.437 307.504)"/>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3537-2" data-name="Ellipse 3537" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(176.08 58.69)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3538-2" data-name="Ellipse 3538" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(85.89 14.32)"/>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3539-2" data-name="Ellipse 3539" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(239.07 38.65)"/>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3540-2" data-name="Ellipse 3540" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(14.32 84.46)"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3541-2" data-name="Ellipse 3541" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(170.36 8.59)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3542-2" data-name="Ellipse 3542" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(128.84 97.35)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3543-2" data-name="Ellipse 3543" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(5.73 30.06)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 401.07, 257.4)">
+      <circle id="Ellipse_3544-2" data-name="Ellipse 3544" class="cls-2" cx="2.863" cy="2.863" r="2.863" transform="translate(78.74 58.69)"/>
+    </g>
+    <circle id="Ellipse_3545" data-name="Ellipse 3545" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(621.53 334.703)"/>
+    <circle id="Ellipse_3546" data-name="Ellipse 3546" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(667.339 263.126)"/>
+    <circle id="Ellipse_3547" data-name="Ellipse 3547" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(468.354 290.325)"/>
+    <circle id="Ellipse_3548" data-name="Ellipse 3548" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(565.699 297.483)"/>
+    <circle id="Ellipse_3549" data-name="Ellipse 3549" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(459.764 340.43)"/>
+    <circle id="Ellipse_3550" data-name="Ellipse 3550" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(498.416 331.84)"/>
+    <circle id="Ellipse_3551" data-name="Ellipse 3551" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(401.071 320.388)"/>
+    <circle id="Ellipse_3552" data-name="Ellipse 3552" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(517.026 284.599)"/>
+    <circle id="Ellipse_3553" data-name="Ellipse 3553" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(532.773 306.072)"/>
+    <circle id="Ellipse_3554" data-name="Ellipse 3554" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(419.681 257.4)"/>
+    <circle id="Ellipse_3555" data-name="Ellipse 3555" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(441.154 287.462)"/>
+    <circle id="Ellipse_3556" data-name="Ellipse 3556" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(621.53 261.694)"/>
+    <circle id="Ellipse_3557" data-name="Ellipse 3557" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(454.038 360.471)"/>
+    <circle id="Ellipse_3558" data-name="Ellipse 3558" class="cls-2" cx="2.147" cy="2.147" r="2.147" transform="translate(496.985 357.608)"/>
+    <circle id="Ellipse_3559" data-name="Ellipse 3559" class="cls-2" cx="2.147" cy="2.147" r="2.147" transform="translate(547.089 288.894)"/>
+    <circle id="Ellipse_3560" data-name="Ellipse 3560" class="cls-2" cx="2.147" cy="2.147" r="2.147" transform="translate(535.637 260.263)"/>
+    <circle id="Ellipse_3561" data-name="Ellipse 3561" class="cls-2" cx="2.147" cy="2.147" r="2.147" transform="translate(587.172 291.757)"/>
+    <circle id="Ellipse_3562" data-name="Ellipse 3562" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(611.509 281.736)"/>
+    <circle id="Ellipse_3563" data-name="Ellipse 3563" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(614.372 316.093)"/>
+    <circle id="Ellipse_3564" data-name="Ellipse 3564" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(436.86 313.23)"/>
+    <circle id="Ellipse_3565" data-name="Ellipse 3565" class="cls-2" cx="1.432" cy="1.432" r="1.432" transform="translate(658.75 324.682)"/>
+    <circle id="Ellipse_3566" data-name="Ellipse 3566" class="cls-2" cx="2.147" cy="2.147" r="2.147" transform="translate(541.363 323.251)"/>
+  </g>
+</svg>

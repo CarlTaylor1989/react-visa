@@ -1,0 +1,59 @@
+@import '../../../../../styles/mixins';
+@import '../../../../../styles/variables';
+
+$email-header-icon: '../../../../../styles/icons/clients/email_header.svg';
+$avatar-icon-width: 100px;
+$avatar-icon-height: $avatar-icon-width;
+
+.emailResource {
+  padding-right: 35px;
+
+  .sender,
+  .subject,
+  .body {
+    display: block;
+    width: 100%;
+  }
+
+  .emailHeader {
+    background-image: url($email-header-icon);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 44px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .emailInformation {
+    display: flex;
+    margin-bottom: 16px;
+
+    .clientAvatar {
+      flex: 0 0 $avatar-icon-width;
+      height: $avatar-icon-height;
+      margin-right: 25px;
+      width: $avatar-icon-width;
+    }
+
+    .sender {
+      color: $colour-gold;
+      font-size: 24px;
+      text-align: left;
+    }
+  }
+
+  .subject {
+    border-top: 1px solid $colour-gold;
+    color: $colour-gold;
+    font-size: 28px;
+    margin-bottom: 14px;
+    padding-top: 15px;
+    text-align: left;
+  }
+
+  .body {
+    font-size: 18px;
+    text-align: left;
+  }
+}

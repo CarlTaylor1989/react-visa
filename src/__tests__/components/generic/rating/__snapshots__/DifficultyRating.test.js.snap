@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the DifficultyRating component 1`] = `
+<div
+  className="difficultyRating"
+>
+  <StarButton
+    active={true}
+    className="star"
+    key="1"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="2"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="3"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="4"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="5"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="6"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="7"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="8"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="9"
+  />
+  <StarButton
+    active={false}
+    className="star"
+    key="10"
+  />
+</div>
+`;

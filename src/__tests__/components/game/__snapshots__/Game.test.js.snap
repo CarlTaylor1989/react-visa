@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Game component 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="logo"
+  />
+  <div
+    className="decor stars"
+  />
+  <div
+    className="decor circlesTop"
+  />
+  <div
+    className="decor circlesBottom"
+  />
+  <div
+    className="vuLogo"
+  />
+  <div
+    className="navButtons"
+  >
+    <NavLink
+      activeClassName="selected"
+      className="clientPropsBtn"
+      onMouseEnter={[Function]}
+      onTouchEnd={[Function]}
+      to="/game/clientproposals"
+    >
+      <span
+        className="icon"
+      />
+      <Translate
+        tag="span"
+        value="clientprops.clientPropsBtn"
+      />
+    </NavLink>
+    <NavLink
+      activeClassName="selected"
+      className="productNetworkBtn"
+      isActive={[Function]}
+      onMouseEnter={[Function]}
+      onTouchEnd={[Function]}
+      to="/game/network/map"
+    >
+      <span
+        className="icon"
+      />
+      <Translate
+        tag="span"
+        value="network.productNetworkBtn"
+      />
+    </NavLink>
+  </div>
+  <button
+    className="helpBtn"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchEnd={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="generic.helpBtn"
+    />
+    <span
+      className="icon"
+    />
+  </button>
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/game/network"
+    />
+    <Route
+      component={[Function]}
+      path="/game/clientproposals"
+    />
+    <Redirect
+      to="/game/clientproposals"
+    />
+  </Switch>
+  <Connect(MiniDashboard) />
+  <Connect(TutorialPopup)
+    closePopup={[Function]}
+    showPopup={false}
+  />
+  <FeedbackPopup
+    closePopup={[Function]}
+    showPopup={false}
+  />
+  <Connect(FooterBar)
+    changeRegion={[Function]}
+  />
+  <Connect(Prompts) />
+</div>
+`;
+
+exports[`renders the Game component with the feedback popup 1`] = `
+<div
+  className="game"
+>
+  <div
+    className="logo"
+  />
+  <div
+    className="decor stars"
+  />
+  <div
+    className="decor circlesTop"
+  />
+  <div
+    className="decor circlesBottom"
+  />
+  <div
+    className="vuLogo"
+  />
+  <div
+    className="navButtons"
+  >
+    <NavLink
+      activeClassName="selected"
+      className="clientPropsBtn"
+      onMouseEnter={[Function]}
+      onTouchEnd={[Function]}
+      to="/game/clientproposals"
+    >
+      <span
+        className="icon"
+      />
+      <Translate
+        tag="span"
+        value="clientprops.clientPropsBtn"
+      />
+    </NavLink>
+    <NavLink
+      activeClassName="selected"
+      className="productNetworkBtn"
+      isActive={[Function]}
+      onMouseEnter={[Function]}
+      onTouchEnd={[Function]}
+      to="/game/network/map"
+    >
+      <span
+        className="icon"
+      />
+      <Translate
+        tag="span"
+        value="network.productNetworkBtn"
+      />
+    </NavLink>
+  </div>
+  <button
+    className="helpBtn"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchEnd={[Function]}
+    type="button"
+  >
+    <Translate
+      className="text"
+      tag="span"
+      value="generic.helpBtn"
+    />
+    <span
+      className="icon"
+    />
+  </button>
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/game/network"
+    />
+    <Route
+      component={[Function]}
+      path="/game/clientproposals"
+    />
+    <Redirect
+      to="/game/clientproposals"
+    />
+  </Switch>
+  <Connect(MiniDashboard) />
+  <Connect(TutorialPopup)
+    closePopup={[Function]}
+    showPopup={false}
+  />
+  <FeedbackPopup
+    closePopup={[Function]}
+    showPopup={true}
+  />
+  <Connect(FooterBar)
+    changeRegion={[Function]}
+  />
+  <Connect(Prompts) />
+</div>
+`;

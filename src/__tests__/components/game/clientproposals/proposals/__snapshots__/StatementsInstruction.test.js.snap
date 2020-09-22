@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the StatementsInstruction component with the completed instruction 1`] = `
+<div
+  className="statementsInstruction completed"
+>
+  <Translate
+    className="title"
+    tag="span"
+    value="clientprops.requirementsTitle"
+  />
+  <Translate
+    className="text"
+    dangerousHTML={true}
+    tag="span"
+    value="clientprops.clients.client1.instructionTextFinal"
+  />
+</div>
+`;
+
+exports[`renders the StatementsInstruction component with the default instruction 1`] = `
+<div
+  className="statementsInstruction"
+>
+  <Translate
+    className="title"
+    tag="span"
+    value="clientprops.requirementsTitle"
+  />
+  <Arrows
+    direction="bottom"
+  />
+  <Translate
+    className="text"
+    dangerousHTML={true}
+    tag="span"
+    value="clientprops.clients.client1.instructionTextInitial"
+  />
+</div>
+`;

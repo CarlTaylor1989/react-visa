@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-hooked_icon_dark">
+      <rect width="36" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="hooked_icon_dark" clip-path="url(#clip-hooked_icon_dark)">
+    <path id="ICO_hooked" d="M384.826,728.563a3.721,3.721,0,0,0,1.75-1.472l.611,1.039a4.209,4.209,0,0,1-7.262,4.259l-6.6-11.2a3.665,3.665,0,1,0-2.532,1.486l6.6,11.2a7.145,7.145,0,0,0,12.327-7.228l-4.466-7.585S386.414,724.832,384.826,728.563Zm-13.5-7.882a1.9,1.9,0,1,1,.675-2.595A1.9,1.9,0,0,1,371.327,720.681Z" transform="translate(-360.703 -708.391)" fill="#00043e"/>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a hidden ResourcePopup component 1`] = `
+<div
+  className="resourcePopup"
+>
+  <div
+    className="popupWrapper"
+  >
+    <div
+      className="buttons"
+    >
+      <ResourceIcon
+        type=""
+      />
+      <button
+        className="exitPopup"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <Translate
+          tag="span"
+          value="generic.popupCloseBtn"
+        />
+      </button>
+    </div>
+    <div
+      className="scrollingArea"
+    >
+      <Scrollbar
+        contentProps={Object {}}
+        fallbackScrollbarWidth={20}
+        maximalThumbYSize={83}
+        minimalThumbSize={30}
+        minimalThumbYSize={83}
+        momentum={true}
+        noDefaultStyles={true}
+        scrollDetectionThreshold={100}
+        scrollerProps={Object {}}
+        thumbXProps={Object {}}
+        thumbYProps={Object {}}
+        trackClickBehavior="jump"
+        trackXProps={Object {}}
+        trackYProps={Object {}}
+        wrapperProps={Object {}}
+      >
+        <ResouceContent
+          client="client1"
+          resource={
+            Object {
+              "id": "res1",
+              "name": "RESOURCE NAME",
+              "text": "TEXT",
+              "type": "pdf",
+              "url": "url",
+            }
+          }
+          resourceIndex="0"
+          type=""
+        />
+      </Scrollbar>
+    </div>
+  </div>
+</div>
+`;

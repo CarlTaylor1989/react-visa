@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the TutorialTabs component 1`] = `
+<div
+  className="tutorialTabs"
+>
+  <TutorialTab
+    key="tcc0"
+    label="label"
+    onTabSelect={[MockFunction]}
+    sectionIndices={
+      Array [
+        -1,
+        -1,
+      ]
+    }
+    slideIndex={0}
+  />
+  <TutorialTab
+    key="tcc1"
+    label="label"
+    onTabSelect={[MockFunction]}
+    sectionIndices={
+      Array [
+        -1,
+        -1,
+      ]
+    }
+    slideIndex={0}
+  />
+  <TutorialTab
+    key="tcc2"
+    label="label"
+    onTabSelect={[MockFunction]}
+    sectionIndices={
+      Array [
+        -1,
+        -1,
+      ]
+    }
+    slideIndex={0}
+  />
+  <TutorialTab
+    key="tcc3"
+    label="label"
+    onTabSelect={[MockFunction]}
+    sectionIndices={
+      Array [
+        -1,
+        -1,
+      ]
+    }
+    slideIndex={0}
+  />
+</div>
+`;

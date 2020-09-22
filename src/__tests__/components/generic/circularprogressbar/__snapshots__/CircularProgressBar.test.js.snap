@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the CircularProgressBar component 1`] = `
+<svg
+  className="circularProgressBar"
+  height={134}
+  viewBox="0 0 134 134"
+  width={134}
+>
+  <circle
+    className="circle-background"
+    cx={67}
+    cy={67}
+    r={63}
+    strokeWidth="8px"
+  />
+  <circle
+    className="circle-progress"
+    cx={67}
+    cy={67}
+    r={63}
+    strokeWidth="8px"
+    style={
+      Object {
+        "strokeDasharray": 395.84067435231395,
+        "strokeDashoffset": -0,
+      }
+    }
+    transform="rotate(-90 67 67)"
+  />
+</svg>
+`;

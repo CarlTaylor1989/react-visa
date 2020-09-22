@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Accordion component 1`] = `
+<div
+  className=""
+>
+  <Block
+    className=""
+    hasProduct={true}
+    isOpen={false}
+    key=".0"
+    onToggle={[Function]}
+    selected={Array []}
+    title="first_item"
+  >
+    <div
+      data-has-product={true}
+      title="first_item"
+    >
+      <p>
+        Paragraph of text for first item.
+      </p>
+    </div>
+  </Block>
+  <Block
+    className=""
+    hasProduct={true}
+    isOpen={true}
+    key=".1"
+    onToggle={[Function]}
+    selected={Array []}
+    title="second_item"
+  >
+    <div
+      data-has-product={true}
+      title="second_item"
+    >
+      <p>
+        Paragraph of text for second item.
+      </p>
+    </div>
+  </Block>
+  <Block
+    className=""
+    hasProduct={false}
+    isOpen={false}
+    key=".2"
+    onToggle={[Function]}
+    selected={Array []}
+    title="third_item"
+  >
+    <div
+      data-has-product={false}
+      title="third_item"
+    />
+  </Block>
+</div>
+`;

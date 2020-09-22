@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "projectId": "mario19-037",
+  "gameName": "visa-inside-track",
+  "baseURL": "https://lms.visa.com/e-learning/",
+  "extensionURL": "https://lms.visa.com/xapi/cornerstone/extensions/",
+  "title": "Mario technical prototype",
+  "homePage": "https://lms.visa.com",
+  "gomoCourseURL": "http://www.gomolearning.com/xapi/activities/course/", 
+  "debugMode": false
+}

@@ -1,0 +1,12 @@
+{
+  "achievementsBtn": "ACHIEVEMENTS",
+  "achievementPlus": "+",
+  "productsCompletedBtn": "PRODUCTS COMPLETE",
+  "rankBtn": "RANK",
+  "title": "MY DASHBOARD",
+  "hidden": "???",
+  "hiddenValue": "?",
+  "points": " POINTS",
+  "productProgressDivider": "/",
+  "productComplete": "COMPLETE"
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.98 349.92">
+  <title>m1f3</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="m1f3">
+      <g id="base">
+        <g id="bounderies" opacity="0.5">
+          <g>
+            <polyline points="133.75 114.82 131.75 114.78 131.73 112.78" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline points="131.71 110.78 130.88 32.49 101.74 3.53" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.01 2.01"/>
+            <polyline points="101.03 2.82 99.61 1.41 98.19 2.82" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline points="96.76 4.24 54.87 45.89 54.61 118.27 3.12 169.99" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.03 2.01"/>
+            <polyline points="2.41 170.71 1 172.13 1.01 174.13" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <line x1="1.02" y1="176.15" x2="1.86" y2="345.47" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.06 2.03"/>
+            <polyline points="1.86 346.49 1.87 348.49 3.87 348.49" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <line x1="5.88" y1="348.49" x2="305.98" y2="348.92" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.01 2.01"/>
+            <polyline points="306.98 348.92 308.98 348.92 308.98 346.92" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <line x1="308.98" y1="344.9" x2="308.98" y2="242.82" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.04 2.02"/>
+            <polyline points="308.98 241.81 308.98 239.81 307.57 238.39" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2"/>
+            <polyline points="306.15 236.97 184.75 115.65 134.75 114.83" fill="none" stroke="#8baf72" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="4.01 2.01"/>
+          </g>
+        </g>
+        <polygon points="209.35 242.11 211.43 240.04 101.45 130.06 101.45 1.28 98.52 1.28 98.52 129.85 57.68 170.68 57.69 170.69 57.69 170.69 57.69 262.83 60.62 262.83 60.62 171.89 99.88 132.64 209.35 242.11" fill="#8baf72" opacity="0.3" style="isolation: isolate"/>
+        <g>
+          <g id="Ellipse_16" data-name="Ellipse 16">
+            <circle cx="217.16" cy="245.13" r="22" fill="#304144"/>
+            <circle cx="217.16" cy="245.13" r="23.5" fill="none" stroke="#53596f" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6 1"/>
+          </g>
+          <g id="Group_6249" data-name="Group 6249">
+            <path id="Path_13346" data-name="Path 13346" d="M224,251.27a.63.63,0,0,1,0,1.26H206.46a.95.95,0,0,0,0,1.9H224a2.52,2.52,0,0,0,2.53-2.52,2.57,2.57,0,0,0-.71-1.76l3.36-16.2H232a1,1,0,0,0,0-1.9h-3.56a1,1,0,0,0-.93.76l-.86,4.13H203.18a.94.94,0,0,0-1,.95.62.62,0,0,0,0,.19l2.58,12.43a1,1,0,0,0,.93.76Zm-4.8-1.9h-3v-4.32h3.46Zm-4.86,0h-3l-.5-4.32h3.47Zm5.58-6.22h-3.68v-4.31h4.19Zm-5.58,0h-3.68l-.5-4.31h4.19Zm7.27,1.9h3.32l-.9,4.32h-2.93Zm3.72-1.9h-3.5l.5-4.31h3.89Zm-17.08-4.31.5,4.31h-3.5l-.9-4.31Zm-2.6,6.21H209l.5,4.32h-2.93Z" fill="#53596f" stroke="#53596f" stroke-width="0.3"/>
+            <path id="Path_13347" data-name="Path 13347" d="M221.65,255.29a3,3,0,1,0,2.35,2.36A3,3,0,0,0,221.65,255.29Zm-.59,4a1.11,1.11,0,1,1,1.11-1.1,1.11,1.11,0,0,1-1.11,1.1Z" fill="#53596f" stroke="#53596f" stroke-width="0.3"/>
+            <path id="Path_13348" data-name="Path 13348" d="M210.08,255.29a3,3,0,1,0,2.36,2.36A3,3,0,0,0,210.08,255.29Zm-.59,4a1.11,1.11,0,1,1,1.11-1.1h0a1.11,1.11,0,0,1-1.11,1.1Z" fill="#53596f" stroke="#53596f" stroke-width="0.3"/>
+          </g>
+        </g>
+        <g id="Ellipse_16-2" data-name="Ellipse 16">
+          <circle cx="58.31" cy="284.36" r="22" fill="#304144"/>
+          <circle cx="58.31" cy="284.36" r="23.5" fill="none" stroke="#53596f" stroke-miterlimit="10" stroke-width="3" stroke-dasharray="6 1"/>
+        </g>
+        <g id="Group_6248" data-name="Group 6248">
+          <path id="Path_13350" data-name="Path 13350" d="M66.33,270.4l7.77,13.45L66.33,297.3H50.8L43,283.85,50.8,270.4H66.33m.73-1.26h-17l-8.49,14.71,8.49,14.71h17l8.49-14.71Z" fill="#53596f"/>
+          <path id="Path_13351" data-name="Path 13351" d="M65.31,272.17H51.82l-6.75,11.68,6.75,11.69H65.31l6.74-11.69Zm-1,6.39H59.45v14H57.4v-14H52.61v-1.73H64.26Z" fill="#53596f"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

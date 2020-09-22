@@ -1,0 +1,75 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.achievementRow {
+  display: flex;
+  flex-direction: column;
+
+  .achievementRowIdentifier {
+    @include align-items(flex-start);
+    display: flex;
+
+    &.complete {
+      .achievementRowName {
+        color: $colour-yellow;
+      }
+    }
+
+    .achievementRowInformation {
+      display: flex;
+      flex-direction: column;
+      padding: 7px 0 0 8px;
+
+      .achievementRowName {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 24px;
+      }
+
+      .achievementRowDescription {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .achievementRowProgress {
+    @include align-items(center);
+    display: flex;
+
+    .achievementRowCompletion {
+      margin-left: 44px;
+
+      .completionBar {
+        width: 1006px;
+      }
+    }
+
+    .achievementRowScore {
+      @include align-items(center);
+      @include border-radius(24px);
+      @include multi-angle-gradient(
+        152deg,
+        rgba($colour-white, 0) 0%,
+        rgba($colour-white, .01) 9%,
+        rgba($colour-white, .05) 23%,
+        rgba($colour-white, .1) 43%,
+        rgba($colour-white, .18) 66%,
+        rgba($colour-white, .27) 92%,
+        rgba($colour-white, .3) 100%
+      );
+      border: 2px solid $colour-white;
+      color: $colour-yellow;
+      font-size: 32px;
+      font-weight: 700;
+      height: 48px;
+      margin-left: 45px;
+      opacity: .3;
+      text-align: center;
+      width: 223px;
+
+      &.complete {
+        opacity: 1;
+      }
+    }
+  }
+}

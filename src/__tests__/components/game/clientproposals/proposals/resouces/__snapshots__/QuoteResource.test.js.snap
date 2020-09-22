@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the QuoteResource component 1`] = `
+<div
+  className="quoteResource"
+>
+  <Translate
+    className="quoteTitle"
+    tag="span"
+    value="clientprops.clients.client1.resources.0.title"
+  />
+  <ResourceInlineSVG
+    client="client1"
+    imageName="imageName"
+    type="clientAvatar"
+  />
+  <Translate
+    className="quote"
+    tag="span"
+    value="clientprops.clients.client1.resources.0.quote"
+  />
+</div>
+`;

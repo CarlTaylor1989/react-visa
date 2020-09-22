@@ -1,0 +1,76 @@
+{
+  "m1f2": [{
+    "id": "p1",
+    "familyId": "m1f2",
+    "nameCoord": {
+      "name": "Visa Advanced Authorization",
+      "coordinates": [206, 102],
+      "type": "center"
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=f7db8460-3818-4259-8c73-c21bf167937f",
+    "gomoId": "p87973",
+    "coordinates": [264, 49],
+    "priorityPosition": "topRight",
+    "large": {
+      "coordinates": [964, 265],
+      "nameCoord": {
+        "coordinates": [825, 403]
+      }
+    }
+  }, {
+    "id": "p2",
+    "familyId": "m1f2",
+    "nameCoord": {
+      "name": "Visa Risk Manager",
+      "coordinates": [447, 7],
+      "classes": ["small"],
+      "type": "center"
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=f245b249-9a96-41c0-ab4b-20b9b9aee04b",
+    "gomoId": "p87980",
+    "coordinates": [424, 9],
+    "priorityPosition": "topRight",
+    "large": {
+      "coordinates": [883, 94],
+      "nameCoord": {
+        "coordinates": [1004, 100]
+      }
+    }
+  }, {
+    "id": "p3",
+    "familyId": "m1f2",
+    "nameCoord": {
+      "name": "EMV 3-D Secure",
+      "coordinates": [206, 218],
+      "type": "center smaller"
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=ef17936a-3669-47ee-8308-44b778fee0e5",
+    "gomoId": "p87961",
+    "coordinates": [217, 167],
+    "priorityPosition": "topRight",
+    "large": {
+      "coordinates": [720, 520],
+      "nameCoord": {
+        "coordinates": [600, 650]
+      }
+    }
+  }, {
+    "id": "p4",
+    "familyId": "m1f2",
+    "nameCoord": {
+      "name": "Visa Consumer Authentication Service",
+      "coordinates": [375, 218],
+      "type": "center"
+    },
+    "link": "https://visalms.csod.com/DeepLink/ProcessRedirect.aspx?module=loRegisterAndLaunch&lo=54c73fd4-6d1c-49f1-83dc-207bc938f91d",
+    "gomoId": "p87977",
+    "coordinates": [427, 167],
+    "priorityPosition": "top",
+    "large": {
+      "coordinates": [860, 226],
+      "nameCoord": {
+        "coordinates": [738, 365]
+      }
+    }
+  }]
+}

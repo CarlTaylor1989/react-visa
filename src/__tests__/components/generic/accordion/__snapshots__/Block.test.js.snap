@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Block component 1`] = `
+<div
+  className="accordionItem"
+>
+  <button
+    className="toggleButton "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="accordionItemTitle"
+    >
+      some title
+    </span>
+    <div
+      className="selectedNumberIndicatorWrapper"
+    />
+    <span
+      className="icon-down is-open"
+    />
+  </button>
+  <Component
+    isOpen={true}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+  <span />
+</div>
+`;
+
+exports[`renders the Block component in closed state 1`] = `
+<div
+  className="accordionItem"
+>
+  <button
+    className="toggleButton "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="accordionItemTitle"
+    >
+      some title
+    </span>
+    <div
+      className="selectedNumberIndicatorWrapper"
+    />
+    <span
+      className="icon-down "
+    />
+  </button>
+  <Component
+    isOpen={false}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+  <span />
+</div>
+`;
+
+exports[`renders the Block component with selected indicator 1`] = `
+<div
+  className="accordionItem"
+>
+  <button
+    className="toggleButton "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="accordionItemTitle"
+    >
+      some title
+    </span>
+    <div
+      className="selectedNumberIndicatorWrapper"
+    >
+      <span
+        className="selectedNumberIndicator"
+        key="p1"
+      />
+      <span
+        className="selectedNumberIndicator"
+        key="p2"
+      />
+    </div>
+    <span
+      className="icon-down is-open"
+    />
+  </button>
+  <Component
+    isOpen={true}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+  <span />
+</div>
+`;
+
+exports[`renders the Block component without product 1`] = `
+<div
+  className="accordionItem"
+>
+  <button
+    className="toggleButton "
+    onClick={[Function]}
+    type="button"
+  >
+    <span
+      className="accordionItemTitle"
+    >
+      some title
+    </span>
+    <div
+      className="selectedNumberIndicatorWrapper"
+    />
+  </button>
+  <Component
+    isOpen={true}
+  >
+    <div>
+      Test
+    </div>
+  </Component>
+  <span />
+</div>
+`;

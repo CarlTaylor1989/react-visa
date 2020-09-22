@@ -1,0 +1,15 @@
+@import '../../styles/buttons';
+
+.introSlide {
+  text-align: center;
+
+  .title {
+    color: $colour-gold;
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .text {
+    font-size: 24px;
+  }
+}

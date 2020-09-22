@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-tick_button_icon);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+    <clipPath id="clip-tick_button_icon">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="tick_button_icon" class="cls-1">
+    <path id="Path_13044" data-name="Path 13044" class="cls-2" d="M1353.32,413.31l3.71,3.71,7.7-7.7" transform="translate(-1348.82 -402.82)"/>
+  </g>
+</svg>

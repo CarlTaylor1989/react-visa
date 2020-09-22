@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the ResourceContent component with the call resource 1`] = `
+<Fragment>
+  <CallResource
+    client="client1"
+    resourceIndex="res1"
+  />
+</Fragment>
+`;
+
+exports[`renders the ResourceContent component with the email resource 1`] = `
+<Fragment>
+  <EmailResource
+    client="client1"
+    resourceIndex="res1"
+  />
+</Fragment>
+`;
+
+exports[`renders the ResourceContent component with the quote resource 1`] = `
+<Fragment>
+  <QuoteResource
+    client="client1"
+    resourceIndex="res1"
+  />
+</Fragment>
+`;
+
+exports[`renders the ResourceContent component with the report resource 1`] = `
+<Fragment>
+  <ReportResource
+    client="client1"
+    resourceIndex="res1"
+  />
+</Fragment>
+`;
+
+exports[`renders the ResourceContent component without any content 1`] = `<Fragment />`;

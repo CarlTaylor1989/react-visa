@@ -1,0 +1,20 @@
+{
+  "achievements": {
+    "button": "View the achievements you've attained<br />and the ones you're working towards.",
+    "points": "The points scored through<br />earning this achievement.",
+    "title": "The achievement name.",
+    "description": "The criteria that must be met to earn this achievement.",
+    "progress": "Your progress towards unlocking this achievement.",
+    "hidden": "This criteria to earn this achievement is secret."
+  },
+  "rank": {
+    "button": "View the rank you've attained and the<br />rank you're working towards.",
+    "title": "The name of this rank.",
+    "points": "The number of points needed to earn this rank.",
+    "progress": "Your progress towards unlocking the next rank."
+  },
+  "products": {
+    "button": "See your product completion progress.",
+    "progress": "The number of Challenges<br />you've completed for this product."
+  }
+}
